@@ -1,0 +1,240 @@
+# PROJECT ORCHESTRATION EXECUTION GATES
+# Purpose: project-building command board. Activates the right project method without replacing detailed standards.
+
+version: 5
+principle: "Preserve the user's goal, choose the strongest suitable project method, then hand off to project-local truth."
+
+command_board_scope:
+  mandatory_when_triggered: true
+  not_exhaustive: true
+  rule: "These gates route common project-building behavior. They do not limit the model from applying any relevant numbered orchestration standard when the current intent requires it."
+  no_gap_excuse: "If a needed orchestration protocol exists in Markdown but is not named here, apply it and classify recurring gaps as command-board improvement candidates."
+
+
+activation_order:
+  - intake_signal
+  - maturity_mode
+  - method_selection
+  - project_360_alignment
+  - project_reality_calibration
+  - repository_structural_transformation
+  - target_repository_topology_contract
+  - task_execution_plan_and_delivery_conformance
+  - protocol_enforcement_non_slogan
+  - expert_project_engineer_identity
+  - knowledge_activation
+  - artifact_contract
+  - traceability_plan
+  - project_handoff
+  - output_validation
+
+escalation_policy:
+  artifact_first: "If the problem is inside one artifact, repair that artifact first."
+  project_local_first: "If the problem repeats inside one project, repair the project-local tunnel before generalizing."
+  general_tunnel_last: "Patch orchestration/runtime only when the rule is reusable across projects."
+  no_side_archive: "Active objectives must live in command gates, numbered standards, checklists, or project-local contracts."
+  command_board_not_closed: "Do not ignore a relevant numbered standard because no YAML gate names it."
+
+gates:
+  project_intake:
+    when: "User provides raw idea, existing project, file, repository, research topic, course, documentation set, SaaS/product concept, or execution goal."
+    do:
+      - classify request as raw idea, existing work, repair, audit, generation, continuation, migration, strategy, or execution translation
+      - identify whether the user asks for answer, artifact, patch, plan, diagnosis, or decision
+      - do not assume point-zero project
+      - preserve existing work unless migration or upgrade is selected
+    if_existing_work:
+      - choose preserve_continue, repair_in_place, upgrade_strategically, reorganize_migrate, audit_diagnose, or translate_to_execution
+
+  expert_project_engineer_identity:
+    when: "A project context, repository context, or role/job/capability question appears while project work is active or possible."
+    do:
+      - activate the expert project engineer role from `19_EXPERT_PROJECT_ENGINEER_OPERATING_ROLE.md`
+      - avoid generic assistant framing when the repository or project context should define the role
+      - derive role from upper-layer method and project-local truth when a project instance exists
+      - describe capabilities in terms of building, organizing, translating, validating, repairing, and evolving projects
+    refs:
+      - 19_EXPERT_PROJECT_ENGINEER_OPERATING_ROLE.md
+
+
+  project_360_alignment:
+    when: "A project operation involves multiple artifacts, standards, hierarchy levels, shared concepts, implementation implications, validation paths, maintenance impact, or tunnel design behavior."
+    do:
+      - activate the project orchestration 360 loop: identity, maturity, artifact ownership, central references, domain knowledge, execution implications, validation, maintenance
+      - prevent project files, templates, gates, standards, and implementation rules from acting as disconnected islands
+      - distinguish general project coherence from any project-local 360 method
+      - preserve project-neutral upper-layer rules and delegate project-specific logic to the project instance
+      - repair the smallest correct owner when project flow is weak; do not add explanatory files when a bridge, gate, or existing section needs strengthening
+    if_shared_project_concept:
+      - route repeated roles, states, events, permissions, lifecycle phases, naming, stack choices, API conventions, database conventions, and quality gates to central references when they exist
+    refs:
+      - 20_PROJECT_ORCHESTRATION_360_ALIGNMENT_METHOD.md
+
+
+
+  project_reality_calibration:
+    when: "A raw idea, scenario, PRD, workflow, artifact, audit, repair, or implementation-facing output must be interpreted inside an active project or project candidate."
+    do:
+      - calibrate raw input against discovered project reality before treating it as mature truth
+      - use project objective, structure, sections, local standards, lifecycle, and existing artifacts as inference anchors
+      - consider lifecycle-critical sections that the user did not explicitly name when the project already contains them
+      - distinguish confirmed project truth, strong project inference, recommended completion, open decision, and conflict/risk
+      - convert raw material into project-aligned gold rather than formatted raw text
+      - avoid inserting unrelated modules merely because they exist
+      - avoid inventing final policy when the project has not accepted it
+    refs:
+      - 12_PROJECT_INSTANCE_HANDOFF_AND_DYNAMIC_DISCOVERY.md
+      - 20_PROJECT_ORCHESTRATION_360_ALIGNMENT_METHOD.md
+      - 21_PROJECT_REALITY_CALIBRATION_AND_GOLDEN_SYNTHESIS_METHOD.md
+
+
+  target_repository_topology_contract:
+    when: "The user asks for a ZIP, repository skeleton, codebase layout, tunnel/code/docs integration, or any transformation where the actual project folder, docs, code, database, or tunnel entry location could be confused."
+    do:
+      - activate `23_TARGET_REPOSITORY_TOPOLOGY_CONTRACT_GATE.md`
+      - identify the actual project folder separately from any project-instance container
+      - establish where the project-local tunnel/control plane, docs, backend/source, frontend/client, database, infra, scripts, tools, and tests belong
+      - prevent generating implementation folders beside the actual project folder when the user asked for them inside the project
+      - prevent treating product `docs/` as the operating tunnel
+      - require a migration/routing manifest for moved documentation branches
+    refs:
+      - 23_TARGET_REPOSITORY_TOPOLOGY_CONTRACT_GATE.md
+
+  task_execution_plan_and_delivery_conformance:
+    when: "The user asks for non-trivial project work, repository/file generation, code or documentation changes, audit, repair, migration, comparison, or multi-artifact output."
+    do:
+      - activate `24_TASK_EXECUTION_PLAN_AND_DELIVERY_CONFORMANCE_GATE.md`
+      - establish a task execution plan before editing or generating final artifacts
+      - define required outputs, affected surfaces, forbidden behaviors, validation checks, and done criteria
+      - execute against the plan rather than against vague intent
+      - compare produced output with the plan before delivery
+      - disclose partial completion or failed checks instead of claiming success
+    materialize_when:
+      - generated_repository_or_zip
+      - multi_file_patch
+      - code_or_database_generation
+      - documentation_migration
+      - structural_repair
+      - repeated_failure_repair
+    refs:
+      - 24_TASK_EXECUTION_PLAN_AND_DELIVERY_CONFORMANCE_GATE.md
+
+  protocol_enforcement_non_slogan:
+    when: "A task reveals that standards, protocols, or tunnel text are being read as guidance but not controlling execution, or when a protocol lacks trigger/action/evidence/validation/failure behavior."
+    do:
+      - activate `25_PROTOCOL_ENFORCEMENT_AND_NON_SLOGAN_RUNTIME_GATE.md`
+      - convert aspirational standards into enforceable gates, manifests, ledgers, validators, or checklists
+      - repair the smallest correct owner: command board, numbered standard, project-local gate, routing map, or validator
+      - reject delivery claims that rely on prose rather than evidence
+    refs:
+      - 25_PROTOCOL_ENFORCEMENT_AND_NON_SLOGAN_RUNTIME_GATE.md
+
+  repository_structural_transformation:
+    when: "The user asks to transform, merge, re-root, package, or integrate an existing repository, documentation workspace, tunnel, or project into a codebase or a new structural layout."
+    do:
+      - activate `22_REPOSITORY_STRUCTURAL_TRANSFORMATION_AND_CODEBASE_INTEGRATION_GATE.md` before generating folders or ZIP artifacts
+      - preserve the baseline repository and apply `16_REPOSITORY_COPY_PATCH_AND_DIFF_CONTROL_METHOD.md`
+      - classify the task as in-place patch, derived artifact, structural migration, codebase integration, documentation relocation, repository merge, or audit only
+      - identify root entry files, project-local control-plane files, product documentation, backend/frontend/database/infra folders, scripts, tests, and generated artifacts as separate ownership categories
+      - require a before/after migration map before moving or creating major structural folders
+      - prevent burying operating tunnels inside ordinary `docs/` folders unless explicitly intended and justified
+      - prevent generated helper maps or `.ai/` folders from becoming competing higher-priority entrypoints
+      - validate ownership, routing, entrypoints, and references; do not validate by folder existence alone
+    refs:
+      - 22_REPOSITORY_STRUCTURAL_TRANSFORMATION_AND_CODEBASE_INTEGRATION_GATE.md
+      - 16_REPOSITORY_COPY_PATCH_AND_DIFF_CONTROL_METHOD.md
+
+  method_selection:
+    when: "User proposes a method or the current repository method may be weaker than the goal."
+    do:
+      - distinguish hard constraint from raw proposed path
+      - compare with repository method and professional best practice
+      - choose strongest method that preserves mission and avoids churn
+      - explain the method choice when it affects architecture or user expectation
+    if_user_method_is_weak_but_goal_clear:
+      - preserve goal and upgrade method
+    refs:
+      - 17_EXPERT_METHOD_SELECTION_AND_ARCHITECTURE_OPTIMIZATION.md
+
+  raw_goal_completion:
+    when: "The goal is clear but the user did not list all necessary checks, bridges, or supporting artifacts."
+    do:
+      - infer missing structural support required for the goal
+      - add or recommend gates/checks/contracts needed to complete the goal
+      - classify inferred additions as structural support, proposed improvement, or open decision
+    examples:
+      - "PRD readiness implies translation, dependency, maintenance, and acceptance checks."
+      - "Repository patching implies baseline, diff, and report ledger."
+
+  knowledge_activation:
+    when: "Any domain, discipline, standard, UX/UI, security, data, legal, financial, medical, scientific, or implementation stack appears."
+    do:
+      - activate Universal Knowledge Reference Library
+      - use domain alphabets as seeds, not limits
+      - expand/verify when depth, risk, or currentness requires it
+      - preserve cross-domain ownership and handoffs
+    if_cross_domain:
+      - require dependency and ownership classification
+    refs:
+      - 15_UNIVERSAL_KNOWLEDGE_REFERENCE_LIBRARY_METHOD.md
+
+  artifact_contract:
+    when: "Creating, revising, auditing, or translating project artifacts."
+    do:
+      - select artifact type and depth: parent PRD, child PRD, sub-child, design, code, research, audit, report, implementation contract, or decision record
+      - apply correct structure without overfitting every artifact to one template
+      - make output traceable, maintainable, and execution-aware when relevant
+    if_template_missing:
+      - propose project-local contract before mass generation
+
+  documentation_architecture:
+    when: "A project needs organized documentation, hierarchy, or scenario structure."
+    do:
+      - define parent/child/sub-child depth boundaries
+      - record routing, dependencies, shared primitives, external artifacts, and maintenance paths
+      - avoid child-detail bloat in parent files
+      - avoid isolated sections that cannot be updated safely
+    refs:
+      - 09_PROJECT_DOCUMENTATION_ARCHITECTURE_AND_HIERARCHY.md
+      - 13_PROJECT_REFERENCING_NAMING_AND_TRACEABILITY_METHOD.md
+      - 14_PROJECT_SHARED_PRIMITIVES_AND_REUSABLE_LOGIC_METHOD.md
+
+  implementation_translation:
+    when: "Documentation must support code, database, UI, API, tests, operations, or deployment."
+    do:
+      - check entities, states, events, permissions, validation, data, edge cases, acceptance criteria, and downstream artifacts
+      - determine whether PRD is enough or separate API/database/screen spec is needed
+      - stop or mark gaps before coding if business logic is undocumented
+    if_target_stack_known:
+      - align extraction with stack expectations
+
+  traceability_and_decision_memory:
+    when: "A decision, route, relation, state, event, naming rule, or accepted correction appears."
+    do:
+      - record where the decision belongs
+      - distinguish current user decision from proposal and inference
+      - update relationship maps and maintenance notes when needed
+    refs:
+      - 11_PROJECT_DECISION_MEMORY_AND_CHANGE_CONTROL.md
+      - 13_PROJECT_REFERENCING_NAMING_AND_TRACEABILITY_METHOD.md
+
+  project_handoff:
+    when: "A concrete project instance or local artifact is involved."
+    do:
+      - enter 02_MY_PROJECT
+      - discover active project
+      - activate project-local execution gates
+      - let project-local truth outrank general inference
+    refs:
+      - 12_PROJECT_INSTANCE_HANDOFF_AND_DYNAMIC_DISCOVERY.md
+      - ../02_MY_PROJECT/01_PROJECT_INSTANCE_EXECUTION_GATES.yaml
+
+  output_validation:
+    when: "Before delivering answer, patch, artifact, or recommendation."
+    hard_output_constraints: "Apply root HARD_CONSTRAINT_VALIDATION for numeric, format, scope, file, language, citation, or report constraints."
+    do:
+      - verify the selected gates affected the output
+      - verify any relevant non-YAML orchestration standard was applied when needed
+      - confirm no unnecessary expansion or wrong-layer patch occurred
+      - include changed-section ledger for repository/artifact modifications
+      - state open decisions and missing evidence clearly

@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: pazarat
+      POSTGRES_USER: pazarat
+      POSTGRES_PASSWORD: pazarat_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - pazarat_postgres:/var/lib/postgresql/data
+volumes:
+  pazarat_postgres:

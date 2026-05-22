@@ -1,0 +1,55 @@
+task_id: "PAZ-TASK-0000"
+task_title: ""
+task_type: "documentation | code | database | repository_structure | audit | repair | feature | scenario | integration"
+status: "planned"
+
+user_goal: ""
+actual_project_folder: "02_MY_PROJECT/pazarat"
+baseline_source: ""
+
+required_outputs: []
+
+affected_surfaces:
+  project_tunnel: []
+  docs: []
+  backend: []
+  frontend: []
+  database: []
+  infra: []
+  scripts: []
+  tests: []
+  tools: []
+
+forbidden_paths:
+  - "02_MY_PROJECT/backend"
+  - "02_MY_PROJECT/frontend"
+  - "02_MY_PROJECT/database"
+  - "02_MY_PROJECT/pazarat/docs/ai_tunnel"
+
+forbidden_behaviors:
+  - "treating 02_MY_PROJECT as the actual project folder"
+  - "writing Pazarat truth into general layers"
+  - "delivering without validation"
+  - "creating code without routing or traceability when implementation behavior is affected"
+
+governing_protocols:
+  general:
+    - "01_PROJECT_ORCHESTRATION/24_TASK_EXECUTION_PLAN_AND_DELIVERY_CONFORMANCE_GATE.md"
+    - "01_PROJECT_ORCHESTRATION/25_PROTOCOL_ENFORCEMENT_AND_NON_SLOGAN_RUNTIME_GATE.md"
+  pazarat:
+    - "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/19_PAZARAT_TASK_EXECUTION_AND_DELIVERY_CONFORMANCE_STANDARD.md"
+
+validation_checks:
+  - "python tools/verify_tunnel_integrity.py"
+  - "python 02_MY_PROJECT/pazarat/tools/verify_pazarat_project_topology.py"
+
+delivery_conformance:
+  required_outputs_checked: false
+  affected_paths_checked: false
+  forbidden_paths_checked: false
+  routing_checked: false
+  validators_run: false
+  limitations_disclosed: false
+
+open_decisions: []
+known_risks: []

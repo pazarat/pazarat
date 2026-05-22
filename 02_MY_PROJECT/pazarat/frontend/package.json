@@ -1,0 +1,12 @@
+{
+  "name": "pazarat-frontend",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspaces run dev",
+    "build": "npm --workspaces run build"
+  }
+}

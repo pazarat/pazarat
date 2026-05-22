@@ -1,0 +1,66 @@
+routing_version: 1
+project_container: "02_MY_PROJECT"
+actual_project_folder: "02_MY_PROJECT/pazarat"
+project_local_tunnel: "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL"
+
+boundary_rules:
+  - "02_MY_PROJECT is a project-instance container, not the Pazarat project."
+  - "Inside the project means inside 02_MY_PROJECT/pazarat."
+  - "00_PROJECT_TUNNEL is the Pazarat control plane, not ordinary documentation."
+  - "docs is the product/developer documentation root, not the tunnel."
+
+read_order:
+  repository_entry:
+    - "00_AI_REPOSITORY_BOOTSTRAP.md"
+    - "00_ENTRY_MAP.md"
+    - "ENGINEER_ENTRY_PROTOCOL.md"
+    - "00_TUNNEL_EXECUTION_COMMANDS.yaml"
+  general_layers:
+    - "00_COGNITIVE_RUNTIME/"
+    - "01_PROJECT_ORCHESTRATION/"
+  project_instance_container:
+    - "02_MY_PROJECT/00_PROJECT_STANDARD_SEED.md"
+    - "02_MY_PROJECT/01_PROJECT_INSTANCE_EXECUTION_GATES.yaml"
+  pazarat_project:
+    - "02_MY_PROJECT/pazarat/README.md"
+    - "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/"
+    - "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/19_PAZARAT_TASK_EXECUTION_AND_DELIVERY_CONFORMANCE_STANDARD.md"
+    - "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/_execution/"
+
+write_targets:
+  pazarat_control_plane: "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/"
+  pazarat_execution_control: "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/_execution/"
+  pazarat_work_items: "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/work_items/"
+  pazarat_traceability: "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/traceability/"
+  pazarat_registries: "02_MY_PROJECT/pazarat/00_PROJECT_TUNNEL/_registries/"
+  product_documentation: "02_MY_PROJECT/pazarat/docs/"
+  backend_code: "02_MY_PROJECT/pazarat/backend/"
+  frontend_code: "02_MY_PROJECT/pazarat/frontend/"
+  database_artifacts: "02_MY_PROJECT/pazarat/database/"
+  infrastructure: "02_MY_PROJECT/pazarat/infra/"
+  scripts: "02_MY_PROJECT/pazarat/scripts/"
+  project_tests: "02_MY_PROJECT/pazarat/tests/"
+
+forbidden_targets:
+  - "02_MY_PROJECT/docs"
+  - "02_MY_PROJECT/backend"
+  - "02_MY_PROJECT/frontend"
+  - "02_MY_PROJECT/database"
+  - "02_MY_PROJECT/pazarat/docs/ai_tunnel"
+  - "02_MY_PROJECT/pazarat/docs/00_PROJECT_TUNNEL"
+  - "backend outside 02_MY_PROJECT/pazarat when the active project is Pazarat"
+  - "frontend outside 02_MY_PROJECT/pazarat when the active project is Pazarat"
+  - "database outside 02_MY_PROJECT/pazarat when the active project is Pazarat"
+
+
+execution_rules:
+  before_non_trivial_work:
+    - "create_or_update_task_plan"
+    - "identify_affected_surfaces"
+    - "identify_required_outputs"
+    - "identify_forbidden_paths"
+  before_delivery:
+    - "compare_output_against_task_plan"
+    - "run_available_validators"
+    - "update_delivery_conformance_report_or_final_summary"
+

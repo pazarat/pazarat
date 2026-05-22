@@ -1,0 +1,1 @@
+python tools/verify_pazarat_project_integrity.py

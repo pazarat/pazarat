@@ -1,0 +1,18 @@
+ledger_version: 1
+purpose: "Cumulative task ledger for Pazarat execution work. Every non-trivial generated task should add or update an entry."
+
+active_task: null
+
+tasks:
+  - task_id: "PAZ-TASK-0001"
+    title: "Introduce mandatory task execution and delivery conformance protocol"
+    type: "tunnel_protocol_repair"
+    status: "completed"
+    plan_path: "00_PROJECT_TUNNEL/_execution/tasks/PAZ-TASK-0001.execution-plan.yaml"
+    conformance_report_path: "00_PROJECT_TUNNEL/_execution/tasks/PAZ-TASK-0001.delivery-conformance.md"
+    affected_paths:
+      - "00_PROJECT_TUNNEL/19_PAZARAT_TASK_EXECUTION_AND_DELIVERY_CONFORMANCE_STANDARD.md"
+      - "00_PROJECT_TUNNEL/_execution/"
+      - "01_PROJECT_ORCHESTRATION/24_TASK_EXECUTION_PLAN_AND_DELIVERY_CONFORMANCE_GATE.md"
+      - "01_PROJECT_ORCHESTRATION/25_PROTOCOL_ENFORCEMENT_AND_NON_SLOGAN_RUNTIME_GATE.md"
+    validation_status: "pending_in_generated_package_until_user_runs_validators"
