@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Restore dependencies
+      run: dotnet restore backend/Pazarat.sln
+    
+    - name: Build
+      run: dotnet build backend/Pazarat.sln --configuration Release --no-restore
+    
+    - name: Test
+      run: dotnet test backend/Pazarat.sln --configuration Release --no-build --verbosity normal
+
+  frontend:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Install pnpm
+      run: npm install -g pnpm
+    
+    - name: Install dependencies
+      run: cd frontend && pnpm install
+    
+    - name: Lint
+      run: cd frontend && pnpm lint
+    
+    - name: Type check
+      run: cd frontend && pnpm typecheck
+    
+    - name: Build
+      run: cd frontend && pnpm build
+    
+    - name: Test
+      run: cd frontend && pnpm test
+
+  docker:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build Docker images
+      run: |
+        docker-compose build
+    
+    - name: Test Docker Compose
+      run: |
+        docker-compose up -d
+        docker-compose ps
+        docker-compose down
