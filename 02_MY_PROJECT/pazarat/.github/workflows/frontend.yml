@@ -1,0 +1,73 @@
+name: Frontend CI
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/frontend.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/frontend.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Install pnpm
+      run: npm install -g pnpm
+    
+    - name: Install dependencies
+      run: cd frontend && pnpm install
+    
+    - name: Lint
+      run: cd frontend && pnpm lint
+    
+    - name: Type check
+      run: cd frontend && pnpm typecheck
+    
+    - name: Build
+      run: cd frontend && pnpm build
+    
+    - name: Test
+      run: cd frontend && pnpm test
+
+  e2e:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Install pnpm
+      run: npm install -g pnpm
+    
+    - name: Install dependencies
+      run: cd frontend && pnpm install
+    
+    - name: Install Playwright
+      run: cd frontend && npx playwright install --with-deps
+    
+    - name: Run E2E tests
+      run: cd frontend && pnpm test:e2e
+    
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: playwright-report
+        path: frontend/playwright-report/
