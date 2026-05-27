@@ -1,0 +1,27 @@
+id: compact_plug_and_context_pressure
+version: "6.15.0"
+principle: "The central plug steers the model; it must not flood it. Context is selected, not dumped."
+default_mode: compact
+full_mode: "plug --mode full"
+compact_must_include:
+  - route
+  - required tool keyboard
+  - protocol stack
+  - evidence gate status
+  - top evidence facts
+  - concept matrix summary
+  - relationship graph summary
+  - neural reflex graph summary
+  - mandatory next actions
+  - hard blocks
+  - operation receipt summary
+full_mode_allowed_when:
+  - forensic audit
+  - contradiction investigation
+  - deep implementation translation
+  - runtime repair
+  - user explicitly asks for full evidence
+forbidden:
+  - dumping raw repository context in simple surface questions
+  - using generated cache as truth
+  - hiding required gates for brevity

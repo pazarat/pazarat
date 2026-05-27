@@ -1,0 +1,29 @@
+lifecycle:
+  name: "360 Degree Project Engineering Lifecycle"
+  loop:
+    - intent
+    - source_truth
+    - touch
+    - understand
+    - plan
+    - act
+    - verify
+    - reflect
+    - update_memory
+  gates:
+    intent_gate:
+      questions:
+        - "What does the user actually want?"
+        - "Is this a question, decision, build task, audit, comparison, or runtime improvement?"
+    truth_gate:
+      questions:
+        - "What files prove the project state?"
+        - "Are there stale reports?"
+    impact_gate:
+      questions:
+        - "What upstream and downstream elements are affected?"
+        - "Can this break another part?"
+    quality_gate:
+      questions:
+        - "Does the output satisfy the actual intent?"
+        - "Is the result consistent with the project source of truth?"

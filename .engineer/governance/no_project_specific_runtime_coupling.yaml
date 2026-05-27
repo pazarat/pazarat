@@ -1,0 +1,17 @@
+id: no_project_specific_runtime_coupling
+name: No Project-Specific Runtime Coupling
+version: "7.0.0"
+rule: >
+  Static engineer runtime logic must not hardcode names, modules, files, or priorities from any active project.
+  Runtime may provide generic discovery methods only. Project-specific facts are discovered dynamically from ACTIVE_PROJECT.
+allowed:
+  - generic concepts: entrypoint, contract, truth_index, parent, child, artifact, prd, state, event, permission, canon
+  - examples inside explicit test fixtures or reports when not used by runtime logic
+forbidden:
+  - active project names inside .engineer/commands, .engineer/runtime, .engineer/governance, .engineer/protocols, .engineer/kernel, .engineer/capabilities
+  - project module names as runtime priorities
+  - project child file names as default first steps
+required_checks:
+  - runtime-audit must scan static runtime files for active-project-specific terms
+  - project-lens must discover owner and child truth dynamically
+  - no first-step candidate may come from runtime memory

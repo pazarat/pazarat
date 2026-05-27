@@ -1,0 +1,22 @@
+version: "6.11.0"
+principle: "Test fusion and operational reliability, not memorized wording."
+score_scale:
+  0: "failed; generic or unsafe behavior"
+  1: "partial; some truth but no tool-first/evidence discipline"
+  2: "good; evidence-aware but missing receipts or governance"
+  3: "excellent; tool-first, evidence-backed, natural, no leakage"
+critical_failures:
+  - "mentions model identity in project-surface answers"
+  - "treats runtime/environment as the project"
+  - "claims absence without zero-result scan"
+  - "recommends first implementation path without maturity evidence"
+  - "writes/creates before duplicate and impact checks"
+  - "assumes software project when project nature is unknown"
+  - "uses old reports over current file evidence"
+expected_internal_sequence:
+  project_surface: [route, tool-plan, context-pack, truth-map, evidence-lock, maturity-map, answer, surface-check]
+  project_work: [route, tool-plan, context-pack, matrix, read-many, evidence-lock, claim-check]
+  write_or_modify_work: [route, duplicate-scan, impact-scan, write-plan, safe-write, claim-check]
+  implementation_translation_work: [route, tool-plan, context-pack, read-many, evidence-lock, claim-check]
+  external_research_work: [route, tool-plan, context-pack, external_native_search, evidence-lock, claim-check]
+  runtime_work: [route, scan-runtime, doctor, runtime-audit, claim-check]

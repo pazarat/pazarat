@@ -1,0 +1,76 @@
+file_matrix_contract:
+  version: "9.1.0"
+  name: "Jet File Matrix Control Center"
+  purpose: "Give any model entering the engineer runtime a fast, local, project-neutral neural map of files, content truth pulse, chunks, symbols, relations, discovery profile, targeted reads, drift warnings, and validation gates."
+  boundary:
+    workshop_system: "02_WORKSHOP/_WORKSHOP_SYSTEM governs universal project method."
+    active_project: "02_WORKSHOP/ACTIVE_PROJECT contains the active project truth surface or an empty new-project surface."
+    generated_state: ".engineer/state/file_matrix is acceleration state only, never source of truth."
+    final_truth_rule: "Generated indexes orient and retrieve; current files must be read for final high-impact claims and writes."
+  mandatory_entry:
+    for_file_questions: "file-matrix-pulse then file-matrix-context"
+    for_orientation: "file-matrix-pulse"
+    for_surface_touch: "file-matrix-touch"
+    for_health: "file-matrix-doctor"
+    for_rebuild: "file-matrix-build --force"
+  lenses:
+    - truth_pulse_360
+    - content_state_classifier
+    - truth_spine_extractor
+    - semantic_drift_candidate_lens
+    - path_index
+    - term_index
+    - ripgrep_fast_text_lens
+    - sqlite_fts_text
+    - chunk_fts
+    - semantic_lite_chunk_index
+    - symbol_index
+    - import_relation_index
+    - symbol_reference_relation_index
+    - incoming_outgoing_graph_neighbors
+    - role_domain_boosters
+    - discovery_profile
+    - freshness_fingerprint
+  code_surfaces:
+    languages_supported_by_detection:
+      - python
+      - javascript
+      - typescript
+      - jsx_tsx
+      - csharp
+      - java
+      - go
+      - rust
+      - php
+      - ruby
+      - kotlin
+      - swift
+      - c_cpp
+      - scala
+      - dart
+      - lua
+      - r
+      - shell
+      - sql
+      - prisma
+      - graphql
+      - protobuf
+      - html_css_vue_svelte_astro
+      - yaml_json_toml_xml_markdown
+    extraction_level: "built-in broad parser patterns plus chunk/FTS/relation lenses; tree-sitter and LSP remain extension adapters, not bundled hard dependencies."
+  gates:
+    high_impact_claims: "Run file-matrix-pulse, then read owner/truth-spine files from selected_files before claiming."
+    writes: "duplicate-scan + impact-scan + write-plan + safe-write + doctor + file-matrix-doctor."
+    stale_index: "Rebuild before using generated file-matrix state as navigation."
+  extension_points:
+    ready_for:
+      - tree_sitter_ast_adapter
+      - lsp_bridge_adapter
+      - dense_semantic_vector_adapter
+      - graph_backend_adapter
+      - framework_specific_extractors
+    current_bundled_level:
+      ast: "regex/broad-parser fallback"
+      semantic: "truth-pulse + semantic-lite chunk/term/signal retrieval; dense vector adapter remains extension"
+      graph: "SQLite relations with incoming/outgoing neighbors"
+      text_search: "ripgrep + SQLite FTS5"

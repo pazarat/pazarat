@@ -1,0 +1,11 @@
+protocol: project_neutral_runtime
+purpose: Ensure the engineer layer stays generic and reusable while the active project carries all project-specific truth.
+steps:
+  - verify_active_project_is_the_only_project_truth_location
+  - reject_hardcoded_project_examples_in_runtime
+  - replace examples with neutral capability/module/stakeholder wording
+  - keep project-specific standards generated inside the active project when needed
+completion_criteria:
+  - no project-specific names in runtime files
+  - active project can be replaced without editing the engineer layer
+  - project-specific memory lives only inside the project or current session outputs

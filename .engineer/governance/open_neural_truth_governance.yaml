@@ -1,0 +1,15 @@
+open_neural_truth_governance:
+  version: "9.7.0"
+  status: mandatory_governance
+  principle: "Govern the model by truth and lifecycle gates, not by scripted answer cages."
+  rules:
+    - id: no_first_contact_cage
+      text: "Do not force a first-contact command or scripted template. Use open-neural-entry and truth surfaces as operating context only."
+    - id: model_is_reasoning_engine
+      text: "The model chooses depth and synthesis strategy after intent and truth grounding; the runtime supplies boundaries, evidence, and gates."
+    - id: file_size_not_value
+      text: "Never rank truth or starting point by file size. Rank by content value, parent truth alignment, query relevance, and lifecycle impact."
+    - id: truth_not_blind
+      text: "Any file can be surface truth, incomplete truth, or contradiction candidate. Strong truth requires cross-file alignment."
+    - id: no_solution_without_operation_360_for_high_impact
+      text: "High-impact plans, architecture repairs, runtime changes, implementation, and writes require operation-360 or equivalent lifecycle proof."

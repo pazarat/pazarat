@@ -1,0 +1,60 @@
+{
+  "status": "rebuilt",
+  "rebuilt": true,
+  "version": "9.11.0",
+  "scope": "project",
+  "fingerprint": "56a64df2cd3734800ff8",
+  "generated_at": "2026-05-27T21:44:28.498875Z",
+  "db": ".engineer/state/file_matrix/file_matrix.sqlite",
+  "file_count": 106,
+  "text_file_count": 88,
+  "symbol_count": 1607,
+  "relation_count": 1202,
+  "resolved_relation_count": 0,
+  "symbol_reference_count": 1202,
+  "chunk_count": 406,
+  "profile": {
+    "scope": "project",
+    "base": "02_WORKSHOP/ACTIVE_PROJECT",
+    "detected_at": "2026-05-27T21:44:26.656986Z",
+    "file_count": 106,
+    "languages": {
+      "markdown": 100,
+      "yaml": 6
+    },
+    "frameworks": [],
+    "markers": [],
+    "entrypoints": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md"
+    ],
+    "config_files": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/settings/settings_PRD.md"
+    ],
+    "database_surfaces": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    ],
+    "test_surfaces": [],
+    "project_identity": {
+      "project_name": "ACTIVE_PROJECT",
+      "project_type": null,
+      "mission": null,
+      "contract_path": null,
+      "entrypoint_path": null,
+      "truth_index_path": null
+    },
+    "boundary_contract": "workshop/runtime files govern method; active_project is the project truth surface; generated file-matrix state accelerates but never overrides current files"
+  },
+  "elapsed_ms": 1898,
+  "usage_contract": "Use this index as a fast neural map only; current files remain the source of truth for final claims and writes.",
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "file_matrix_build",
+    "generated_at": "2026-05-27T21:44:28.533801Z",
+    "volatile": true,
+    "source": "current_files"
+  }
+}

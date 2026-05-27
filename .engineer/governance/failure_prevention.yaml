@@ -1,0 +1,16 @@
+failure_prevention:
+  cycle:
+    - predict
+    - detect
+    - diagnose
+    - contain
+    - correct
+    - verify
+    - learn
+  checks:
+    - "Does the solution address root cause rather than symptom?"
+    - "Is there a hidden dependency?"
+    - "Is any stale file being treated as truth?"
+    - "Is the answer overfitted to a template?"
+    - "Is the project assumed to be software without evidence?"
+    - "Is the runtime being discussed when the task is about the project?"

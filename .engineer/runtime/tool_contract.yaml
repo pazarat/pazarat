@@ -1,0 +1,110 @@
+id: tool_contract
+name: Project Engineer Tool Contract
+version: "7.0.0"
+contract:
+  primary: internal_framework_tools
+  fallback: native_model_tools_when_needed
+  default_entry_command: plug --mode compact
+  neural_gate_command: neural
+  best_fit_command: best-fit
+  truth_maturity_command: truth-maturity
+  code_practice_canon_command: canon-check
+  workshop_lens_command: workshop-lens
+  content_value_atlas_command: value-atlas
+  assessment_requires: [plug, value-atlas, context-pack, evidence-lock]
+  broad_context_requires: plug
+  high_impact_operation_requires: [plug, workshop-lens, value-atlas, neural_reflex_graph, relationship-graph, truth-maturity, operation_receipt]
+  scenario_awareness_requires: scenario-map
+  content_value_atlas_policy:
+    required_before_high_impact_claims: true
+    applies_to_file_types: [truth, standards, PRD, scenario, decision, code, tests, documents, configuration]
+    touches_all_current_files_lightly: true
+    full_read_only_for_owner_and_high_impact_linked_files: true
+  write_requires: [plug, neural, relationship-graph, truth-maturity, duplicate-scan, impact-scan, write-plan, safe-write, post_write_claim_check]
+  implementation_requires: [plug, neural, relationship-graph, truth-maturity, canon-check, evidence-lock, claim-check]
+  final_answer_requires: [value-atlas_for_high_impact_claims, claim-check_for_high_impact_claims, surface-check_for_project_surface_answers]
+  write_scope_containment:
+    project: "02_WORKSHOP/ACTIVE_PROJECT"
+    runtime: ".engineer"
+    workshop: "02_WORKSHOP"
+    repository: "requires explicit repository scope"
+  cache_policy:
+    generated_outputs_never_override_current_files: true
+    generated_outputs_excluded_from_best_fit_by_default: true
+    generated_json_requires_cache_meta: true
+    repository_fingerprint_excludes_generated_runtime_outputs: true
+  workshop_policy:
+    workshop_system_path: "02_WORKSHOP/_WORKSHOP_SYSTEM"
+    workshop_is_silent_universal_method_gate: true
+    workshop_never_overrides_project_truth: true
+    universal_canons_generate_local_standards_before_execution: true
+  project_neutrality_policy:
+    runtime_must_not_hardcode_active_project_terms: true
+    first_steps_must_be_discovered_dynamically: true
+  routing_policy:
+    navigation_yaml_is_authoritative: true
+    unknown_intent_fallback: project_work
+    project_surface_is_only_for_identity_or_status_questions: true
+notes:
+  - The framework cannot force an external host model to execute a command unless command execution is available.
+  - Internal tools provide auditable contracts, receipts, and checks for truth, navigation, writing, and runtime integrity.
+  - External/current research may support decisions but never overrides active project truth.
+
+  central_operating_core:
+    required: true
+    command: plug
+    purpose: "Create the one-touch operating context that routes the request, exposes the tool keyboard, locks evidence, builds a concept matrix, lists hard blocks, and issues a receipt."
+    must_run_before:
+      - project assessment
+      - high-impact claim
+      - write or patch
+      - implementation translation
+      - runtime audit response
+    output_is_operating_context_not_report: true
+    generated_output: ".engineer/indexes/last_central_plug.json"
+  matrix_policy:
+    matrix_is_steering_map: true
+    workshop_lens_required: true
+    buckets: [truth_and_contracts, requirements_and_prd, scenarios_and_workflows, states_and_events, permissions_and_audit, data_api_execution, risks_and_decisions, writing_and_content, research_and_external]
+    bucket_hits_are_navigation_signals_not_final_truth: true
+    mandatory_reads_before_high_impact_claims: true
+
+  neural_operating_system:
+    required: true
+    command: neural
+    principle: "Operations are not isolated scans; every route activates linked safeguards, prerequisites, and anti-failure rules."
+    reflexes: [central_preflight, claim_reflex, write_reflex, implementation_reflex, external_reflex, runtime_reflex, best_fit_reflex]
+    blocks_if_missing:
+      - direct_answer_from_memory
+      - absence_claim_without_zero_scan
+      - create_before_owner_search
+      - api_from_page_name
+      - web_overrides_project_truth
+      - generic_advice_without_project_mapping
+  best_fit_review:
+    required_for: [runtime_improvement, architecture_maturity, implementation_translation, governance_review]
+    command: best-fit
+    purpose: "Compare current evidence to internal excellence patterns and produce precise gap/recommendation matrix without making external practices project truth."
+    output: [fit_matrix, risk_if_ignored, evidence_count, priority_recommendations]
+  relationship_graph:
+    required_for: [matrix_navigation, implementation_translation, write_or_modify_work, architecture_maturity]
+    command: relationship-graph
+    purpose: "Map concept owner candidates, parent/child candidates, and cross-artifact links before high-impact decisions."
+    output: [concept_owner_candidates, parent_child_relation_candidates, cross_artifact_linkages]
+  response_rhythm_policy:
+    long_user_message_does_not_imply_long_answer: true
+    clear_execution_request_prefers_action_and_brief_summary: true
+    repository_or_runtime_modification_returns_updated_artifact_not_chat_only: true
+  compact_plug_policy:
+    default: true
+    reason: "The central plug must steer the model, not flood it; full context is requested explicitly with plug --mode full."
+
+  content_value_atlas:
+    required: true
+    command: value-atlas
+    purpose: "Touch current files as cognitive evidence units across all file types before high-impact claims or execution-sensitive decisions."
+    output: [file_count, counts_by_status, counts_by_role, high_value_files, incomplete_truth_candidates, code_and_implementation_surfaces, required_full_reads]
+    blocks_if_missing:
+      - assessment_from_file_counts_only
+      - first_step_from_one_visible_file
+      - implementation_without_content_value_touch

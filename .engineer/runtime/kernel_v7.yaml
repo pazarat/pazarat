@@ -1,0 +1,39 @@
+id: indexed_neural_operating_kernel_v7
+version: "7.0.0"
+name: Indexed Neural Operating Kernel
+purpose: >
+  Replace live heavy scanning with a materialized operating index plus fast/deep
+  execution phases. The kernel preserves plug, matrix, neural gates, workshop
+  lens, incomplete truth, and best-fit discipline, but moves broad file touching
+  to build-index so ordinary requests can run fast.
+phases:
+  build_time:
+    command: build-index
+    outputs:
+      - .engineer/state/kernel/project_kernel_index.json
+      - .engineer/state/kernel/runtime_kernel_index.json
+      - .engineer/state/kernel/workshop_kernel_index.json
+    includes:
+      - file inventory
+      - content fingerprints
+      - value signals
+      - role/status counts
+      - high-value files
+      - lightweight relationship edges
+    truth_status: operating_cache_not_project_truth
+  run_time_fast:
+    command: plug-fast
+    budget: compact
+    purpose: route, operation mode, index lens, required gates, hard blocks
+  run_time_deep:
+    command: plug-deep
+    purpose: selected owner/high-impact file reads and relationship graph for high-risk work
+  execution:
+    requires: [truth-maturity, canon-check, duplicate-scan, impact-scan, safe-write]
+quality_controls:
+  golden_suite_required: true
+  speed_budget_surface_seconds: 30
+  no_project_specific_runtime_coupling: true
+  generated_index_never_truth: true
+  strong_claim_requires_owner_read: true
+  best_fit_is_root_cause_planner: true

@@ -1,0 +1,24 @@
+project_neutrality:
+  rule: "The engineer runtime must be reusable across any project type."
+  active_project_only: "Project-specific truth may exist only inside 02_WORKSHOP/ACTIVE_PROJECT."
+  forbidden_in_runtime:
+    - project_names
+    - domain_specific_modules
+    - product_specific_examples
+    - hardcoded_technology_stacks
+    - remembered_project_priorities
+  allowed_neutral_terms:
+    - project
+    - capability
+    - module
+    - requirement
+    - scenario
+    - workflow
+    - stakeholder
+    - artifact
+    - evidence
+    - delivery_slice
+  enforcement:
+    - scan_runtime_for_project_specific_terms
+    - active_project_ships_empty
+    - examples_must_be_domain_neutral

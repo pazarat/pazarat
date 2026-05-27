@@ -1,0 +1,12 @@
+id: maturity_evidence
+purpose: Prevent maturity and priority judgments from being based on file size, title repetition, or soft inference.
+rules:
+  - Maturity is based on semantic evidence, not file size.
+  - Important short files must be read and scored by content signals.
+  - A domain cannot be called strongest/most mature unless maturity-map compares it with other domains.
+  - A file cannot be called empty or weak unless placeholder-scan classifies it with evidence.
+  - Any recommendation for a first execution path must cite why: scenarios, states, events, permissions, acceptance, API/data readiness, decisions, or implementation signals.
+forbidden:
+  - "Choosing a priority because a file is large."
+  - "Ignoring short governance or scenario files because they are small."
+  - "Calling an area ready without semantic signals."

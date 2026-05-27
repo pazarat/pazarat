@@ -1,0 +1,29 @@
+# Code Practice Canon Gate
+version: "6.14.0"
+principle: >-
+  Knowing the stack is not enough. Before production-oriented code generation, the engineer must know how code
+  is written inside that stack: module boundaries, persistence, migrations, realtime, validation, authorization,
+  errors, audit, observability, testing, and architectural constraints.
+
+trigger:
+  - code_generation
+  - backend_or_frontend_implementation
+  - api_database_or_migration_contract
+  - implementation_translation
+  - technical_scaffold_becoming_product_code
+
+requires:
+  - stack_or_environment_standard
+  - code_practice_or_implementation_canon
+  - data_api_contract_when_persistence_or_endpoints_are_involved
+  - testing_quality_gates
+  - incomplete_truth_scan_if_any_reference_is_thin
+
+blocks:
+  - code_from_stack_name_only
+  - migrations_without_migration_discipline
+  - realtime_without_reconnect_resync_and_event_consistency
+  - authorization_checks_without_permission_standard
+  - api_from_screen_or_page_name_only
+  - business_logic_inside_framework_edge_handlers
+  - tests_after_code_as_optional_addon

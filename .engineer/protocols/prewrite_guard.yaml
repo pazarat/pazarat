@@ -1,0 +1,13 @@
+protocol: prewrite_guard
+version: 6.3.0
+intent: Prevent duplication and inconsistent updates before writing or modifying project material.
+steps:
+  - define target and objective
+  - run duplicate-scan on target concept
+  - run impact-scan around related materials
+  - choose update/create/defer
+  - generate write-plan
+  - apply only with explicit --apply
+outputs:
+  - write_plan JSON
+  - write_ledger.jsonl when applied

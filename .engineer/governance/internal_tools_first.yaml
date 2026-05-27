@@ -1,0 +1,29 @@
+id: internal_tools_first
+name: Internal Tools First Governance
+purpose: >
+  Ensure the model uses the Project Engineer Framework's internal navigation,
+  evidence, reading, and governance tools before falling back to ad-hoc/native inspection.
+principles:
+  - Internal framework tools are the primary path for project truth, navigation, reading, evidence, writing, and governance.
+  - Native/model tools are allowed only as fallback or augmentation when the internal tools cannot perform the required operation.
+  - The model must not assess project state from raw impressions when a framework tool exists for that operation.
+required_first_steps:
+  - route
+  - tool-plan
+  - context-pack_or_evidence-lock
+fallback_allowed_when:
+  - internal_tool_missing_required_operation
+  - internal_tool_output_insufficient_or_too_coarse
+  - external_or_current_information_required
+  - binary_or_non_text_file_requires_platform_tool
+  - user_explicitly_requests_alternate_method
+fallback_must_record:
+  - reason
+  - tool_or_method_used
+  - what_internal_tool_could_not_provide
+  - how_result_was_reconciled_with_project_truth
+forbidden:
+  - raw_folder_browsing_before_route_for_project_assessment
+  - absence_claim_without_truth_map_zero_count
+  - write_without_duplicate_scan_and_impact_scan
+  - final_project_assessment_without_evidence_lock

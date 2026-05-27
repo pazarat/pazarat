@@ -1,0 +1,592 @@
+tools:
+
+  workshop-lens:
+    command: "python .engineer/commands/engineer.py workshop-lens"
+    purpose: "Silent universal workshop method lens: 360 method, discipline canons, local standards generation, and project-truth boundary."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "workshop"
+    risk_level: "low"
+    output_is_operating_context_not_report: true
+  project-lens:
+    command: "python .engineer/commands/engineer.py project-lens"
+    purpose: "Fast project-surface lens that compresses project identity, truth sources, current state, strongest actionable domain, visible gaps, and first step without dumping raw evidence."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project"
+    risk_level: "low"
+    generated_output: ".engineer/indexes/project_project_lens.json"
+    output_is_operating_context_not_report: true
+
+  value-atlas:
+    command: "python .engineer/commands/engineer.py value-atlas"
+    purpose: "Build a one-touch content value atlas across all file types: PRD, code, standards, decisions, documents, and generated-safe signals. Required before high-impact claims."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/{scope}_content_value_atlas.json"
+    output_is_operating_context_not_report: true
+    required_for: [high-impact claims, assessment, first-step proposals, implementation translation, architecture decisions, repository repair]
+  plug:
+    command: "python .engineer/commands/engineer.py plug [--mode compact|full]"
+    purpose: "One-touch central operating core; compact by default, full on request; returns route, tool plan, concept matrix, relationship graph, evidence gates, mandatory rules, and receipt."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/last_central_plug.json"
+    must_run_first_for: [project assessment, high-impact claims, writes, implementation translation, runtime assessment]
+    output_is_operating_context_not_report: true
+  neural:
+    command: "python .engineer/commands/engineer.py neural"
+    purpose: "Return the neural reflex graph for a request: active signals, linked safeguards, required gates, and blocked operations."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "adaptive"
+    risk_level: "medium"
+    output_is_operating_context_not_report: true
+  best-fit:
+    command: "python .engineer/commands/engineer.py best-fit"
+    purpose: "Compare current evidence to internal excellence patterns and produce a project/runtime-specific gap and recommendation matrix without using external web as truth."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output_requires_cache_meta: true
+
+  truth-maturity:
+    command: "python .engineer/commands/engineer.py truth-maturity"
+    purpose: "Classify binding-but-insufficient sources as accepted, incomplete, missing, or conflicting truth before execution."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "high"
+    generated_output: ".engineer/indexes/<scope>_truth_maturity_scan.json"
+    required_for: [implementation_translation, best_fit_review, production_oriented_execution, thin_reference_detection]
+    blocks: [production_execution_over_incomplete_truth, invented_repair_as_accepted_truth]
+  canon-check:
+    command: "python .engineer/commands/engineer.py canon-check"
+    purpose: "Verify that code generation is governed by code-practice/implementation canon, not stack names alone."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "high"
+    generated_output: ".engineer/indexes/<scope>_canon_check.json"
+    required_for: [code_generation, api_database_contracts, implementation_translation]
+    blocks: [code_from_stack_name_only, migration_without_standard, realtime_without_consistency_strategy]
+  route:
+    command: "python .engineer/commands/engineer.py route"
+    purpose: "Classify user intent and choose route/scope before scanning."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "repository"
+    risk_level: "low"
+  touch:
+    command: "python .engineer/commands/engineer.py touch"
+    purpose: "Fast evidence-aware touch of a scope with truth/category counts."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+  truth-map:
+    command: "python .engineer/commands/engineer.py truth-map"
+    purpose: "Build a content-aware map of truth, scenario, requirement, code, and placeholder files."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+    generated_output_requires_cache_meta: true
+  digest:
+    command: "python .engineer/commands/engineer.py digest"
+    purpose: "Create a bounded inventory digest with file roles and snippets."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+  search:
+    command: "python .engineer/commands/engineer.py search"
+    purpose: "Search files in a scope by query/path pattern and return excerpts."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "any scope"
+    risk_level: "low"
+  evidence:
+    command: "python .engineer/commands/engineer.py evidence"
+    purpose: "Return scored evidence excerpts for claims or keywords."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "any scope"
+    risk_level: "low"
+  read:
+    command: "python .engineer/commands/engineer.py read"
+    purpose: "Read a specific text file by path."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "repository"
+    risk_level: "low"
+  read-many:
+    command: "python .engineer/commands/engineer.py read-many"
+    purpose: "Read bounded content from files matching a pattern."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "any scope"
+    risk_level: "medium"
+  audit-baseline:
+    command: "python .engineer/commands/engineer.py audit-baseline"
+    purpose: "Recommend first baseline/slice from current project evidence."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project"
+    risk_level: "medium"
+  govern-check:
+    command: "python .engineer/commands/engineer.py govern-check"
+    purpose: "Scan project governance risks: stale reports, missing truth entries, scenario obligations."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project"
+    risk_level: "medium"
+  doctor:
+    command: "python .engineer/commands/engineer.py doctor"
+    purpose: "Run runtime health check and integrity summary."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "runtime"
+    risk_level: "medium"
+  runtime-audit:
+    command: "python .engineer/commands/engineer.py runtime-audit"
+    purpose: "Audit tool registry, cache metadata, distribution mode, navigation, and write-boundary integrity."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "runtime"
+    risk_level: "medium"
+  scan-runtime:
+    command: "python .engineer/commands/engineer.py scan-runtime"
+    purpose: "List runtime files without evaluating active project."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "runtime"
+    risk_level: "low"
+  answer:
+    command: "python .engineer/commands/engineer.py answer"
+    purpose: "Generate a project-facing surface answer from current evidence."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project"
+    risk_level: "medium"
+  init-project:
+    command: "python .engineer/commands/engineer.py init-project"
+    purpose: "Create a neutral baseline project folder structure and baseline file."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project"
+    risk_level: "high"
+  cycle:
+    command: "python .engineer/commands/engineer.py cycle"
+    purpose: "Run the same one-touch mandatory operating context as plug."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "adaptive"
+    risk_level: "medium"
+  tool-plan:
+    command: "python .engineer/commands/engineer.py tool-plan"
+    purpose: "Return internal tools-first execution sequence for a request."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "repository_static"
+    risk_level: "low"
+    generated_output: ".engineer/indexes/last_tool_plan.json"
+  receipt:
+    command: "python .engineer/commands/engineer.py receipt"
+    purpose: "Produce an operation receipt tied to route and evidence lock."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "low"
+  matrix:
+    command: "python .engineer/commands/engineer.py matrix"
+    purpose: "Route plus evidence lock for semantic matrix navigation."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project"
+    risk_level: "low"
+  relationship-graph:
+    command: "python .engineer/commands/engineer.py relationship-graph"
+    purpose: "Build a semantic relationship graph: concept owner candidates, parent/child links, and state/event/permission/API/test linkages."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/<scope>_relationship_graph.json"
+    generated_output_requires_cache_meta: true
+  cache-clean:
+    command: "python .engineer/commands/engineer.py cache-clean"
+    purpose: "Dry-run by default; delete generated indexes and optionally truncate ledgers when packaging or stale cache must be reset."
+    mutates_filesystem: true
+    default_safe_mode: dry_run
+    allowed_scope: "runtime"
+    risk_level: "medium"
+    generated_cache_control: true
+  scenario-map:
+    command: "python .engineer/commands/engineer.py scenario-map"
+    purpose: "Detect scenario/workflow material by content, not only filenames."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+    generated_output_requires_cache_meta: true
+  evidence-lock:
+    command: "python .engineer/commands/engineer.py evidence-lock"
+    purpose: "Lock claims to truth-map, scenario-map, and query evidence."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output_requires_cache_meta: true
+  claim-check:
+    command: "python .engineer/commands/engineer.py claim-check"
+    purpose: "Check text for unsupported absence, scoring, or surface-policy violations."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "medium"
+  context-pack:
+    command: "python .engineer/commands/engineer.py context-pack"
+    purpose: "Build one-touch evidence pack from truth-map, scenario-map, and targeted files."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+    generated_output_requires_cache_meta: true
+  one-page:
+    command: "python .engineer/commands/engineer.py one-page"
+    purpose: "Generate a one-page markdown evidence pack."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+  surface-check:
+    command: "python .engineer/commands/engineer.py surface-check"
+    purpose: "Check project-facing wording for runtime/model leakage or unsupported scoring."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "repository"
+    risk_level: "medium"
+  duplicate-scan:
+    command: "python .engineer/commands/engineer.py duplicate-scan"
+    purpose: "Detect related existing material before creating/duplicating concepts."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+  impact-scan:
+    command: "python .engineer/commands/engineer.py impact-scan"
+    purpose: "Estimate affected files/risks for a target write or objective."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+  write-plan:
+    command: "python .engineer/commands/engineer.py write-plan"
+    purpose: "Plan a governed write/update before applying it."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|workshop|repository"
+    risk_level: "high"
+  safe-write:
+    command: "python .engineer/commands/engineer.py safe-write"
+    purpose: "Dry-run by default; writes only within declared scope and backs up overwrites."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|workshop|repository"
+    risk_level: "high"
+    requires: [duplicate-scan, impact-scan, write-plan]
+    scope_containment: true
+  compare:
+    command: "python .engineer/commands/engineer.py compare"
+    purpose: "Compare two evidence queries within a scope."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+  ledger:
+    command: "python .engineer/commands/engineer.py ledger"
+    purpose: "Read operation, claim, or write ledgers."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "runtime"
+    risk_level: "low"
+  maturity-map:
+    command: "python .engineer/commands/engineer.py maturity-map"
+    purpose: "Map maturity by semantic evidence, not file size."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output_requires_cache_meta: true
+  placeholder-scan:
+    command: "python .engineer/commands/engineer.py placeholder-scan"
+    purpose: "Detect empty, placeholder, thin, and content-bearing files."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+  answer-receipt:
+    command: "python .engineer/commands/engineer.py answer-receipt"
+    purpose: "Produce answer-readiness receipt with maturity and evidence lock."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project"
+    risk_level: "medium"
+  test-suite:
+    command: "python .engineer/commands/engineer.py test-suite"
+    purpose: "Print the deep behavioral evaluation suite."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "runtime"
+    risk_level: "low"
+
+
+  build-index:
+    command: "python .engineer/commands/engineer.py build-index"
+    purpose: "Build the v7 materialized kernel index: file fingerprints, value signals, role/status counts, high-value files, and lightweight relationship edges. This is the build-time phase that prevents slow live scanning."
+    mutates_filesystem: true
+    default_safe_mode: generated_output_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output: ".engineer/state/kernel/<scope>_kernel_index.json"
+    output_is_operating_context_not_report: true
+  plug-fast:
+    command: "python .engineer/commands/engineer.py plug-fast"
+    purpose: "Fast v7 operating entry. Loads the materialized kernel index, classifies intent/risk, selects relevant lenses, and returns a compact steering packet."
+    mutates_filesystem: true
+    default_safe_mode: generated_index_if_missing
+    allowed_scope: "adaptive"
+    risk_level: "low"
+    output_is_operating_context_not_report: true
+  plug-deep:
+    command: "python .engineer/commands/engineer.py plug-deep"
+    purpose: "Selective deep mode for high-impact work. Uses the kernel index to read only owner/high-impact files and relationship edges."
+    mutates_filesystem: true
+    default_safe_mode: generated_index_if_missing_read_only_deep_context
+    allowed_scope: "adaptive"
+    risk_level: "medium"
+    output_is_operating_context_not_report: true
+  operation-mode:
+    command: "python .engineer/commands/engineer.py operation-mode"
+    purpose: "Classify the operation type, risk, evidence budget, and required gates before selecting tools."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "adaptive"
+    risk_level: "low"
+    output_is_operating_context_not_report: true
+  kernel-status:
+    command: "python .engineer/commands/engineer.py kernel-status"
+    purpose: "Report freshness and fingerprints of v7 kernel indexes without treating them as source truth."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "repository"
+    risk_level: "low"
+  golden-suite:
+    command: "python .engineer/commands/engineer.py golden-suite"
+    purpose: "Expose golden behavior prompts and acceptance gates for speed, truth discipline, response quality, and non-regression."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "repository"
+    risk_level: "low"
+
+
+  file-matrix-build:
+    command: "python .engineer/commands/engineer.py file-matrix-build --scope project --force"
+    purpose: "Build the Jet File Matrix local SQLite/FTS index: discovery profile, inventory, symbols, relations, terms, freshness fingerprint. This is the fast neural file map for active project and runtime scopes."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output: ".engineer/state/file_matrix/file_matrix.sqlite"
+    output_is_operating_context_not_report: true
+    cache_rule: "Generated index accelerates navigation only; current files remain source of truth."
+
+  file-matrix-pulse:
+    command: "python .engineer/commands/engineer.py file-matrix-pulse '<request>' --scope project"
+    purpose: "Run the v9.1 content-aware Truth Pulse: a fast 360 neural surface that samples current files, extracts truth spine, high-value content, incomplete truth, and semantic drift candidates before answers/plans/execution."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+    required_for: [first project contact, identity/about answers with active project, truth-grounded goal closure, 360-degree project orientation]
+    output_is_operating_context_not_report: true
+    cache_rule: "Pulse is current-file sampled operating context; it flags incomplete/contradictory truth and never overrides parent truth."
+
+
+  file-matrix-touch:
+    command: "python .engineer/commands/engineer.py file-matrix-touch --scope project"
+    purpose: "Return a whole-scope neural surface: detected project profile, language/role counts, entry/config/database/test surfaces, and high-value file surface without dumping full files."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+    required_for: [project entry, file-aware answers, project orientation]
+    output_is_operating_context_not_report: true
+
+  file-matrix-query:
+    command: "python .engineer/commands/engineer.py file-matrix-query '<request>' --scope project --mode fast"
+    purpose: "Run multi-lens retrieval over path, terms, FTS text, symbols, relations, and role/domain boosters; returns selected owner candidates, evidence excerpts, symbols, relationship hints, and required gates."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    required_for: [file questions, comparison, implementation translation, architecture review, high-impact claims]
+    output_is_operating_context_not_report: true
+
+  file-matrix-context:
+    command: "python .engineer/commands/engineer.py file-matrix-context '<request>' --scope project --mode fast"
+    purpose: "Produce the model handoff packet: one-page neural map + selected files + targeted bounded reads + graph hints + write/validation gates."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    required_for: [implementation, writes, deep analysis, project diagnostics]
+    output_is_operating_context_not_report: true
+
+  file-matrix-doctor:
+    command: "python .engineer/commands/engineer.py file-matrix-doctor --scope project"
+    purpose: "Check Jet File Matrix health: DB existence, freshness, FTS availability, query latency, discovery profile, tool availability, and empty-scope warning."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    required_for: [runtime maintenance, post-change validation, index health]
+    output_is_operating_context_not_report: true
+
+  file-matrix-status:
+    command: "python .engineer/commands/engineer.py file-matrix-status --scope project"
+    purpose: "Return freshness and counts for the Jet File Matrix index without rebuilding."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "low"
+
+  neural-os:
+    command: "python .engineer/commands/engineer.py neural-os"
+    purpose: "Return the Engineer Neural OS / Factory Core architecture: stable lifecycle, slots, workshop boundary, extension rules, and non-negotiable operating laws."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "runtime"
+    risk_level: "medium"
+    output_is_operating_context_not_report: true
+    required_for: [runtime_architecture, capability_extension, operating_factory_review]
+
+  factory-cycle:
+    command: "python .engineer/commands/engineer.py factory-cycle"
+    purpose: "Run the mandatory neural factory loop: intent, truth surface, matrix touch, workshop lens, goal closure, strategy, execution gate, validation, and ledger."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "high"
+    generated_output: ".engineer/indexes/last_neural_os_cycle.json"
+    output_is_operating_context_not_report: true
+    must_run_first_for: [high-impact answers, architecture changes, runtime maintenance, execution planning, goal closure]
+
+  goal-closure:
+    command: "python .engineer/commands/engineer.py goal-closure"
+    purpose: "Create a truth-grounded goal contract, capability matrix, missing-ring scan, anti-patching gate, and readiness verdict."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "high"
+    generated_output: ".engineer/indexes/last_goal_closure.json"
+    required_for: [planning, implementation, architecture work, runtime upgrades, completion claims]
+    blocks: [partial_solution_presented_as_complete, execution_without_truth_grounding, goal_not_closed]
+
+  completion-audit:
+    command: "python .engineer/commands/engineer.py completion-audit"
+    purpose: "Audit whether the parent goal is actually closed against current truth or remains partial/blocked."
+    mutates_filesystem: false
+    default_safe_mode: read_only
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "high"
+    required_for: [completion_claims, post_execution_review]
+
+  factory-health:
+    command: "python .engineer/commands/engineer.py factory-health"
+    purpose: "Doctor for the Engineer Neural OS / Factory Core: verifies v9 docs, capability registry, commands, registry coverage, and File Matrix health."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "runtime"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/last_factory_health.json"
+
+  open-neural-entry:
+    command: "python .engineer/commands/engineer.py open-neural-entry"
+    purpose: "Open governed entry packet: gives model identity boundary, intent profile, truth grounding, and navigation choices without scripting/caging the final answer. Replaces any first-contact cage behavior."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/last_open_neural_entry.json"
+    output_is_operating_context_not_report: true
+    anti_cage: true
+
+  truth-sweep-360:
+    command: "python .engineer/commands/engineer.py truth-sweep-360"
+    purpose: "Adaptive content-value sweep across project/runtime/workshop truth surfaces. Reads content, not file size, and flags incomplete or contradictory truth before strong claims."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/last_truth_sweep_360.json"
+    output_is_operating_context_not_report: true
+    required_for: [high_impact_assessment, root_cause_analysis, strategy, architecture, project_surface_claims]
+
+  truth-authority-gate:
+    command: "python .engineer/commands/engineer.py truth-authority-gate"
+    purpose: "Claim-permission gate: converts current truth evidence into what the model may claim, what must be deepened, and what is blocked. It governs truth without scripting the final answer."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    generated_output: ".engineer/indexes/last_truth_authority_gate.json"
+    output_is_operating_context_not_report: true
+    anti_cage: true
+    required_for: [project_surface_claims, current_state_assessment, first_step_recommendation, strategy, write_or_execution]
+
+  operation-360:
+    command: "python .engineer/commands/engineer.py operation-360"
+    purpose: "Full open 360 operating lifecycle for non-trivial operations: intent, truth sweep, file context, goal closure, best-fit comparison, anti-patchwork, execution gate."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "adaptive"
+    risk_level: "high"
+    generated_output: ".engineer/indexes/last_operation_360.json"
+    output_is_operating_context_not_report: true
+    required_for: [architecture_change, runtime_repair, implementation, write_planning, strategic_solution]
+
+  code-fingerprint:
+    command: "python .engineer/commands/engineer.py code-fingerprint"
+    purpose: "Extract lightweight code entity fingerprints with body/normalized hashes. Supports change awareness before function/class-level modification."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    output_is_operating_context_not_report: true
+
+  code-impact-360:
+    command: "python .engineer/commands/engineer.py code-impact-360"
+    purpose: "Find references/import surfaces/definitions around a code symbol or target so the model does not write island code."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "medium"
+    output_is_operating_context_not_report: true
+
+  patch-gate-360:
+    command: "python .engineer/commands/engineer.py patch-gate-360"
+    purpose: "Governed pre-write gate: scope containment, optional fingerprint verification, duplicate scan, impact scan, and goal closure before patching."
+    mutates_filesystem: true
+    default_safe_mode: dry_run_or_generated_output
+    allowed_scope: "project|runtime|repository|workshop"
+    risk_level: "high"
+    generated_output: ".engineer/indexes/last_patch_gate_360.json"
+    output_is_operating_context_not_report: true
+    blocks: [island_code, ungrounded_fix, duplicate_truth, scope_escape]

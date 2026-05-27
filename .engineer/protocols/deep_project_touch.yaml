@@ -1,0 +1,13 @@
+id: deep_project_touch
+purpose: "Build fast awareness using inventory, content snippets, headings, truth files, and domain signals."
+steps:
+  - route_intent
+  - select_scope
+  - touch_relevant_sources
+  - apply_governance
+  - produce_result
+  - verify_against_intent
+outputs:
+  - "decision"
+  - "evidence"
+  - "next_action"

@@ -1,0 +1,17 @@
+context_policy:
+  principle: "Context is selected, not dumped."
+  levels:
+    snapshot:
+      use_when: "surface question or initial orientation"
+      include: ["route", "project touch summary", "source truth hints"]
+    standard:
+      use_when: "normal analysis or planning"
+      include: ["touch", "digest", "relevant files", "governance checks"]
+    deep:
+      use_when: "complex project work, comparison, implementation planning"
+      include: ["digest", "read-many", "search", "baseline audit", "source truth map"]
+    forensic:
+      use_when: "contradiction, failure, messy project, stale reports"
+      include: ["full digest", "stale report detection", "risk ledgers", "doctor"]
+  no_fixed_timeout: true
+  stop_condition: "stop when evidence is sufficient for the requested decision, not after a fixed time"

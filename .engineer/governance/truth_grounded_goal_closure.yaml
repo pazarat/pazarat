@@ -1,0 +1,31 @@
+truth_grounded_goal_closure:
+  version: "9.7.0"
+  status: mandatory_governance
+  principle: "No understanding, proposal, plan, execution, or completion claim is accepted until the intent is grounded in current truth and measured against the parent goal."
+
+  truth_surfaces:
+    runtime: ".engineer"
+    workshop_system: "02_WORKSHOP/_WORKSHOP_SYSTEM"
+    active_project: "02_WORKSHOP/ACTIVE_PROJECT"
+
+  rules:
+    - id: intent_not_executable_until_grounded
+      text: "Intent is a compass; it becomes executable only after matrix grounding against runtime/workshop/active-project truth."
+    - id: parent_goal_closure_required
+      text: "A useful partial solution must not be presented as complete unless it closes the parent goal."
+    - id: missing_ring_blocks_completion
+      text: "Any missing capability, validator, adapter, doctor, or lifecycle hook must be exposed before execution or completion."
+    - id: weak_goal_must_be_matured
+      text: "If the requested goal is too weak to satisfy the larger truth, mature the goal or label the output partial."
+    - id: generated_state_not_truth
+      text: "Indexes, reports, and cache accelerate access but never override current files."
+    - id: truth_pulse_before_strong_claim
+      text: "Before project/runtime/workshop claims, run a content-aware Truth Pulse that samples current files, distinguishes surface truth from incomplete/contradictory truth, and selects entry files from truth spine plus high-value content."
+    - id: no_blind_file_truth
+      text: "A file name, folder name, or file body is a truth surface, not blind authority; if it conflicts with parent project identity, workshop standards, or stronger cross-file truth, flag it as drift/contradiction before acting."
+
+  lifecycle_hooks:
+    before_answer: [route, open-neural-entry, file-matrix-pulse]
+    before_plan: [open-neural-entry, truth-sweep-360, file-matrix-context, workshop-lens, operation-360, goal-closure]
+    before_write: [open-neural-entry, operation-360, code-fingerprint, code-impact-360, duplicate-scan, impact-scan, write-plan, patch-gate-360, goal-closure]
+    after_execution: [validation-doctor, completion-audit, maintenance-ledger]

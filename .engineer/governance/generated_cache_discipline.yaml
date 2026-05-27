@@ -1,0 +1,22 @@
+id: generated_cache_discipline
+version: "6.15.0"
+principle: "Generated runtime outputs are operational memory; they never override current project/runtime files."
+volatile_paths:
+  - .engineer/indexes
+  - .engineer/ledgers
+  - .engineer/state
+rules:
+  - generated_json_requires_cache_meta
+  - stale_generated_cache_is_warning_unless_used_as_truth
+  - best_fit_excludes_generated_outputs_by_default
+  - packaging_must_clean_generated_outputs_or_mark_working_snapshot_explicitly
+  - cache_clean_is_dry_run_by_default
+allowed_uses:
+  - receipt
+  - audit trail
+  - acceleration
+  - user-requested forensic review
+forbidden_uses:
+  - proving project maturity from prior generated reports
+  - proving runtime maturity from previous best-fit output
+  - treating ledgers as source truth over current files

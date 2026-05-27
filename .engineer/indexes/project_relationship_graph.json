@@ -1,0 +1,694 @@
+{
+  "generated_at": "2026-05-27T21:46:01.076686Z",
+  "scope": "project",
+  "query": "اخبرني عن مشروعك",
+  "effective_query": "اخبرني عن مشروعك",
+  "graph_type": "semantic_relationship_navigation_graph",
+  "evidence_policy": "generated_runtime_outputs_excluded_unless_explicitly_requested",
+  "concept_owner_candidates": [],
+  "parent_child_relation_candidates": [],
+  "cross_artifact_linkages": {
+    "states_events": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+        "role": "scenario",
+        "score": 10,
+        "hits": [
+          "state",
+          "states",
+          "event",
+          "events",
+          "transition",
+          "lifecycle",
+          "حالة",
+          "حدث",
+          "انتقال"
+        ],
+        "snippet": "# PLATFORM STATE TAXONOMY # Purpose / الهدف This file defines the central state taxonomy and state intelligence standard for Pazarat. هذا الملف يعرّف فهرس الحالات المركزي ومعيار فهم الحالات داخل منصة بازارات. It defines how states should be named, grouped, scoped, documented, transitioned, connected to events, and reused across PRDs, workflows, state/event models, screen PRDs, backend design, UI/UX design, analytics, automation, and future AI reasoning. هو يحدد كيف تُسمى الحالات، كيف تُجمع في عائلات، كيف تُربط بالك",
+        "headings": [
+          "# PLATFORM STATE TAXONOMY",
+          "# Purpose / الهدف",
+          "# 1. Central State Family Index / فهرس عائلات الحالات المركزي",
+          "# 1A. Taxonomy-First State Naming Gate / بوابة تسمية الحالات من التاكسونومي أولًا",
+          "## Allowed State Usage",
+          "## Forbidden State Usage"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+        "role": "scenario",
+        "score": 10,
+        "hits": [
+          "state",
+          "states",
+          "event",
+          "events",
+          "transition",
+          "lifecycle",
+          "حالة",
+          "حدث",
+          "انتقال"
+        ],
+        "snippet": "س الأحداث المركزي ومعيار فهم الأحداث داخل منصة بازارات. It defines the event alphabet of the platform. هو يحدد أبجدية الأحداث في المنصة. Each PRD, workflow, state model, screen PRD, automation system, reward system, CRM system, analytics system, notification system, and future AI reasoning process must use this file to understand: - what an event is - what is not an event - how events are named - how events relate to states - how events become triggers - how events feed metrics and analytics - how events power auto",
+        "headings": [
+          "# PLATFORM EVENT TAXONOMY",
+          "# Purpose / الهدف",
+          "# 1. Central Event Family Index / فهرس عائلات الأحداث المركزي",
+          "# 1A. Taxonomy-First Event Naming Gate / بوابة تسمية الأحداث من التاكسونومي أولًا",
+          "## Allowed Event Usage",
+          "## Forbidden Event Usage"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+        "role": "truth_entry",
+        "score": 10,
+        "hits": [
+          "state",
+          "states",
+          "event",
+          "events",
+          "transition",
+          "lifecycle",
+          "حالة",
+          "حدث",
+          "انتقال"
+        ],
+        "snippet": ", review, design translation, or implementation translation. Use the project-local numbered standards from `00` to `99` as the binding source for terminology, state families, event families, shared primitives, UI/UX translation, implementation readiness, and parent-child documentation rules. For human readers, this document exposes only the resulting project-facing logic: scenario, boundaries, states, events, UX outputs, implementation outputs, constraints, and open decisions. --- # Parent Scope And Boundaries ## I",
+        "headings": [
+          "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+          "# Artifact Identity",
+          "# Documentation Role",
+          "# Project Alignment Contract",
+          "# Parent Scope And Boundaries",
+          "## In Scope"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+        "role": "requirements",
+        "score": 8,
+        "hits": [
+          "state",
+          "states",
+          "event",
+          "events",
+          "lifecycle",
+          "حالة",
+          "حدث"
+        ],
+        "snippet": "صلة. Every visual output must inherit from: 1. Project identity 2. Target dashboard or app context 3. Parent PRD 4. Child PRD 5. Screen PRD when available 6. State and event logic 7. Reusable component library 8. Existing visual references 9. Current user request The model must not generate a random modern dashboard from general memory. لا يجوز للنموذج أن يولد لوحة حديثة عشوائية من ذاكرته العامة. It must generate a screen that belongs to Pazarat. يجب أن يولد شاشة تنتمي إلى بازارات. --- # 2. Visual Reference Role / ",
+        "headings": [
+          "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 1. Core Design Principle / المبدأ الأساسي للتصميم",
+          "# 2. Visual Reference Role / دور الصور المرجعية",
+          "# 3. Reference Image Interpretation / تفسير الصور المرجعية",
+          "# 4. Design Entry Sequence / تسلسل الدخول قبل التصميم"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+        "role": "truth_entry",
+        "score": 7,
+        "hits": [
+          "state",
+          "states",
+          "event",
+          "events",
+          "transition",
+          "lifecycle"
+        ],
+        "snippet": "d Tunnel Awareness Gate + Pazarat Hierarchical Documentation Binding + Pazarat Shared Primitives Binding ``` It does not replace: - Platform identity files - State taxonomy - Event taxonomy - Project structure tree - UI/UX design and visual generation standard - Implementation architecture and code generation standard - Pazarat hierarchical documentation and shared logic protocol - Pazarat PRD documentation and implementation translation contract - Pazarat shared primitives and continuity memory - Parent PRDs - Chi",
+        "headings": [
+          "# PRD COGNITION AND TRACEABILITY STANDARD",
+          "# Purpose",
+          "# Standard Identity",
+          "# Mandatory Project Entry Sequence",
+          "## Current Navigational Snapshot",
+          "## Required Synchronization Order"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "role": "truth_entry",
+        "score": 7,
+        "hits": [
+          "state",
+          "states",
+          "event",
+          "events",
+          "transition",
+          "lifecycle"
+        ],
+        "snippet": "at. هذا الملف يعرّف معيار الترجمة من التوثيق إلى بنية تنفيذ برمجية داخل مشروع بازارات. Its purpose is to ensure that Pazarat PRDs, Child PRDs, Workflow PRDs, State/Event Models, Screen PRDs, and visual references can later be translated into consistent backend, database, frontend, API, testing, and integration work through the local PRD documentation and implementation translation contract. هدفه ضمان أن ملفات التوثيق يمكن ترجمتها لاحقًا إلى كود backend وfrontend وقواعد بيانات وواجهات API واختبارات وتكاملات بدون تخم",
+        "headings": [
+          "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+          "# 1. Target Technology Stack / التقنية المستهدفة",
+          "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+          "# 3. What This File Controls / ماذا يضبط هذا الملف"
+        ]
+      }
+    ],
+    "permissions_audit": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "role": "truth_entry",
+        "score": 7,
+        "hits": [
+          "permission",
+          "role",
+          "authorization",
+          "audit",
+          "دور",
+          "تدقيق"
+        ],
+        "snippet": "use the accepted Pazarat environment unless the user explicitly requests stack reconsideration or an ADR. All translated states, events, reusable primitives, permissions, audit patterns, and UI/backend shared behaviors must use the central project references before becoming code. --- # 1. Target Technology Stack / التقنية المستهدفة The current intended implementation stack is: ```txt Backend: ASP.NET / .NET Database: PostgreSQL Frontend: Next.js Language: TypeScript for frontend API Style: HTTP APIs / REST-style re",
+        "headings": [
+          "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+          "# 1. Target Technology Stack / التقنية المستهدفة",
+          "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+          "# 3. What This File Controls / ماذا يضبط هذا الملف"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/access_control_logs/access_control_logs_PRD.md",
+        "role": "requirements",
+        "score": 6,
+        "hits": [
+          "permission",
+          "role",
+          "صلاحية",
+          "دور",
+          "تدقيق"
+        ],
+        "snippet": "لكل سجل (المستخدم، نوع النشاط، التاريخ والوقت، عنوان IP). * **الترابط:** نقطة انطلاق للتحقيق في أي نشاط. يتكامل مع الأقسام الفرعية الأخرى (Login/Logout Logs, Permission Changes, Data Modifications) لعرض أنواع السجلات المحددة. ### 3.2. سجلات تسجيل الدخول/الخروج (Login/Logout Logs) * **الهدف:** عرض سجل مفصل لجميع عمليات تسجيل الدخول والخروج، بما في ذلك محاولات تسجيل الدخول الناجحة والفاشلة، وتفاصيل الجهاز وعنوان IP. يساعد في مراقبة الوصول إلى المنصة. * **الترابط:** يتكامل مع قسم الأمان (System -> Security -> Threat M",
+        "headings": [
+          "# وثيقة متطلبات المنتج (PRD): قسم سجلات التحكم بالوصول (Access Control Logs Section)",
+          "## 1. المقدمة",
+          "## 2. الرؤية والأهداف",
+          "## 3. الأقسام الفرعية والترابط",
+          "### 3.1. جميع السجلات (All Logs)",
+          "### 3.2. سجلات تسجيل الدخول/الخروج (Login/Logout Logs)"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+        "role": "truth_entry",
+        "score": 6,
+        "hits": [
+          "permission",
+          "role",
+          "authorization",
+          "audit",
+          "دور"
+        ],
+        "snippet": "consume it next? Environment fit: what stack, architecture, repository structure, scale, and delivery path must run it? Extractable logic: what actors, roles, permissions, entities, fields, states, events, workflows, data, APIs, UI behavior, and tests must be derivable? Contradiction: where does one direction make another weak, impossible, or unsafe? Repair owner: which parent, child, taxonomy, primitive, standard, environment decision, or project decision must be strengthened? ``` A readable scenario that cannot b",
+        "headings": [
+          "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+          "# Purpose / الهدف",
+          "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+          "# 1. Highest 360 Rule / القاعدة العليا",
+          "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+          "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+        "role": "truth_entry",
+        "score": 6,
+        "hits": [
+          "permission",
+          "role",
+          "audit",
+          "صلاحية",
+          "دور"
+        ],
+        "snippet": "Ds, workflows, screens, UI references, implementation notes, or code plans. This file does not define every child workflow, screen, API, database schema, DTO, permission matrix, final UI component, event payload contract, or final implementation detail. Child PRDs must inherit from this file and specialize their local branch without redefining parent logic. This file should remain stable enough to guide children, but flexible enough to receive controlled parent updates when child scenarios reveal missing parent-lev",
+        "headings": [
+          "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+          "# Artifact Identity",
+          "# Documentation Role",
+          "# Project Alignment Contract",
+          "# Parent Scope And Boundaries",
+          "## In Scope"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+        "role": "requirements",
+        "score": 5,
+        "hits": [
+          "permission",
+          "role",
+          "audit",
+          "دور"
+        ],
+        "snippet": "ي الواجهة. Classify event visibility: - internal only - admin visible - user visible - seller visible - support visible - system only --- # 13. Actions And Permissions Display / عرض الإجراءات والصلاحيات Every actionable screen must clarify: - primary actions - secondary actions - destructive actions - disabled actions - permission-dependent actions - role-specific actions - required action reasons Examples: ```txt Save Changes Manage 2FA Open Store Profile Add Internal Note Impersonate User Approve Reject Request U",
+        "headings": [
+          "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 1. Core Design Principle / المبدأ الأساسي للتصميم",
+          "# 2. Visual Reference Role / دور الصور المرجعية",
+          "# 3. Reference Image Interpretation / تفسير الصور المرجعية",
+          "# 4. Design Entry Sequence / تسلسل الدخول قبل التصميم"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/system_PRD.md",
+        "role": "requirements",
+        "score": 5,
+        "hits": [
+          "permission",
+          "role",
+          "دور",
+          "تدقيق"
+        ],
+        "snippet": "، وإعدادات البريد الإلكتروني. * **الترابط:** تتكامل مع جميع الموديولات الأخرى لتطبيق الإعدادات العامة على مستوى المنصة. ### 3.2. الأدوار والصلاحيات (Roles & Permissions) * **الهدف:** تحديد وإدارة الأدوار المختلفة للمستخدمين (مثل المشترين، البائعين، المسؤولين) وتعيين الصلاحيات لكل دور. يضمن هذا القسم أن كل مستخدم لديه الوصول المناسب للميزات والبيانات. * **الترابط:** تتكامل مع إدارة المستخدمين (Business -> Users) لتعيين الأدوار للمستخدمين، ومع جميع الموديولات الأخرى لتطبيق قيود الوصول. ### 3.3. نظام إدارة المحتوى (CM",
+        "headings": [
+          "# وثيقة متطلبات المنتج (PRD): موديول النظام (System Module)",
+          "## 1. المقدمة",
+          "## 2. الرؤية والأهداف",
+          "## 3. الأقسام الرئيسية والترابط",
+          "### 3.1. الإعدادات (Settings)",
+          "### 3.2. الأدوار والصلاحيات (Roles & Permissions)"
+        ]
+      }
+    ],
+    "data_api": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "role": "truth_entry",
+        "score": 11,
+        "hits": [
+          "entity",
+          "database",
+          "api",
+          "endpoint",
+          "query",
+          "migration",
+          "كيان",
+          "قاعدة",
+          "بيانات",
+          "اجهة"
+        ],
+        "snippet": "p from a feature name directly to code. لا يجوز القفز من اسم الميزة مباشرة إلى الكود. Correct implementation sequence: ```txt Project Standards → Platform Identity → State Taxonomy → Event Taxonomy → UI/UX Standard → Parent PRD → Child PRD → Workflow PRD when required → State/Event Model when required → Screen PRD when required → PRD Documentation And Implementation Translation Contract → Implementation Notes → Backend / Database / Frontend Code → Tests → Code Review Against PRD ``` Implementation must preserve: - ",
+        "headings": [
+          "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+          "# 1. Target Technology Stack / التقنية المستهدفة",
+          "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+          "# 3. What This File Controls / ماذا يضبط هذا الملف"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+        "role": "truth_entry",
+        "score": 10,
+        "hits": [
+          "entity",
+          "database",
+          "api",
+          "endpoint",
+          "query",
+          "كيان",
+          "قاعدة",
+          "بيانات",
+          "اجهة"
+        ],
+        "snippet": "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات # Artifact Identity Artifact Type: Parent PRD Project: Pazarat Project Area: Admin Dashboard Dashboard: Admin Dashboard Domain: Business Module: User Management Canonical Parent File: User_Management_PRD.md Primary Role: This file defines the parent scenario, parent-level product logic, inherited rules, technical output map, design translation bridge, implementation translation bridge, child routing, and cross-system anchors for User Management. This fil",
+        "headings": [
+          "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+          "# Artifact Identity",
+          "# Documentation Role",
+          "# Project Alignment Contract",
+          "# Parent Scope And Boundaries",
+          "## In Scope"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+        "role": "truth_entry",
+        "score": 9,
+        "hits": [
+          "entity",
+          "database",
+          "api",
+          "endpoint",
+          "query",
+          "migration",
+          "قاعدة",
+          "بيانات"
+        ],
+        "snippet": "uring Pazarat scale, modular boundaries, domain complexity, and delivery reality is not mature. This is why Pazarat documentation templates must have stable identity and variable content: the stable identity comes from downstream measurement, while the variable content comes from the specific module truth. This file defines the highest project-local engineering method for Pazarat. It makes the whole Pazarat tunnel serve one operating loop: ```txt Documentation Standards ↔ Implementation Translation Standards ↔ Data",
+        "headings": [
+          "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+          "# Purpose / الهدف",
+          "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+          "# 1. Highest 360 Rule / القاعدة العليا",
+          "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+          "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+        "role": "truth_entry",
+        "score": 9,
+        "hits": [
+          "entity",
+          "database",
+          "api",
+          "endpoint",
+          "query",
+          "migration",
+          "قاعدة",
+          "بيانات"
+        ],
+        "snippet": "ure: ```txt backend/ Pazarat.sln src/ Pazarat.Api/ Pazarat.AppHost/ Pazarat.ServiceDefaults/ Pazarat.SharedKernel/ Pazarat.Modules.Identity/ Pazarat.Modules.Users/ Pazarat.Modules.Merchants/ Pazarat.Modules.Catalog/ Pazarat.Modules.Orders/ Pazarat.Modules.Payments/ Pazarat.Modules.Shipping/ Pazarat.Modules.Notifications/ Pazarat.Modules.Admin/ tests/ Pazarat.Api.Tests/ Pazarat.IntegrationTests/ Pazarat.ArchitectureTests/ ``` Each module may use: ```txt Domain/ Application/ Infrastructure/ Presentation/ Contracts/ T",
+        "headings": [
+          "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+          "# Purpose / الهدف",
+          "# 1. Binding Stack Decision / قرار التقنية الملزم",
+          "# 2. Forbidden Stack Drift / منع الانحراف التقني",
+          "# 3. Developer Workstation Standard / معيار جهاز المطور",
+          "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+        "role": "scenario",
+        "score": 7,
+        "hits": [
+          "entity",
+          "api",
+          "query",
+          "كيان",
+          "قاعدة",
+          "اجهة"
+        ],
+        "snippet": "حداث الأساسية التي قد تظهر في كل المنصة. | Event Family | Arabic Meaning | Main Use | |---|---|---| | `AccountEvents` | أحداث الحساب | Account lifecycle and identity | | `AuthenticationEvents` | أحداث الدخول والتحقق | Login, OTP, sessions, password | | `ProfileEvents` | أحداث الملف الشخصي | Profile, contact, address, identity data | | `IntentEvents` | أحداث النية | Seller intent, upgrade intent, abandoned intent | | `CapabilityEvents` | أحداث القدرات | Activation, suspension, reactivation of account capabilities | ",
+        "headings": [
+          "# PLATFORM EVENT TAXONOMY",
+          "# Purpose / الهدف",
+          "# 1. Central Event Family Index / فهرس عائلات الأحداث المركزي",
+          "# 1A. Taxonomy-First Event Naming Gate / بوابة تسمية الأحداث من التاكسونومي أولًا",
+          "## Allowed Event Usage",
+          "## Forbidden Event Usage"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+        "role": "truth_entry",
+        "score": 7,
+        "hits": [
+          "entity",
+          "database",
+          "api",
+          "endpoint",
+          "query",
+          "migration"
+        ],
+        "snippet": "umulatively without losing prior accepted logic Pazarat documentation is not passive documentation. It is a knowledge construction system. --- # Standard Identity This file defines: ```txt PRD Cognition Standard + Scenario Maturity Standard + Technical Output Standard + Parent / Child Inheritance Standard + Cross-System Traceability Gate + Cumulative Revision Gate + UI/UX Generation Readiness Standard + Implementation Readiness Standard + Documentation Contract And Translation Readiness Standard + Local Numbered Tu",
+        "headings": [
+          "# PRD COGNITION AND TRACEABILITY STANDARD",
+          "# Purpose",
+          "# Standard Identity",
+          "# Mandatory Project Entry Sequence",
+          "## Current Navigational Snapshot",
+          "## Required Synchronization Order"
+        ]
+      }
+    ],
+    "tests_acceptance": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "role": "truth_entry",
+        "score": 6,
+        "hits": [
+          "testing",
+          "acceptance",
+          "criteria",
+          "قبول",
+          "معيار"
+        ],
+        "snippet": "Ds, Child PRDs, Workflow PRDs, State/Event Models, Screen PRDs, and visual references can later be translated into consistent backend, database, frontend, API, testing, and integration work through the local PRD documentation and implementation translation contract. هدفه ضمان أن ملفات التوثيق يمكن ترجمتها لاحقًا إلى كود backend وfrontend وقواعد بيانات وواجهات API واختبارات وتكاملات بدون تخمين أو فقدان لمنطق المشروع. This file does not generate code by itself. هذا الملف لا يولد الكود بنفسه. It defines how documentat",
+        "headings": [
+          "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+          "# 1. Target Technology Stack / التقنية المستهدفة",
+          "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+          "# 3. What This File Controls / ماذا يضبط هذا الملف"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+        "role": "truth_entry",
+        "score": 6,
+        "hits": [
+          "testing",
+          "acceptance",
+          "criteria",
+          "quality",
+          "معيار"
+        ],
+        "snippet": "uction runtime. It is a development-time orchestration and observability layer that helps run and inspect the local distributed application shape. --- # 12. Testing Standard / معيار الاختبار Backend testing tools: ```txt xUnit FluentAssertions NSubstitute or Moq WebApplicationFactory Testcontainers for PostgreSQL integration tests NetArchTest or ArchUnitNET for architecture rules ``` Frontend testing tools: ```txt Vitest React Testing Library Playwright for E2E ``` Testing rules: - acceptance criteria must become t",
+        "headings": [
+          "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+          "# Purpose / الهدف",
+          "# 1. Binding Stack Decision / قرار التقنية الملزم",
+          "# 2. Forbidden Stack Drift / منع الانحراف التقني",
+          "# 3. Developer Workstation Standard / معيار جهاز المطور",
+          "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+        "role": "truth_entry",
+        "score": 5,
+        "hits": [
+          "testing",
+          "acceptance",
+          "criteria",
+          "quality"
+        ],
+        "snippet": "pressing it as a maintainable project method. If a proposed parent structure would weaken downstream design, database modeling, API planning, code generation, testing, or later incremental updates, the model must strengthen the method before using it as the parent standard. ## 5. Core Philosophy State the governing idea of the section in project-native language. ## 6. Scope And Boundaries Clarify: - In Scope - Out of Scope - parent-owned logic - child-owned detail - external-owned detail - deep owners ## 7. Operati",
+        "headings": [
+          "# PRD COGNITION AND TRACEABILITY STANDARD",
+          "# Purpose",
+          "# Standard Identity",
+          "# Mandatory Project Entry Sequence",
+          "## Current Navigational Snapshot",
+          "## Required Synchronization Order"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+        "role": "truth_entry",
+        "score": 5,
+        "hits": [
+          "testing",
+          "acceptance",
+          "criteria",
+          "quality"
+        ],
+        "snippet": "↔ Implementation Translation Standards ↔ Data / Database / API Contract Standards ↔ Engineering Environment Standards ↔ Code Practice / Implementation Canon ↔ Testing / Quality Gates ↔ Pazarat Platform Objective ``` منهج 360 درجة هو القاعدة الحاكمة التي تجعل كل معايير التوثيق، والترجمة إلى كود، وبيئة التطوير تعمل كحلقة واحدة لخدمة مشروع بازارات الضخم، لا كملفات منفصلة. This method is not an optional explanation. It is a binding project-local operating method for any meaningful Pazarat PRD, child PRD, workflow, scre",
+        "headings": [
+          "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+          "# Purpose / الهدف",
+          "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+          "# 1. Highest 360 Rule / القاعدة العليا",
+          "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+          "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+        "role": "truth_entry",
+        "score": 5,
+        "hits": [
+          "testing",
+          "acceptance",
+          "criteria",
+          "قبول"
+        ],
+        "snippet": "ntity and capability - design-ready output families for User Management screens - implementation-ready output roots for later backend, frontend, API, database, testing, and integration work ## Out Of Scope This Parent PRD does not define final implementation details for: - final database schema - final API contracts - exact DTOs - exact backend folder structure - exact frontend component implementation - final screen-level UI behavior - detailed workflow files - final event payload contracts - final notification te",
+        "headings": [
+          "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+          "# Artifact Identity",
+          "# Documentation Role",
+          "# Project Alignment Contract",
+          "# Parent Scope And Boundaries",
+          "## In Scope"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+        "role": "scenario",
+        "score": 4,
+        "hits": [
+          "acceptance",
+          "quality",
+          "معيار"
+        ],
+        "snippet": "fecycle | | `BehaviorState` | حالة سلوكية مستنتجة | Inactive, abandoned, high intent, engaged | | `PolicyAgreementStatus` | حالة الموافقة على السياسات | Policy acceptance, expiry, and re-acceptance | | `SubAccountStatus` | حالة الحساب الفرعي | Subaccount lifecycle and delegated access | This index is not a closed list. هذا الفهرس ليس قائمة مغلقة. If a PRD reveals a reusable state family that belongs platform-wide, this file should be updated. إذا كشف أي PRD عائلة حالات قابلة لإعادة الاستخدام على مستوى المنصة، يجب ت",
+        "headings": [
+          "# PLATFORM STATE TAXONOMY",
+          "# Purpose / الهدف",
+          "# 1. Central State Family Index / فهرس عائلات الحالات المركزي",
+          "# 1A. Taxonomy-First State Naming Gate / بوابة تسمية الحالات من التاكسونومي أولًا",
+          "## Allowed State Usage",
+          "## Forbidden State Usage"
+        ]
+      }
+    ],
+    "decisions_risks": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+        "role": "truth_entry",
+        "score": 8,
+        "hits": [
+          "decision",
+          "risk",
+          "open",
+          "decision",
+          "gap",
+          "repair",
+          "إصلاح"
+        ],
+        "snippet": "Contradiction: where does one direction make another weak, impossible, or unsafe? Repair owner: which parent, child, taxonomy, primitive, standard, environment decision, or project decision must be strengthened? ``` A readable scenario that cannot be translated into implementation logic is not mature. A translation standard that does not understand the documentation shape and engineering environment is not mature. An engineering environment standard chosen without measuring Pazarat scale, modular boundaries, domain",
+        "headings": [
+          "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+          "# Purpose / الهدف",
+          "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+          "# 1. Highest 360 Rule / القاعدة العليا",
+          "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+          "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+        "role": "truth_entry",
+        "score": 8,
+        "hits": [
+          "decision",
+          "risk",
+          "open",
+          "decision",
+          "gap",
+          "repair",
+          "قرار"
+        ],
+        "snippet": "as, or deployment-unready implementation. هذا الملف يحدد بيئة البرمجة الشاملة التي يجب أن يلتزم بها أي توليد أو تجهيز كود في بازارات. --- # 1. Binding Stack Decision / قرار التقنية الملزم Current accepted Pazarat stack: ```txt Primary editor: VS Code Backend platform: .NET Backend web framework: ASP.NET Core Web API Backend language: C# Backend architecture: Modular Monolith + DDD boundaries + Vertical Slice use cases Database: PostgreSQL Database access: EF Core with Npgsql provider; Dapper only for justified high",
+        "headings": [
+          "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+          "# Purpose / الهدف",
+          "# 1. Binding Stack Decision / قرار التقنية الملزم",
+          "# 2. Forbidden Stack Drift / منع الانحراف التقني",
+          "# 3. Developer Workstation Standard / معيار جهاز المطور",
+          "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+        "role": "scenario",
+        "score": 7,
+        "hits": [
+          "decision",
+          "risk",
+          "open",
+          "decision",
+          "gap",
+          "repair"
+        ],
+        "snippet": "- workflows - lifecycle models - state/event models - screen PRDs - component documents - visual reference prompts - knowledge references - shared primitives - decisions - open questions - implementation notes This prevents missing pages, duplicated logic, and disconnected documentation. --- # Screen And Page Discovery When a Pazarat section is discussed, the model should infer what screens, pages, or operational views may be required. Examples of possible screen types: - dashboard overview - list page - detail pag",
+        "headings": [
+          "# PAZARAT PLATFORM IDENTITY AND OBJECTIVES",
+          "# Artifact Metadata",
+          "# Purpose",
+          "# Project Name",
+          "# Project Type",
+          "# Platform Identity"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+        "role": "truth_entry",
+        "score": 7,
+        "hits": [
+          "decision",
+          "risk",
+          "open",
+          "decision",
+          "gap",
+          "repair"
+        ],
+        "snippet": "replace the Pazarat numbered tunnel or artifact truth.\" no_missing_gate_excuse: \"If a Pazarat numbered standard, taxonomy, PRD, relationship map, or accepted decision applies but no gate names the exact situation, apply that source anyway.\" local_upgrade_policy: \"If a missing or weak gate repeatedly causes drift, duplication, bad routing, or code-translation gaps, update this board or the owning numbered standard.\" entry_flow: - classify_artifact_depth - apply_360_degree_gate_when_relevant - apply_pazarat_reality_c",
+        "headings": [
+          "# PAZARAT PRD AND CODE RUNTIME GATES",
+          "# Purpose: active command board for Pazarat documentation, routing, shared components, and implementation translation."
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+        "role": "requirements",
+        "score": 6,
+        "hits": [
+          "decision",
+          "risk",
+          "open",
+          "decision",
+          "gap"
+        ],
+        "snippet": "and lifecycle milestones | | `ActivityFeed` | Recent activity | | `RequirementBuilder` | Verification or dynamic requirements | | `ApprovalQueue` | Review and decision workflow | | `AuditTrail` | Admin/security traceability | | `InsightCard` | AI or smart insight | | `QuickActionsGrid` | Common action shortcuts | | `EmptyState` | No data state | | `LoadingSkeleton` | Loading state | | `ErrorPanel` | Error or failure state | | `InfoNotice` | Informational message | | `WarningNotice` | Warning message | | `FooterActi",
+        "headings": [
+          "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 1. Core Design Principle / المبدأ الأساسي للتصميم",
+          "# 2. Visual Reference Role / دور الصور المرجعية",
+          "# 3. Reference Image Interpretation / تفسير الصور المرجعية",
+          "# 4. Design Entry Sequence / تسلسل الدخول قبل التصميم"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+        "role": "scenario",
+        "score": 6,
+        "hits": [
+          "decision",
+          "risk",
+          "open",
+          "decision",
+          "خطر"
+        ],
+        "snippet": "t, payout request, return request | | `VerificationStatus` | حالة التحقق | Verification case lifecycle | | `ApprovalStatus` | حالة الموافقة | Approval workflow decision lifecycle | | `RestrictionStatus` | حالة القيد | Restriction, suspension, appeal, recovery | | `StoreStatus` | حالة المتجر | Store lifecycle | | `VendorStatus` | حالة البائع | Vendor operational standing | | `CategoryStatus` | حالة التصنيف | Category lifecycle and activation | | `ProductStatus` | حالة المنتج | Product draft, review, approval, publis",
+        "headings": [
+          "# PLATFORM STATE TAXONOMY",
+          "# Purpose / الهدف",
+          "# 1. Central State Family Index / فهرس عائلات الحالات المركزي",
+          "# 1A. Taxonomy-First State Naming Gate / بوابة تسمية الحالات من التاكسونومي أولًا",
+          "## Allowed State Usage",
+          "## Forbidden State Usage"
+        ]
+      }
+    ]
+  },
+  "mandatory_use": [
+    "Read top owner candidate before strong claims.",
+    "Read parent/sibling candidates before writes or implementation translation.",
+    "If state/event/permission/API/test linkages are relevant, inspect those buckets before execution.",
+    "Treat this graph as navigation; final truth requires reading current owner files."
+  ],
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "volatile": true,
+    "generated_by": "engineer.py",
+    "generated_at": "2026-05-27T21:46:01.076686Z"
+  }
+}

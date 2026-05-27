@@ -1,0 +1,17 @@
+invariants:
+  - id: project_is_truth_source
+    rule: "ACTIVE_PROJECT is the factual source of the active project."
+  - id: runtime_is_silent
+    rule: "The engineering runtime is silent and supportive unless explicitly requested."
+  - id: empty_project_is_formation
+    rule: "An empty project is PROJECT_FORMATION, not failure."
+  - id: domain_neutral
+    rule: "Do not assume software; infer domain from facts."
+  - id: intent_before_scan
+    rule: "Route intent before broad inspection."
+  - id: content_over_stale_reports
+    rule: "Fresh content digest overrides stale generated reports."
+  - id: tools_are_access
+    rule: "Tools provide access and evidence; the model provides judgment and synthesis."
+  - id: governance_before_completion
+    rule: "No meaningful work is complete without checks."

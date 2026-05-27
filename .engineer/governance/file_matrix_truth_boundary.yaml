@@ -1,0 +1,19 @@
+file_matrix_truth_boundary:
+  version: "8.1.0"
+  principle: "The File Matrix is a neural navigation surface, not a replacement for current project files."
+  truth_order:
+    - current_user_instruction
+    - current_active_project_files
+    - workshop_system_method_and_standards
+    - generated_file_matrix_index_as_navigation_only
+    - inference
+    - declared_assumption
+  hard_blocks:
+    - "Do not make strong claims from index snippets alone."
+    - "Do not write without owner discovery and impact gates."
+    - "Do not let stale generated indexes override changed files."
+    - "Do not hardcode active-project-specific names into runtime logic."
+  required_receipts:
+    - file_matrix_build_report
+    - file_matrix_query_packet
+    - file_matrix_doctor_report

@@ -1,0 +1,68 @@
+{
+  "command": "truth-authority-gate",
+  "version": "9.11.0",
+  "generated_at": "2026-05-27T21:46:00.676338Z",
+  "scope": "project",
+  "request": "اخبرني عن مشروعك",
+  "truth_demand": {
+    "demand": "orientation",
+    "asks_identity": false,
+    "asks_write": false,
+    "asks_decision": false,
+    "asks_runtime": false
+  },
+  "authority_style": "advisory_truth_compass_not_permission_cage",
+  "claim_strength": {
+    "project_identity": "grounded",
+    "current_state": "grounded",
+    "first_step": "grounded_candidate",
+    "write_or_execution_safety": "not_requested"
+  },
+  "evidence_status": {
+    "truth_spine_files": 18,
+    "high_value_content_surfaces": 36,
+    "distinct_value_signal_count": 12,
+    "content_states": {
+      "content_bearing": 83,
+      "thin": 3,
+      "empty": 20
+    },
+    "incomplete_truth_candidates": 36,
+    "drift_candidates": 0,
+    "value_basis": "content_value_cross_file_alignment_not_size_or_path_only"
+  },
+  "governing_rule": "The runtime does not cage the model with a scripted answer. It provides an advisory truth compass that calibrates claim strength while preserving natural reasoning.",
+  "truth_doctrine": [
+    "Do not use file size as value.",
+    "Do not treat file existence or path names as sufficient truth.",
+    "Use content, parent-goal alignment, and cross-file consistency to strengthen claims.",
+    "Treat contradictions as review signals, not as automatic deletion or blind obedience.",
+    "The model chooses how deep to inspect from intent and uncertainty; the runtime supplies truth surfaces, not a fixed route."
+  ],
+  "advisory_gaps": [],
+  "model_freedom_contract": {
+    "no_fixed_response_template": true,
+    "no_scripted_first_contact": true,
+    "no_forced_search_sequence": true,
+    "model_decides_depth": true,
+    "truth_calibrates_claims_not_creativity": true
+  },
+  "claim_permissions": {
+    "advisory_only": true,
+    "may_answer_naturally": true,
+    "may_claim_project_identity": true,
+    "may_claim_current_state": true,
+    "may_recommend_first_step": true,
+    "may_execute_or_write": "only_after_contextual_write_evidence_if_requested",
+    "must_declare_depth": false,
+    "must_not_use_file_size_as_value": true,
+    "must_not_treat_single_file_as_binding_truth": true
+  },
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "truth_authority_gate",
+    "generated_at": "2026-05-27T21:46:00.699156Z",
+    "volatile": true
+  }
+}

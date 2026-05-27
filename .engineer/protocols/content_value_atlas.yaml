@@ -1,0 +1,36 @@
+id: content_value_atlas
+name: Content Value Atlas / أطلس قيمة محتوى المشروع
+version: "7.0.0"
+status: active
+scope: project_neutral
+purpose: >
+  Treat every current file as a cognitive evidence unit, not merely a searchable document.
+  The atlas is a lightweight panoramic touch across PRDs, contracts, standards, code,
+  tests, decisions, scenarios, documents, and configuration before high-impact claims.
+principles:
+  - Not PRD-only: code, tests, standards, configuration, and documents can all carry truth.
+  - Not full reading by default: atlas selects high-value and high-impact files for full reading.
+  - Not a replacement for project truth: it maps evidence value so the engineer can obey project truth.
+  - Not a scoring shortcut: value scores are navigation signals, not final maturity judgments.
+mandatory_before:
+  - project assessment
+  - first-step recommendation
+  - architecture-sensitive decision
+  - implementation translation
+  - writing or repair of repository files
+  - absence claims
+  - maturity/readiness claims
+outputs:
+  - file_count
+  - counts_by_status
+  - counts_by_role
+  - signal_coverage
+  - high_value_files
+  - incomplete_truth_candidates
+  - code_and_implementation_surfaces
+  - required_full_reads_before_high_impact_claims
+hard_blocks:
+  - no_high_impact_claim_from_file_count_only
+  - no_first_step_from_one_visible_file
+  - no_code_or_prd_claim_without_content_value_touch
+  - no_execution_over_incomplete_truth

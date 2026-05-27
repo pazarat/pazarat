@@ -1,0 +1,39 @@
+# Best-Fit Reality Comparison Protocol
+version: "6.14.0"
+principle: >-
+  Best practice is not generic advice and not an external authority pasted into the project.
+  The engineer compares user intent, current project truth, operation type, scale, lifecycle risk,
+  and internal excellence patterns, then proposes the best fit for this project.
+
+inputs:
+  - user_intent
+  - route_and_scope_from_plug
+  - current_truth_owner_files
+  - maturity_map
+  - evidence_lock
+  - incomplete_truth_scan
+  - operation_type
+  - downstream_consumers
+
+comparison_axes:
+  - fit_to_project_identity_and_scale
+  - fit_to_current_truth_hierarchy
+  - fit_to_downstream_execution
+  - lifecycle_risk_if_missing
+  - duplication_or_conflict_risk
+  - maintainability_and_testability
+  - owner_and_repair_route
+
+required_output:
+  - observed_current_state
+  - inferred_missing_maturity
+  - why_it_matters_for_this_project
+  - recommended_owner_update
+  - acceptance_or_decision_needed
+  - what_not_to_execute_yet
+
+forbidden:
+  - generic_best_practice_without_project_mapping
+  - user_hint_rewrite_without_expert_gap_detection
+  - adding_protocols_that_do_not_change_lifecycle_behavior
+  - continuing_execution_when_required_truth_is_incomplete

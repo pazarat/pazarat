@@ -1,0 +1,17 @@
+id: tool_first_navigation
+name: Tool-First Matrix Navigation
+trigger: every user request involving project understanding, assessment, execution, writing, comparison, or runtime inspection
+sequence:
+  - classify_intent_with_route
+  - build_tool_plan
+  - run_internal_framework_tool_sequence
+  - read_evidence_needed_for_claims
+  - use_native_or_model_tools_only_if_gap_exists
+  - check_claims_before_final_answer
+  - record_receipt_for_important_operations
+completion_criteria:
+  - route_selected
+  - internal_tools_used_or_gap_explained
+  - evidence_lock_available_for_project_assessment
+  - claims_checked_when_high_impact
+  - no_write_without_prewrite_guard

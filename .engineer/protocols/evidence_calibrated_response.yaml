@@ -1,0 +1,16 @@
+id: evidence_calibrated_response
+version: 1.0
+purpose: Make every answer grounded in project truth before recommendation.
+steps:
+  - route_intent
+  - run_truth_map_for_project_scope
+  - classify_claims_as_observed_inferred_assumption
+  - detect_scenarios_prd_truth_architecture_code
+  - reject_stale_reports_if_current_files_conflict
+  - answer_from_evidence_first
+  - mark gaps as not_detected_only_after_full_scan
+completion_criteria:
+  - surface answer acknowledges strongest project facts
+  - no absent/missing claim without exhaustive evidence
+  - no contradiction between maturity statement and detected files
+  - first step follows detected maturity, not a generic template

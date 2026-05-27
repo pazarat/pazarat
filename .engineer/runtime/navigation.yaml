@@ -1,0 +1,83 @@
+navigation:
+  name: "Semantic Matrix Navigation"
+  principle: "Intent chooses the scope; scope chooses tools. Never scan everything by default."
+  fallback_route: "project_work"
+  routes:
+    runtime_work:
+      priority: 10
+      meaning: "User explicitly asks to inspect, improve, or debug the engineering environment itself."
+      scope: "runtime"
+      tools: ["route", "neural-os", "factory-cycle", "goal-closure", "workshop-lens", "scan-runtime", "file-matrix-doctor", "factory-health", "doctor", "runtime-audit", "claim-check"]
+      triggers_ar: ["بيئة المهندس", "نظام التشغيل", "إطار التشغيل", "اطار التشغيل", "أدوات التشغيل", "ادوات التشغيل", "السكربتات", "doctor", "فحص البيئة", "تطوير البيئة", "الادوات النفاثة", "نظام الفحص النفاث", "الملاحة", "قابس", "قابس تشغيل", "النظام المركزي", "مركز النظام", "مصنع", "مصنع المهندس", "نظام تشغيل", "فحص ماتركس", "ماتركس", "لوحة المفاتيح", "البيئة", "انضاج البيئة", "إنضاج البيئة", "اصلاح البيئة", "إصلاح البيئة", "نضج البيئة"]
+      triggers_en: ["runtime", "engineer environment", "scripts", "doctor", "inspect the framework", "operating environment", "navigation", "runtime audit", "central operating core", "plug", "matrix os", "factory", "neural os", "one-touch"]
+    external_research_work:
+      priority: 20
+      meaning: "User needs current or external standards, laws, market comparison, or outside references to support project work."
+      scope: "project"
+      tools: ["route", "workshop-lens", "tool-plan", "context-pack", "external/native search", "evidence-lock", "claim-check"]
+      triggers_ar: ["بحث خارجي", "خارجياً", "خارجيا", "أحدث", "احدث", "حديثة", "معيار", "معايير", "قانون", "تنظيم", "GDPR", "سوق", "مقارنة معيارية"]
+      triggers_en: ["external research", "latest", "current", "standard", "benchmark", "regulation", "law", "GDPR", "market"]
+    implementation_translation_work:
+      priority: 25
+      meaning: "User asks to translate PRD/project logic into execution contracts such as entities, states, events, API, database, permissions, or tests."
+      scope: "project"
+      tools: ["route", "workshop-lens", "file-matrix-context", "tool-plan", "context-pack", "read-many", "truth-maturity", "canon-check", "evidence-lock", "claim-check"]
+      triggers_ar: ["عقد تنفيذ", "كيانات", "حالات", "أحداث", "احداث", "API", "api", "Database", "database", "قاعدة بيانات", "صلاحيات", "اختبارات", "تحويل PRD", "ترجمة PRD", "backend", "frontend", "endpoint", "معيار ممارسات الكود", "قواعد كتابة الكود", "معيار التنفيذ"]
+      triggers_en: ["implementation contract", "entities", "states", "events", "API", "database", "permissions", "tests", "translate PRD", "backend", "frontend", "endpoint", "code practice", "implementation canon", "coding standard"]
+    write_or_modify_work:
+      priority: 30
+      meaning: "User wants to add, modify, delete, patch, or apply changes to files or project artifacts."
+      scope: "project"
+      tools: ["route", "factory-cycle", "goal-closure", "workshop-lens", "file-matrix-context", "duplicate-scan", "impact-scan", "write-plan", "safe-write", "file-matrix-doctor", "completion-audit", "claim-check"]
+      triggers_ar: ["أضف", "اضف", "إضافة", "اضافة", "عدّل", "عدل", "اكتب ملف", "أنشئ ملف", "انشئ ملف", "احذف", "طبّق", "طبق", "إصلاح", "اصلاح", "انضاج", "أصلح"]
+      triggers_en: ["add", "modify", "edit", "create file", "delete", "apply", "patch", "fix", "mature"]
+    best_fit_work:
+      priority: 35
+      meaning: "User asks the engineer to infer gaps, best-fit improvements, architectural maturity, or missing operating capabilities by comparing current evidence to internal excellence patterns."
+      scope: "project"
+      tools: ["route", "factory-cycle", "goal-closure", "workshop-lens", "plug", "context-pack", "best-fit", "truth-maturity", "matrix", "impact-scan", "completion-audit", "claim-check"]
+      triggers_ar: ["أفضل الممارسات", "افضل الممارسات", "النواقص", "الفجوات", "أفضل حل", "افضل حل", "استنتج الحلول", "انضاج معماري", "نضج معماري", "ما الذي ينقص", "ماذا نضيف", "الحقيقة الناقصة", "حقيقة ناقصة", "إنضاج الحقيقة", "انضاج الحقيقة"]
+      triggers_en: ["best practice", "best-fit", "excellence", "gap review", "architecture maturity", "missing architecture", "what is missing", "infer solutions", "incomplete truth", "truth maturity", "binding but insufficient"]
+    research_work:
+      priority: 40
+      meaning: "User asks for a research/scientific project workflow without assuming software implementation."
+      scope: "project"
+      tools: ["route", "workshop-lens", "context-pack", "evidence-lock", "claim-check"]
+      triggers_ar: ["بحث", "بحث علمي", "دراسة", "فرضية", "منهجية", "مراجعة أدبيات", "ورقة علمية"]
+      triggers_en: ["scientific research", "study", "hypothesis", "methodology", "literature review", "paper"]
+    content_work:
+      priority: 45
+      meaning: "User asks for writing/content/story/sermon work without assuming software implementation."
+      scope: "project"
+      tools: ["route", "workshop-lens", "context-pack", "read-many", "claim-check"]
+      triggers_ar: ["قصة", "خطبة", "مقال", "كتاب أطفال", "رواية", "نص", "محتوى"]
+      triggers_en: ["story", "sermon", "article", "children book", "narrative", "content", "copywriting"]
+    governance_work:
+      priority: 60
+      meaning: "User asks for quality, risks, consistency, source-of-truth, or failure checks over the project."
+      scope: "project"
+      tools: ["route", "workshop-lens", "truth-map", "scenario-map", "evidence-lock", "govern-check", "claim-check"]
+      triggers_ar: ["تحقق", "حوكمة", "مخاطر", "تناقض", "مصدر الحقيقة", "اختبار", "فشل", "تخمين", "دليل", "أدلة", "جودة"]
+      triggers_en: ["verify", "governance", "risk", "conflict", "source of truth", "test", "failure", "evidence", "quality"]
+    comparison_work:
+      priority: 70
+      meaning: "User asks to compare versions, documents, options, or project alternatives."
+      scope: "repository"
+      tools: ["route", "workshop-lens", "file-matrix-query", "context-pack", "compare", "claim-check"]
+      triggers_ar: ["قارن", "مقارنة", "الفرق", "افضل", "أفضل", "نسخة", "اصدار", "إصدار"]
+      triggers_en: ["compare", "difference", "better", "version"]
+    project_work:
+      priority: 80
+      meaning: "User asks to analyze, plan, build, review, read, extract, or execute bounded project work."
+      scope: "project"
+      tools: ["route", "factory-cycle", "goal-closure", "workshop-lens", "file-matrix-context", "tool-plan", "context-pack", "matrix", "read-many", "evidence-lock", "claim-check"]
+      triggers_ar: ["حلل", "ابني", "اكتب", "صلح", "راجع", "نفذ", "خطط", "استخرج", "اقرأ", "اقراء", "افحص الملف", "قارن داخل المشروع"]
+      triggers_en: ["analyze", "build", "write", "fix", "review", "execute", "plan", "read", "extract"]
+    project_surface:
+      priority: 90
+      meaning: "User asks who you are, what you do, how you deal with the project, current assessment, or first step."
+      scope: "project"
+      tools: ["route", "workshop-lens", "tool-plan", "context-pack", "truth-map", "evidence-lock", "maturity-map", "answer", "surface-check"]
+      forbidden_surface: ["model identity", "runtime package name", "test results", "internal paths", "command names", "framework explanation"]
+      triggers_ar: ["من انت", "من أنت", "ما عملك", "وظيفتك", "مهامك", "مهاراتك", "تقييمك", "اول خطوة", "أول خطوة", "كيف تتعامل مع مشروعي", "دورك"]
+      triggers_en: ["who are you", "your role", "what do you do", "first step", "current status", "how do you handle my project"]

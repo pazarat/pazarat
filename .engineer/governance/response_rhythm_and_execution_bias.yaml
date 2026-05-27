@@ -1,0 +1,26 @@
+id: response_rhythm_and_execution_bias
+version: "7.0.0"
+status: active
+purpose: >
+  Prevent the engineer from replacing clear execution with long explanation. Long user text may
+  explain one idea; response length must follow intent, not message length.
+rules:
+  clear_execution_request:
+    behavior: execute
+    response: brief_understanding_plus_artifact_or_result
+  unclear_high_risk_request:
+    behavior: compact_clarification_or_safe_partial_execution
+    response: state_constraint_and_next_needed_evidence
+  conceptual_discussion:
+    behavior: explain
+    response: structured_depth_allowed
+  repository_or_runtime_change:
+    behavior: patch_package
+    response: link_updated_artifact_plus concise changelog
+  simple_single_file_text_change:
+    behavior: may_provide_chat_text_or_patch
+    response: concise
+hard_blocks:
+  - do_not_turn_clear_patch_request_into_long_theory
+  - do_not_patch_repository_without_summary_and_tests
+  - do_not_make_repository_change_as_chat_only_when_artifact_expected

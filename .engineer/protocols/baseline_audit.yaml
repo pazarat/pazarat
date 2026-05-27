@@ -1,0 +1,13 @@
+id: baseline_audit
+purpose: "Classify project maturity, completeness, PRDs, decisions, risks, and implementation readiness."
+steps:
+  - route_intent
+  - select_scope
+  - touch_relevant_sources
+  - apply_governance
+  - produce_result
+  - verify_against_intent
+outputs:
+  - "decision"
+  - "evidence"
+  - "next_action"

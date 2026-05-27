@@ -1,0 +1,816 @@
+{
+  "command": "open-neural-entry",
+  "version": "9.11.0",
+  "generated_at": "2026-05-27T21:45:49.634755Z",
+  "request": "اخبرني عنك وما عملك وكيف تتعامل مع مشروعي",
+  "scope": "project",
+  "identity_boundary": {
+    "engineer_runtime": "silent operating system; never present it as the active project",
+    "workshop": "project doctrine and method container",
+    "active_project": "the subject project truth surface",
+    "visible_answer_rule": "Answer as an engineer grounded in active project reality, not as a tool explaining itself."
+  },
+  "intent_profile": {
+    "request": "اخبرني عنك وما عملك وكيف تتعامل مع مشروعي",
+    "scope": "project",
+    "route": {
+      "route": "project_surface",
+      "scope": "project",
+      "request": "اخبرني عنك وما عملك وكيف تتعامل مع مشروعي",
+      "tools": [
+        "route",
+        "workshop-lens",
+        "tool-plan",
+        "context-pack",
+        "truth-map",
+        "evidence-lock",
+        "maturity-map",
+        "answer",
+        "surface-check"
+      ]
+    },
+    "operation_mode": {
+      "mode": "surface_identity",
+      "risk": "medium",
+      "deep_required": false,
+      "index_required": true,
+      "execution_bias": "answer_naturally_with_evidence_limits",
+      "evidence_budget": {
+        "index_entries": 8,
+        "full_reads": 3,
+        "generated_context_kb_max": 8
+      }
+    },
+    "operation_family": "project_relationship_or_surface_assessment",
+    "is_project_surface_question": true,
+    "is_high_impact": false,
+    "model_freedom_contract": {
+      "model_role": "reasoning_engine_not_script_reader",
+      "runtime_role": "silent_operating_system_with_truth_gates",
+      "rule": "The runtime must not write the final answer for the model; it supplies truth, boundaries, and gates so the model can reason naturally within governance.",
+      "forbidden_cages": [
+        "scripted_first_contact",
+        "fixed_surface_template",
+        "file_size_as_value",
+        "runtime_as_project",
+        "answer_before_truth_grounding"
+      ]
+    }
+  },
+  "truth_grounding_packet": {
+    "pulse_coverage": {
+      "scanned_files": 106,
+      "total_files": 106,
+      "coverage_state": "complete",
+      "content_read_mode": "full_read_through_safe_reader",
+      "sample_chars_per_file": 0,
+      "value_basis": "content_and_truth_alignment_not_file_size"
+    },
+    "readiness_verdict": "surface_answer_with_truth_warnings",
+    "truth_spine_files": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "requirements_prd",
+          "truth_identity",
+          "ux_content"
+        ],
+        "headings": [
+          "# Pazarat Project Entrypoint",
+          "## Required Pazarat entry sequence",
+          "## Operating principle"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/01_PROJECT_CONTRACT.yaml",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "headings": []
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/02_PROJECT_TRUTH_INDEX.yaml",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "requirements_prd",
+          "risk_decision",
+          "state_event",
+          "truth_identity"
+        ],
+        "headings": []
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+        "role": "truth_entry",
+        "state": "thin",
+        "signals": [
+          "data_interface_contract",
+          "permission_audit_security",
+          "risk_decision",
+          "truth_identity"
+        ],
+        "headings": [
+          "# Pazarat Project Decisions"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "requirements_prd",
+          "truth_identity"
+        ],
+        "headings": [
+          "# Pazarat Implementation Target"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision",
+          "state_event"
+        ],
+        "headings": [
+          "# PRD COGNITION AND TRACEABILITY STANDARD",
+          "# Purpose",
+          "# Standard Identity",
+          "# Mandatory Project Entry Sequence"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+        "role": "scenario",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "implementation_code",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd"
+        ],
+        "headings": [
+          "# PAZARAT PLATFORM IDENTITY AND OBJECTIVES",
+          "# Artifact Metadata",
+          "# Purpose",
+          "# Project Name"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "implementation_code",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd"
+        ],
+        "headings": [
+          "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+          "# Purpose / الهدف",
+          "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+          "# 1. Target Technology Stack / التقنية المستهدفة"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "headings": [
+          "# PAZARAT NARRATIVE SEQUENCE AND SCENARIO MATURITY STANDARD",
+          "# Purpose",
+          "# Core Principle",
+          "# What This File Owns"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "headings": [
+          "# PAZARAT PRD DOCUMENTATION CONTRACT AND IMPLEMENTATION TRANSLATION STANDARD",
+          "# Purpose",
+          "# Core Principle",
+          "# Raw Input To Contract Rule"
+        ]
+      }
+    ],
+    "high_value_content_surfaces": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "requirements_prd",
+          "truth_identity",
+          "ux_content"
+        ],
+        "overlap": [
+          "active_project",
+          "any",
+          "artifacts",
+          "entry",
+          "file",
+          "files"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/01_PROJECT_CONTRACT.yaml",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "overlap": [
+          "active_project",
+          "artifacts",
+          "folder",
+          "forbidden",
+          "frontend",
+          "gate"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/02_PROJECT_TRUTH_INDEX.yaml",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "requirements_prd",
+          "risk_decision",
+          "state_event",
+          "truth_identity"
+        ],
+        "overlap": [
+          "active_project",
+          "entry",
+          "pazarat",
+          "project_cognitive_tunnel",
+          "workshop",
+          "yaml"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+        "role": "truth_entry",
+        "state": "thin",
+        "signals": [
+          "data_interface_contract",
+          "permission_audit_security",
+          "risk_decision",
+          "truth_identity"
+        ],
+        "overlap": [
+          "accepted",
+          "active_project",
+          "artifacts",
+          "contract",
+          "decision",
+          "files"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "requirements_prd",
+          "truth_identity"
+        ],
+        "overlap": [
+          "active_project",
+          "api",
+          "data",
+          "folder",
+          "future",
+          "implementation"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision",
+          "state_event"
+        ],
+        "overlap": [
+          "accepted",
+          "active_project",
+          "any",
+          "artifact",
+          "artifacts",
+          "backend"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+        "role": "scenario",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "implementation_code",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd"
+        ],
+        "overlap": [
+          "active",
+          "active_project",
+          "any",
+          "artifact",
+          "artifacts",
+          "code"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "implementation_code",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd"
+        ],
+        "overlap": [
+          "active_project",
+          "api",
+          "architecture",
+          "backend",
+          "binding",
+          "child"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "overlap": [
+          "active_project",
+          "behavior",
+          "central",
+          "core",
+          "defines",
+          "design"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+        "role": "truth_entry",
+        "state": "draft_or_placeholder",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "overlap": [
+          "active_project",
+          "api",
+          "artifact",
+          "asp",
+          "backend",
+          "binding"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+        "role": "truth_entry",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "methodology_360",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision"
+        ],
+        "overlap": [
+          "accepted",
+          "active",
+          "active_project",
+          "artifact",
+          "asp",
+          "behavior"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/A-A_PRD_admin_dashboard.md",
+        "role": "scenario",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision",
+          "truth_identity"
+        ],
+        "overlap": [
+          "active_project",
+          "pazarat",
+          "prd",
+          "workshop",
+          "داخل"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/affiliate/affiliate_PRD.md",
+        "role": "requirements",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "operations_domain",
+          "requirements_prd",
+          "risk_decision",
+          "state_event",
+          "truth_identity"
+        ],
+        "overlap": [
+          "active",
+          "active_project",
+          "pazarat",
+          "prd",
+          "workshop"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/Business_PRD.md",
+        "role": "scenario",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision",
+          "state_event"
+        ],
+        "overlap": [
+          "active_project",
+          "pazarat",
+          "prd",
+          "workshop"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/categories/categories_PRD.md",
+        "role": "requirements",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "implementation_code",
+          "requirements_prd",
+          "state_event",
+          "testing_quality",
+          "ux_content"
+        ],
+        "overlap": [
+          "active",
+          "active_project",
+          "pazarat",
+          "prd",
+          "workshop",
+          "داخل"
+        ]
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/orders/orders_PRD.md",
+        "role": "scenario",
+        "state": "substantial",
+        "signals": [
+          "data_interface_contract",
+          "operations_domain",
+          "permission_audit_security",
+          "requirements_prd",
+          "risk_decision",
+          "state_event"
+        ],
+        "overlap": [
+          "active_project",
+          "pazarat",
+          "prd",
+          "workshop",
+          "داخل"
+        ]
+      }
+    ],
+    "incomplete_truth_candidates": [
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "thin",
+          "word_count": 40,
+          "placeholder_hits": []
+        },
+        "role": "truth_entry"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "draft_or_placeholder",
+          "word_count": 7869,
+          "placeholder_hits": [
+            "placeholder",
+            "draft",
+            "empty"
+          ]
+        },
+        "role": "truth_entry"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "draft_or_placeholder",
+          "word_count": 3407,
+          "placeholder_hits": [
+            "empty"
+          ]
+        },
+        "role": "scenario"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "draft_or_placeholder",
+          "word_count": 3582,
+          "placeholder_hits": [
+            "empty",
+            "سيتم"
+          ]
+        },
+        "role": "truth_entry"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "draft_or_placeholder",
+          "word_count": 3590,
+          "placeholder_hits": [
+            "draft",
+            "empty",
+            "لم يكتمل"
+          ]
+        },
+        "role": "truth_entry"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "draft_or_placeholder",
+          "word_count": 2721,
+          "placeholder_hits": [
+            "empty"
+          ]
+        },
+        "role": "truth_entry"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/agents/00_PRD_agents.md",
+        "reason": "thin_or_placeholder_truth_surface",
+        "content_state": {
+          "state": "draft_or_placeholder",
+          "word_count": 522,
+          "placeholder_hits": [
+            "لاحقاً",
+            "لاحقا",
+            "سيتم"
+          ]
+        },
+        "role": "requirements"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/00_PRD_all_users.md",
+        "reason": "thin_content_surface",
+        "content_state": {
+          "state": "empty",
+          "word_count": 0,
+          "placeholder_hits": []
+        },
+        "role": "binary_or_large"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/01_PRD_users_Profile_Admin_View.md",
+        "reason": "thin_content_surface",
+        "content_state": {
+          "state": "empty",
+          "word_count": 0,
+          "placeholder_hits": []
+        },
+        "role": "binary_or_large"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/02_PRDUsers_Profile_User_View.md",
+        "reason": "thin_content_surface",
+        "content_state": {
+          "state": "empty",
+          "word_count": 0,
+          "placeholder_hits": []
+        },
+        "role": "binary_or_large"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/03_PRD_Navigation_filter.md",
+        "reason": "thin_content_surface",
+        "content_state": {
+          "state": "empty",
+          "word_count": 0,
+          "placeholder_hits": []
+        },
+        "role": "binary_or_large"
+      },
+      {
+        "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/b2b_sellers/00_PRD_b2b_sellers.md",
+        "reason": "thin_content_surface",
+        "content_state": {
+          "state": "empty",
+          "word_count": 0,
+          "placeholder_hits": []
+        },
+        "role": "empty_or_placeholder"
+      }
+    ],
+    "semantic_drift_candidates": [],
+    "truth_governance": {
+      "rule": "File names, folder names, and file contents are current truth surfaces, but they are incomplete truth until aligned with parent project purpose and cross-file reality.",
+      "anti_blind_truth": "Do not obey a file blindly when its content contradicts project identity, workshop standards, or stronger parent truth; flag it as contradiction/drift and request correction or deeper scan.",
+      "first_step_guard": "Do not choose an implementation starting point from a single file name. Choose from truth spine + high-value content + drift/incomplete warnings + requested intent.",
+      "required_for_strong_claims": [
+        "read truth_spine_files",
+        "read recommended_entry_sequence owner files",
+        "escalate to file-matrix-context --mode deep for implementation/write decisions"
+      ]
+    }
+  },
+  "truth_authority_gate": {
+    "command": "truth-authority-gate",
+    "version": "9.11.0",
+    "generated_at": "2026-05-27T21:45:49.603321Z",
+    "scope": "project",
+    "request": "اخبرني عنك وما عملك وكيف تتعامل مع مشروعي",
+    "truth_demand": {
+      "demand": "project_orientation_assessment",
+      "asks_identity": true,
+      "asks_write": false,
+      "asks_decision": false,
+      "asks_runtime": false
+    },
+    "authority_style": "advisory_truth_compass_not_permission_cage",
+    "claim_strength": {
+      "project_identity": "grounded",
+      "current_state": "grounded",
+      "first_step": "grounded_candidate",
+      "write_or_execution_safety": "not_requested"
+    },
+    "evidence_status": {
+      "truth_spine_files": 18,
+      "high_value_content_surfaces": 36,
+      "distinct_value_signal_count": 12,
+      "content_states": {
+        "content_bearing": 83,
+        "thin": 3,
+        "empty": 20
+      },
+      "incomplete_truth_candidates": 36,
+      "drift_candidates": 0,
+      "value_basis": "content_value_cross_file_alignment_not_size_or_path_only"
+    },
+    "governing_rule": "The runtime does not cage the model with a scripted answer. It provides an advisory truth compass that calibrates claim strength while preserving natural reasoning.",
+    "truth_doctrine": [
+      "Do not use file size as value.",
+      "Do not treat file existence or path names as sufficient truth.",
+      "Use content, parent-goal alignment, and cross-file consistency to strengthen claims.",
+      "Treat contradictions as review signals, not as automatic deletion or blind obedience.",
+      "The model chooses how deep to inspect from intent and uncertainty; the runtime supplies truth surfaces, not a fixed route."
+    ],
+    "advisory_gaps": [],
+    "model_freedom_contract": {
+      "no_fixed_response_template": true,
+      "no_scripted_first_contact": true,
+      "no_forced_search_sequence": true,
+      "model_decides_depth": true,
+      "truth_calibrates_claims_not_creativity": true
+    },
+    "claim_permissions": {
+      "advisory_only": true,
+      "may_answer_naturally": true,
+      "may_claim_project_identity": true,
+      "may_claim_current_state": true,
+      "may_recommend_first_step": true,
+      "may_execute_or_write": "only_after_contextual_write_evidence_if_requested",
+      "must_declare_depth": false,
+      "must_not_use_file_size_as_value": true,
+      "must_not_treat_single_file_as_binding_truth": true
+    },
+    "cache_meta": {
+      "scope": "project",
+      "fingerprint": "7ae58fe6f6935f33",
+      "generated_by": "truth_authority_gate",
+      "generated_at": "2026-05-27T21:45:49.634252Z",
+      "volatile": true
+    }
+  },
+  "open_navigation": {
+    "operation_family": "project_relationship_or_surface_assessment",
+    "compass": [
+      "route",
+      "file-matrix-pulse",
+      "truth-sweep-360",
+      "truth-authority-gate",
+      "evidence-lock",
+      "value-atlas",
+      "file-matrix-context"
+    ],
+    "mandatory": [],
+    "no_cage_rule": "These are navigation surfaces, not a forced route or answer template.",
+    "depth_selection_rule": "The model chooses depth from intent, risk, and evidence gaps. It must ground claims in content/value truth, but it is free to decide the search sequence.",
+    "execution_claim_note": "For writes or irreversible decisions, the model should obtain impact/duplicate/patch evidence before presenting execution as safe; this is truth hygiene, not a scripted path."
+  },
+  "governed_freedom_contract": {
+    "no_scripted_first_contact": true,
+    "no_fixed_response_template": true,
+    "model_decides_depth_from_intent_and_evidence": true,
+    "runtime_calibrates_claim_strength_not_answer_shape": true,
+    "runtime_enforces_claim_authority_not_answer_shape": true,
+    "truth_before_claim": true,
+    "do_not_mention_runtime_unless_user_asks": true
+  },
+  "answer_composition_rule": "Synthesize a natural answer from observed project truth, content value, and declared uncertainty. Do not copy this packet, do not present runtime/tools as the project, and do not turn the compass into a rigid checklist.",
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "open_neural_entry",
+    "generated_at": "2026-05-27T21:45:49.680636Z",
+    "volatile": true
+  }
+}

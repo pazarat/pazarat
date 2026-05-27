@@ -1,0 +1,547 @@
+{
+  "command": "goal-closure",
+  "version": "9.1.0",
+  "generated_at": "2026-05-27T21:45:43.816522Z",
+  "request": "ضع خطة إصلاح جذري لمشكلة في المشروع",
+  "goal_contract": {
+    "parent_goal": "ضع خطة إصلاح جذري لمشكلة في المشروع",
+    "scope": "project",
+    "route": "write_or_modify_work",
+    "risk": "high",
+    "success_definition": [
+      "intent is grounded in current truth surface",
+      "workshop standards are applied as method lens, not as substitute truth",
+      "required capabilities are available or explicitly marked partial/missing",
+      "solution strategy closes parent goal or is blocked/labeled partial",
+      "execution path includes validation and maintenance receipt"
+    ],
+    "truth_surfaces": {
+      "runtime": ".engineer",
+      "workshop": "02_WORKSHOP/_WORKSHOP_SYSTEM",
+      "active_project": "02_WORKSHOP/ACTIVE_PROJECT",
+      "selected_scope": "project"
+    }
+  },
+  "grounding_summary": {
+    "route": {
+      "route": "write_or_modify_work",
+      "scope": "project",
+      "request": "ضع خطة إصلاح جذري لمشكلة في المشروع",
+      "tools": [
+        "route",
+        "factory-cycle",
+        "goal-closure",
+        "workshop-lens",
+        "file-matrix-context",
+        "duplicate-scan",
+        "impact-scan",
+        "write-plan",
+        "safe-write",
+        "file-matrix-doctor",
+        "completion-audit",
+        "claim-check"
+      ]
+    },
+    "operation_mode": {
+      "mode": "repair",
+      "risk": "high",
+      "deep_required": true,
+      "index_required": true,
+      "execution_bias": "execute_with_concise_status",
+      "evidence_budget": {
+        "index_entries": 16,
+        "full_reads": 8,
+        "generated_context_kb_max": 24
+      }
+    },
+    "truth_pulse_surface": {
+      "coverage": {
+        "scanned_files": 80,
+        "total_files": 106,
+        "coverage_state": "ranked_partial",
+        "content_read_mode": "explicit_lightweight_sample",
+        "sample_chars_per_file": 2000,
+        "value_basis": "content_and_truth_alignment_not_file_size"
+      },
+      "readiness_verdict": "surface_answer_with_truth_warnings",
+      "truth_spine_files": [
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+          "role": "truth_entry",
+          "state": "substantial",
+          "signals": [
+            "requirements_prd",
+            "truth_identity",
+            "ux_content"
+          ],
+          "headings": [
+            "# Pazarat Project Entrypoint",
+            "## Required Pazarat entry sequence",
+            "## Operating principle"
+          ]
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/01_PROJECT_CONTRACT.yaml",
+          "role": "truth_entry",
+          "state": "substantial",
+          "signals": [
+            "data_interface_contract",
+            "methodology_360",
+            "operations_domain",
+            "permission_audit_security",
+            "requirements_prd",
+            "risk_decision"
+          ],
+          "headings": []
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/02_PROJECT_TRUTH_INDEX.yaml",
+          "role": "truth_entry",
+          "state": "substantial",
+          "signals": [
+            "data_interface_contract",
+            "methodology_360",
+            "requirements_prd",
+            "risk_decision",
+            "state_event",
+            "truth_identity"
+          ],
+          "headings": []
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+          "role": "truth_entry",
+          "state": "thin",
+          "signals": [
+            "data_interface_contract",
+            "permission_audit_security",
+            "risk_decision",
+            "truth_identity"
+          ],
+          "headings": [
+            "# Pazarat Project Decisions"
+          ]
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md",
+          "role": "truth_entry",
+          "state": "substantial",
+          "signals": [
+            "data_interface_contract",
+            "requirements_prd",
+            "truth_identity"
+          ],
+          "headings": [
+            "# Pazarat Implementation Target"
+          ]
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+          "role": "truth_entry",
+          "state": "substantial",
+          "signals": [
+            "data_interface_contract",
+            "methodology_360",
+            "requirements_prd",
+            "state_event",
+            "truth_identity",
+            "ux_content"
+          ],
+          "headings": [
+            "# PRD COGNITION AND TRACEABILITY STANDARD",
+            "# Purpose",
+            "# Standard Identity"
+          ]
+        }
+      ],
+      "semantic_drift_candidates": [],
+      "incomplete_truth_candidates": [
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+          "reason": "thin_or_placeholder_truth_surface",
+          "content_state": {
+            "state": "thin",
+            "word_count": 40,
+            "placeholder_hits": []
+          },
+          "role": "truth_entry"
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/agents/00_PRD_agents.md",
+          "reason": "thin_or_placeholder_truth_surface",
+          "content_state": {
+            "state": "draft_or_placeholder",
+            "word_count": 301,
+            "placeholder_hits": [
+              "لاحقاً",
+              "لاحقا",
+              "سيتم"
+            ]
+          },
+          "role": "requirements"
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/00_PRD_all_users.md",
+          "reason": "thin_content_surface",
+          "content_state": {
+            "state": "empty",
+            "word_count": 0,
+            "placeholder_hits": []
+          },
+          "role": "binary_or_large"
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/01_PRD_users_Profile_Admin_View.md",
+          "reason": "thin_content_surface",
+          "content_state": {
+            "state": "empty",
+            "word_count": 0,
+            "placeholder_hits": []
+          },
+          "role": "binary_or_large"
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/02_PRDUsers_Profile_User_View.md",
+          "reason": "thin_content_surface",
+          "content_state": {
+            "state": "empty",
+            "word_count": 0,
+            "placeholder_hits": []
+          },
+          "role": "binary_or_large"
+        },
+        {
+          "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/all_users/03_PRD_Navigation_filter.md",
+          "reason": "thin_content_surface",
+          "content_state": {
+            "state": "empty",
+            "word_count": 0,
+            "placeholder_hits": []
+          },
+          "role": "binary_or_large"
+        }
+      ]
+    },
+    "file_matrix_surface": {
+      "scope": "project",
+      "file_count": 106,
+      "counts": {
+        "role": {
+          "requirements": 47,
+          "truth_entry": 24,
+          "binary_or_large": 18,
+          "scenario": 15,
+          "empty_or_placeholder": 2
+        },
+        "language": {
+          "markdown": 100,
+          "yaml": 6
+        }
+      },
+      "status": {
+        "scope": "project",
+        "fresh": true,
+        "current_fingerprint": "56a64df2cd3734800ff8",
+        "stored_fingerprint": "56a64df2cd3734800ff8",
+        "indexed_at": "2026-05-27T21:44:28.462627Z",
+        "file_count": 106,
+        "symbol_count": 1607,
+        "relation_count": 1202,
+        "chunk_count": 406,
+        "db": ".engineer/state/file_matrix/file_matrix.sqlite",
+        "version": "9.11.0"
+      }
+    },
+    "workshop_surface": {
+      "files_detected": 18,
+      "silent_gate": true
+    }
+  },
+  "capability_matrix": [
+    {
+      "capability": "intent_governance",
+      "required": true,
+      "source": "always",
+      "why": "classify operation, scope, risk, and evidence budget",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "route",
+          "status": "available"
+        },
+        {
+          "type": "command",
+          "name": "operation-mode",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "truth_surface_selection",
+      "required": true,
+      "source": "always",
+      "why": "choose project/runtime/workshop truth before claims",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "truth-map",
+          "status": "available"
+        },
+        {
+          "type": "command",
+          "name": "evidence-lock",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "file_or_runtime_matrix_touch",
+      "required": true,
+      "source": "always",
+      "why": "ground intent in current files/index surface",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "file-matrix-touch",
+          "status": "available"
+        },
+        {
+          "type": "command",
+          "name": "file-matrix-context",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "truth_pulse_360",
+      "required": true,
+      "source": "always",
+      "why": "perform fast content-aware truth pulse before strategy or claims",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "file-matrix-pulse",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "workshop_lens",
+      "required": true,
+      "source": "always",
+      "why": "apply universal project/workshop method without replacing local truth",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "workshop-lens",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "goal_contract",
+      "required": true,
+      "source": "always",
+      "why": "define what success means before implementation",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "goal-closure",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "missing_ring_scan",
+      "required": true,
+      "source": "always",
+      "why": "detect incomplete loops before execution",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "goal-closure",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "strategy_simulation",
+      "required": true,
+      "source": "always",
+      "why": "test whether proposed solution works in lifecycle",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "factory-cycle",
+          "status": "available"
+        },
+        {
+          "type": "command",
+          "name": "best-fit",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "readiness_gate",
+      "required": true,
+      "source": "always",
+      "why": "label full/partial/blocked",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "goal-closure",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "duplicate_scan",
+      "required": true,
+      "source": "write/implementation",
+      "why": "avoid creating duplicate owners or fragmented logic",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "duplicate-scan",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "impact_scan",
+      "required": true,
+      "source": "write/implementation",
+      "why": "identify parents, children, dependencies, affected contracts",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "impact-scan",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "write_plan",
+      "required": true,
+      "source": "write/implementation",
+      "why": "decide update-vs-create and validation path",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "write-plan",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "safe_write",
+      "required": true,
+      "source": "write/implementation",
+      "why": "perform changes only through governed write path",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "safe-write",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "capability": "post_change_validation",
+      "required": true,
+      "source": "write/implementation",
+      "why": "doctor/claim-check/tests after modifications",
+      "status": "available",
+      "evidence": [
+        {
+          "type": "command",
+          "name": "file-matrix-doctor",
+          "status": "available"
+        },
+        {
+          "type": "command",
+          "name": "doctor",
+          "status": "available"
+        },
+        {
+          "type": "command",
+          "name": "claim-check",
+          "status": "available"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "missing_ring_scan": {
+    "missing": [],
+    "partial": [],
+    "available": [
+      "intent_governance",
+      "truth_surface_selection",
+      "file_or_runtime_matrix_touch",
+      "truth_pulse_360",
+      "workshop_lens",
+      "goal_contract",
+      "missing_ring_scan",
+      "strategy_simulation",
+      "readiness_gate",
+      "duplicate_scan",
+      "impact_scan",
+      "write_plan",
+      "safe_write",
+      "post_change_validation"
+    ],
+    "rule": "Missing or partial capabilities do not become accepted truth; they block or downgrade readiness."
+  },
+  "anti_patching_gate": {
+    "status": "pass",
+    "blocks": [],
+    "warnings": [],
+    "rule": "A local useful patch is rejected when it fails the parent goal lifecycle."
+  },
+  "readiness_verdict": "READY_FULL",
+  "allowed_next_action": "execute_governed_path",
+  "required_next_gates": [
+    "factory-cycle",
+    "file-matrix-pulse",
+    "file-matrix-context",
+    "best-fit",
+    "impact-scan",
+    "validation-doctor",
+    "maintenance-ledger"
+  ],
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "goal_closure",
+    "generated_at": "2026-05-27T21:45:43.839347Z",
+    "volatile": true
+  }
+}

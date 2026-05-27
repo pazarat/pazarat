@@ -1,0 +1,17 @@
+id: workshop_universal_method_gate
+name: Workshop Universal Method Gate
+version: "7.0.0"
+rule: >
+  02_WORKSHOP/_WORKSHOP_SYSTEM is a silent universal method gate for the engineer environment.
+  It supplies 360-degree method, discipline canons, maturity assessment, and local standard generation.
+  It never overrides active project truth.
+operating_order:
+  - central plug
+  - workshop lens
+  - project truth anchor
+  - route-specific matrix/neural gates
+  - local standards or incomplete-truth repair
+  - execution only through accepted project-local truth
+boundaries:
+  workshop_can: [evaluate, compare, expose gaps, suggest local standards, enforce 360 lens]
+  workshop_cannot: [replace project truth, invent local decisions, execute directly over thin project files]

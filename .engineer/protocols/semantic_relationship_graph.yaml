@@ -1,0 +1,17 @@
+id: semantic_relationship_graph
+version: "6.15.0"
+principle: "Matrix navigation must behave as a relationship graph, not only bucket search."
+required_relations:
+  - concept_to_owner_candidate
+  - owner_to_parent_or_sibling
+  - concept_to_state_event_evidence
+  - concept_to_permission_audit_evidence
+  - concept_to_data_api_evidence
+  - concept_to_test_acceptance_evidence
+  - concept_to_decision_risk_evidence
+contract:
+  graph_is_navigation_not_final_truth: true
+  generated_outputs_excluded_by_default: true
+  top_owner_must_be_read_before_strong_claim: true
+  parent_or_sibling_must_be_checked_before_write: true
+  related_state_event_permission_api_test_buckets_must_be_checked_before_execution: true

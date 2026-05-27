@@ -1,0 +1,13 @@
+protocol: evidence_lock
+version: 6.3.0
+intent: Build a compact, current, evidence-backed packet before project assessment or recommendation.
+steps:
+  - route request
+  - build truth-map from current files
+  - build scenario-map from file content
+  - run related evidence search when query exists
+  - classify claims as observed, inferred, assumption
+  - block or downgrade unsupported absence claims
+outputs:
+  - .engineer/indexes/project_evidence_lock.json
+  - .engineer/ledgers/claim_ledger.jsonl

@@ -1,0 +1,2312 @@
+{
+  "command": "truth-sweep-360",
+  "version": "9.11.0",
+  "scope": "project",
+  "request": "اخبرني عن مشروعك",
+  "generated_at": "2026-05-27T21:46:00.639741Z",
+  "coverage": {
+    "text_files_seen": 106,
+    "documentation_files_read": 86,
+    "code_files_sampled": 0,
+    "other_files_sampled": 20,
+    "strategy": "adaptive_content_value_sweep_not_fixed_template"
+  },
+  "truth_spine": [
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PRD COGNITION AND TRACEABILITY STANDARD",
+        "# Purpose",
+        "# Standard Identity",
+        "# Mandatory Project Entry Sequence",
+        "## Current Navigational Snapshot",
+        "## Required Synchronization Order"
+      ],
+      "query_hits": [],
+      "excerpt": "# PRD COGNITION AND TRACEABILITY STANDARD # Purpose This file defines the primary cognition, documentation, traceability, inheritance, and cumulative revision standard for Pazarat PRDs. It is the first project-level standard that should be used before creating, reviewing, expanding, correcting, or generating any Pazarat documentation artifact. This file is n"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PROJECT STRUCTURE TREE INDEX",
+        "# Purpose",
+        "# Core Rules",
+        "# Project Root",
+        "# Pazarat Local Numbered Tunnel",
+        "# Top-Level Project Content Branches"
+      ],
+      "query_hits": [],
+      "excerpt": "# PROJECT STRUCTURE TREE INDEX # Purpose This file defines the navigational structure of the Pazarat project. Its role is to help the model locate project standards, project branches, dashboards, modules, parent PRDs, child PRDs, placeholder routes, and implementation-related documentation. This file is a navigation index. It is not: - a documentation protoc"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+        "# Purpose / الهدف",
+        "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+        "# 1. Target Technology Stack / التقنية المستهدفة",
+        "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+        "# 3. What This File Controls / ماذا يضبط هذا الملف"
+      ],
+      "query_hits": [],
+      "excerpt": "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD # Purpose / الهدف This file defines the implementation architecture and code generation standard for Pazarat. هذا الملف يعرّف معيار الترجمة من التوثيق إلى بنية تنفيذ برمجية داخل مشروع بازارات. Its purpose is to ensure that Pazarat PRDs, Child PRDs, Workflow PRDs, State/Event Models, Screen PRDs, and "
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PAZARAT HIERARCHICAL DOCUMENTATION AND SHARED LOGIC PROTOCOL",
+        "# Purpose",
+        "# Core Principle",
+        "# Documentation Contract Binding Rule",
+        "# Local Tunnel Position",
+        "# Documentation Exposure Rule"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT HIERARCHICAL DOCUMENTATION AND SHARED LOGIC PROTOCOL # Purpose This file defines the Pazarat-specific protocol for hierarchical documentation, parent-child scenario generation, source scenario preservation, coverage mapping, shared logic handling, and controlled PRD evolution. It belongs to the Pazarat project-local numbered tunnel. It is not a gen"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT SHARED PRIMITIVES AND CONTINUITY MEMORY",
+        "# Purpose",
+        "# 360 Central Primitive Rule / قاعدة العناصر المركزية داخل 360",
+        "# Core Principle",
+        "# Local Tunnel Position",
+        "# What This File Owns"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT SHARED PRIMITIVES AND CONTINUITY MEMORY # Purpose This file defines and preserves Pazarat shared primitives, reusable logic, repeated patterns, and continuity rules that affect multiple Pazarat artifacts. It belongs to the Pazarat project-local numbered tunnel. It is not a general project orchestration file. It is not a cognitive runtime file. It i"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PAZARAT NARRATIVE SEQUENCE AND SCENARIO MATURITY STANDARD",
+        "# Purpose",
+        "# Core Principle",
+        "# What This File Owns",
+        "# Narrative Sequence Integrity",
+        "# Central Taxonomy Synchronization Gate"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT NARRATIVE SEQUENCE AND SCENARIO MATURITY STANDARD # Purpose This file defines the Pazarat-specific standard for narrative sequence, scenario maturity, raw concept transformation, missing-link detection, and documentation-to-design-to-code continuity. It belongs to the Pazarat project-local numbered tunnel. It is not a general writing style guide. I"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/10_PAZARAT_PARENT_CHILD_SEQUENCE_AND_CROSS_ARTIFACT_ROUTING_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PAZARAT PARENT / CHILD SEQUENCE AND CROSS-ARTIFACT ROUTING STANDARD",
+        "# Purpose",
+        "# Core Principle",
+        "# Parent As Routing Ledger Rule",
+        "# Parent Routing Control Block Rule",
+        "# Sub-Child Artifact And Reusable Pattern Rule"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PARENT / CHILD SEQUENCE AND CROSS-ARTIFACT ROUTING STANDARD # Purpose This file defines the Pazarat-specific standard for deciding how parent PRDs, child PRDs, sibling artifacts, external pages, cross-folder flows, shared primitives, and implementation-ready documentation should be sequenced and routed. Its purpose is to prevent scenario documentat"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT PRD DOCUMENTATION CONTRACT AND IMPLEMENTATION TRANSLATION STANDARD",
+        "# Purpose",
+        "# Core Principle",
+        "# Raw Input To Contract Rule",
+        "# 0A. 360-Degree Contract Binding / ربط العقد بمنهج 360",
+        "# Parent PRD Documentation Contract"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PRD DOCUMENTATION CONTRACT AND IMPLEMENTATION TRANSLATION STANDARD # Purpose This file defines the binding Pazarat documentation contract that connects scenario writing, parent/child PRD structure, cross-artifact routing, cumulative maintenance, and implementation translation. It exists so Pazarat documentation can be written with one stable docume"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+        "# Purpose / الهدف",
+        "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+        "# 1. Highest 360 Rule / القاعدة العليا",
+        "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+        "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT 360-DEGREE ENGINEERING METHOD # Purpose / الهدف # 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360 360 is not only cross-direction awareness. It is a measurement discipline. Before authoring any Pazarat scenario, PRD, translation rule, environment standard, database contract, API contract, UI brief, or code output, the model must mea"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Binding Stack Decision / قرار التقنية الملزم",
+        "# 2. Forbidden Stack Drift / منع الانحراف التقني",
+        "# 3. Developer Workstation Standard / معيار جهاز المطور",
+        "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD # Purpose / الهدف This file defines the binding programming environment, stack, repository structure, development tooling, quality gates, and deployment readiness standard for Pazarat. It is the third direction of the Pazarat 360-degree engineering loop. It ensures that PRD-to-code translation does not pro"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT RAW TO PROGRAMMATIC NARRATIVE WEAVING STANDARD",
+        "# Purpose",
+        "# Universal Raw-To-Gold Rule",
+        "## General Applicability",
+        "# Core Principle",
+        "# Programmatic Semantics Gate"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT RAW TO PROGRAMMATIC NARRATIVE WEAVING STANDARD # Purpose This file defines the Pazarat-wide method for converting any raw user explanation into a mature scenario whose prose is woven from correct product, programming, database, API, and environment semantics. It exists because organizing a scenario into headings is not enough, and because no single"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT DATA MODEL, DATABASE, API, AND ENDPOINT STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Role Inside The 360 Method",
+        "# 2. Data Modeling Extraction Order",
+        "# 3. Database Reality Rules",
+        "## 3.1 Identity Is Not A Label"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT DATA MODEL, DATABASE, API, AND ENDPOINT STANDARD # Purpose / الهدف This file defines the Pazarat-wide standard for deriving data models, database structures, API contracts, and endpoint candidates from mature scenarios. It exists because many documentation failures appear only when the system is forced to answer database and endpoint questions. A s"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/17_PAZARAT_CODEBASE_INTEGRATION_AND_DOCUMENTATION_ROUTING_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# PAZARAT CODEBASE INTEGRATION AND DOCUMENTATION ROUTING STANDARD",
+        "# Purpose / الهدف",
+        "# Core Principle / المبدأ الأساسي",
+        "# Required Codebase Integration Shape",
+        "# Forbidden Integration Shapes",
+        "# Documentation Migration Rule"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT CODEBASE INTEGRATION AND DOCUMENTATION ROUTING STANDARD # Purpose / الهدف This file defines how Pazarat documentation, the Pazarat local tunnel, and the future software codebase must be integrated without confusing the model or the developer. It is a Pazarat-local standard. It applies after the general structural transformation gate has already det"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT CODE PRACTICE AND IMPLEMENTATION CANON",
+        "# Purpose / الهدف",
+        "# 1. Binding Rule",
+        "# 2. General Coding Rules",
+        "# 3. Modular Monolith Rules",
+        "# 4. DDD And Vertical Slice Rules"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT CODE PRACTICE AND IMPLEMENTATION CANON # Purpose / الهدف This file defines **how code must be written** inside the accepted Pazarat stack. `14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md` answers: ```txt What stack and environment does Pazarat use? ``` This file answers: ```txt How must code be structured, persisted, integrated, tested, o"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# PAZARAT PROJECT REINFORCEMENT MEMORY",
+        "# Purpose",
+        "# Highest Priority Rule",
+        "# Active Local Rules",
+        "# Local Tunnel Rule",
+        "# Current Pazarat Local Tunnel Snapshot"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PROJECT REINFORCEMENT MEMORY # Purpose This file is the compact reinforcement memory for the Pazarat project-local layer. It reinforces the highest-priority Pazarat-specific rules that must remain active after the model enters the Pazarat project folder and before it works on any Pazarat branch, module, parent PRD, child PRD, workflow, screen artif"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+        "# Artifact Identity",
+        "# Documentation Role",
+        "# Project Alignment Contract",
+        "# Parent Scope And Boundaries",
+        "## In Scope"
+      ],
+      "query_hits": [],
+      "excerpt": "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات # Artifact Identity Artifact Type: Parent PRD Project: Pazarat Project Area: Admin Dashboard Dashboard: Admin Dashboard Domain: Business Module: User Management Canonical Parent File: User_Management_PRD.md Primary Role: This file defines the parent scenario, parent-level product logic, inherited "
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT PRD AND CODE RUNTIME GATES",
+        "# Purpose: active command board for Pazarat documentation, routing, shared components, and implementation translation."
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PRD AND CODE RUNTIME GATES # Purpose: active command board for Pazarat documentation, routing, shared components, and implementation translation. version: 5 principle: \"Pazarat PRDs must be woven from programmatic understanding, hierarchy-safe, relationship-aware, database/API-conscious, maintenance-ready, and translatable to ASP.NET/PostgreSQL/Nex"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/01_PROJECT_CONTRACT.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [],
+      "query_hits": [],
+      "excerpt": "project_contract: project_id: pazarat project_name: Pazarat project_type: large_scale_multi_party_commerce_platform source_migration: Mind_Ai_v7_10/02_MY_PROJECT/pazarat mission: > Pazarat is a platform-scale commerce operating ecosystem, not a simple storefront or generic marketplace. It supports multi-party commercial operations, dashboards, web frontend, "
+    }
+  ],
+  "high_value_content": [
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PRD COGNITION AND TRACEABILITY STANDARD",
+        "# Purpose",
+        "# Standard Identity",
+        "# Mandatory Project Entry Sequence",
+        "## Current Navigational Snapshot",
+        "## Required Synchronization Order"
+      ],
+      "query_hits": [],
+      "excerpt": "# PRD COGNITION AND TRACEABILITY STANDARD # Purpose This file defines the primary cognition, documentation, traceability, inheritance, and cumulative revision standard for Pazarat PRDs. It is the first project-level standard that should be used before creating, reviewing, expanding, correcting, or generating any Pazarat documentation artifact. This file is n"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PROJECT STRUCTURE TREE INDEX",
+        "# Purpose",
+        "# Core Rules",
+        "# Project Root",
+        "# Pazarat Local Numbered Tunnel",
+        "# Top-Level Project Content Branches"
+      ],
+      "query_hits": [],
+      "excerpt": "# PROJECT STRUCTURE TREE INDEX # Purpose This file defines the navigational structure of the Pazarat project. Its role is to help the model locate project standards, project branches, dashboards, modules, parent PRDs, child PRDs, placeholder routes, and implementation-related documentation. This file is a navigation index. It is not: - a documentation protoc"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+        "# Purpose / الهدف",
+        "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+        "# 1. Target Technology Stack / التقنية المستهدفة",
+        "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+        "# 3. What This File Controls / ماذا يضبط هذا الملف"
+      ],
+      "query_hits": [],
+      "excerpt": "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD # Purpose / الهدف This file defines the implementation architecture and code generation standard for Pazarat. هذا الملف يعرّف معيار الترجمة من التوثيق إلى بنية تنفيذ برمجية داخل مشروع بازارات. Its purpose is to ensure that Pazarat PRDs, Child PRDs, Workflow PRDs, State/Event Models, Screen PRDs, and "
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PAZARAT HIERARCHICAL DOCUMENTATION AND SHARED LOGIC PROTOCOL",
+        "# Purpose",
+        "# Core Principle",
+        "# Documentation Contract Binding Rule",
+        "# Local Tunnel Position",
+        "# Documentation Exposure Rule"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT HIERARCHICAL DOCUMENTATION AND SHARED LOGIC PROTOCOL # Purpose This file defines the Pazarat-specific protocol for hierarchical documentation, parent-child scenario generation, source scenario preservation, coverage mapping, shared logic handling, and controlled PRD evolution. It belongs to the Pazarat project-local numbered tunnel. It is not a gen"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT SHARED PRIMITIVES AND CONTINUITY MEMORY",
+        "# Purpose",
+        "# 360 Central Primitive Rule / قاعدة العناصر المركزية داخل 360",
+        "# Core Principle",
+        "# Local Tunnel Position",
+        "# What This File Owns"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT SHARED PRIMITIVES AND CONTINUITY MEMORY # Purpose This file defines and preserves Pazarat shared primitives, reusable logic, repeated patterns, and continuity rules that affect multiple Pazarat artifacts. It belongs to the Pazarat project-local numbered tunnel. It is not a general project orchestration file. It is not a cognitive runtime file. It i"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PAZARAT NARRATIVE SEQUENCE AND SCENARIO MATURITY STANDARD",
+        "# Purpose",
+        "# Core Principle",
+        "# What This File Owns",
+        "# Narrative Sequence Integrity",
+        "# Central Taxonomy Synchronization Gate"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT NARRATIVE SEQUENCE AND SCENARIO MATURITY STANDARD # Purpose This file defines the Pazarat-specific standard for narrative sequence, scenario maturity, raw concept transformation, missing-link detection, and documentation-to-design-to-code continuity. It belongs to the Pazarat project-local numbered tunnel. It is not a general writing style guide. I"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/10_PAZARAT_PARENT_CHILD_SEQUENCE_AND_CROSS_ARTIFACT_ROUTING_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "truth_identity"
+      ],
+      "headings": [
+        "# PAZARAT PARENT / CHILD SEQUENCE AND CROSS-ARTIFACT ROUTING STANDARD",
+        "# Purpose",
+        "# Core Principle",
+        "# Parent As Routing Ledger Rule",
+        "# Parent Routing Control Block Rule",
+        "# Sub-Child Artifact And Reusable Pattern Rule"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PARENT / CHILD SEQUENCE AND CROSS-ARTIFACT ROUTING STANDARD # Purpose This file defines the Pazarat-specific standard for deciding how parent PRDs, child PRDs, sibling artifacts, external pages, cross-folder flows, shared primitives, and implementation-ready documentation should be sequenced and routed. Its purpose is to prevent scenario documentat"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT PRD DOCUMENTATION CONTRACT AND IMPLEMENTATION TRANSLATION STANDARD",
+        "# Purpose",
+        "# Core Principle",
+        "# Raw Input To Contract Rule",
+        "# 0A. 360-Degree Contract Binding / ربط العقد بمنهج 360",
+        "# Parent PRD Documentation Contract"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PRD DOCUMENTATION CONTRACT AND IMPLEMENTATION TRANSLATION STANDARD # Purpose This file defines the binding Pazarat documentation contract that connects scenario writing, parent/child PRD structure, cross-artifact routing, cumulative maintenance, and implementation translation. It exists so Pazarat documentation can be written with one stable docume"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+        "# Purpose / الهدف",
+        "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+        "# 1. Highest 360 Rule / القاعدة العليا",
+        "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+        "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT 360-DEGREE ENGINEERING METHOD # Purpose / الهدف # 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360 360 is not only cross-direction awareness. It is a measurement discipline. Before authoring any Pazarat scenario, PRD, translation rule, environment standard, database contract, API contract, UI brief, or code output, the model must mea"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Binding Stack Decision / قرار التقنية الملزم",
+        "# 2. Forbidden Stack Drift / منع الانحراف التقني",
+        "# 3. Developer Workstation Standard / معيار جهاز المطور",
+        "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD # Purpose / الهدف This file defines the binding programming environment, stack, repository structure, development tooling, quality gates, and deployment readiness standard for Pazarat. It is the third direction of the Pazarat 360-degree engineering loop. It ensures that PRD-to-code translation does not pro"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT RAW TO PROGRAMMATIC NARRATIVE WEAVING STANDARD",
+        "# Purpose",
+        "# Universal Raw-To-Gold Rule",
+        "## General Applicability",
+        "# Core Principle",
+        "# Programmatic Semantics Gate"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT RAW TO PROGRAMMATIC NARRATIVE WEAVING STANDARD # Purpose This file defines the Pazarat-wide method for converting any raw user explanation into a mature scenario whose prose is woven from correct product, programming, database, API, and environment semantics. It exists because organizing a scenario into headings is not enough, and because no single"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT DATA MODEL, DATABASE, API, AND ENDPOINT STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Role Inside The 360 Method",
+        "# 2. Data Modeling Extraction Order",
+        "# 3. Database Reality Rules",
+        "## 3.1 Identity Is Not A Label"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT DATA MODEL, DATABASE, API, AND ENDPOINT STANDARD # Purpose / الهدف This file defines the Pazarat-wide standard for deriving data models, database structures, API contracts, and endpoint candidates from mature scenarios. It exists because many documentation failures appear only when the system is forced to answer database and endpoint questions. A s"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/17_PAZARAT_CODEBASE_INTEGRATION_AND_DOCUMENTATION_ROUTING_STANDARD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# PAZARAT CODEBASE INTEGRATION AND DOCUMENTATION ROUTING STANDARD",
+        "# Purpose / الهدف",
+        "# Core Principle / المبدأ الأساسي",
+        "# Required Codebase Integration Shape",
+        "# Forbidden Integration Shapes",
+        "# Documentation Migration Rule"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT CODEBASE INTEGRATION AND DOCUMENTATION ROUTING STANDARD # Purpose / الهدف This file defines how Pazarat documentation, the Pazarat local tunnel, and the future software codebase must be integrated without confusing the model or the developer. It is a Pazarat-local standard. It applies after the general structural transformation gate has already det"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT CODE PRACTICE AND IMPLEMENTATION CANON",
+        "# Purpose / الهدف",
+        "# 1. Binding Rule",
+        "# 2. General Coding Rules",
+        "# 3. Modular Monolith Rules",
+        "# 4. DDD And Vertical Slice Rules"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT CODE PRACTICE AND IMPLEMENTATION CANON # Purpose / الهدف This file defines **how code must be written** inside the accepted Pazarat stack. `14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md` answers: ```txt What stack and environment does Pazarat use? ``` This file answers: ```txt How must code be structured, persisted, integrated, tested, o"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# PAZARAT PROJECT REINFORCEMENT MEMORY",
+        "# Purpose",
+        "# Highest Priority Rule",
+        "# Active Local Rules",
+        "# Local Tunnel Rule",
+        "# Current Pazarat Local Tunnel Snapshot"
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PROJECT REINFORCEMENT MEMORY # Purpose This file is the compact reinforcement memory for the Pazarat project-local layer. It reinforces the highest-priority Pazarat-specific rules that must remain active after the model enters the Pazarat project folder and before it works on any Pazarat branch, module, parent PRD, child PRD, workflow, screen artif"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+        "# Artifact Identity",
+        "# Documentation Role",
+        "# Project Alignment Contract",
+        "# Parent Scope And Boundaries",
+        "## In Scope"
+      ],
+      "query_hits": [],
+      "excerpt": "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات # Artifact Identity Artifact Type: Parent PRD Project: Pazarat Project Area: Admin Dashboard Dashboard: Admin Dashboard Domain: Business Module: User Management Canonical Parent File: User_Management_PRD.md Primary Role: This file defines the parent scenario, parent-level product logic, inherited "
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# PAZARAT PRD AND CODE RUNTIME GATES",
+        "# Purpose: active command board for Pazarat documentation, routing, shared components, and implementation translation."
+      ],
+      "query_hits": [],
+      "excerpt": "# PAZARAT PRD AND CODE RUNTIME GATES # Purpose: active command board for Pazarat documentation, routing, shared components, and implementation translation. version: 5 principle: \"Pazarat PRDs must be woven from programmatic understanding, hierarchy-safe, relationship-aware, database/API-conscious, maintenance-ready, and translatable to ASP.NET/PostgreSQL/Nex"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/01_PROJECT_CONTRACT.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [],
+      "query_hits": [],
+      "excerpt": "project_contract: project_id: pazarat project_name: Pazarat project_type: large_scale_multi_party_commerce_platform source_migration: Mind_Ai_v7_10/02_MY_PROJECT/pazarat mission: > Pazarat is a platform-scale commerce operating ecosystem, not a simple storefront or generic marketplace. It supports multi-party commercial operations, dashboards, web frontend, "
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/02_PROJECT_TRUTH_INDEX.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "ux_content",
+        "workflow_scenario"
+      ],
+      "headings": [],
+      "query_hits": [],
+      "excerpt": "truth_index: project_id: pazarat entry: project_entrypoint: 00_PROJECT_ENTRYPOINT.md project_contract: 01_PROJECT_CONTRACT.yaml cognitive_tunnel_gate: 03_PROJECT_COGNITIVE_TUNNEL/_PROJECT_COGNITIVE_TUNNEL_GATE.yaml cognitive_tunnel_runtime: 03_PROJECT_COGNITIVE_TUNNEL/_PROJECT_COGNITIVE_TUNNEL_RUNTIME.yaml cognitive_tunnel: prd_cognition_and_traceability: 03"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/_PROJECT_COGNITIVE_TUNNEL_GATE.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [],
+      "query_hits": [],
+      "excerpt": "project_cognitive_tunnel_gate: project_id: pazarat purpose: \"Force Pazarat-specific understanding before using project artifacts.\" rule: before_project_artifact_access: true project_cognition_state_required: true numbered_tunnel_files_define_project_cognition: true artifacts_do_not_override_project_cognitive_tunnel: true runtime_contract: _PROJECT_COGNITIVE_"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/99_PROJECT_MEMORY.yaml",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [],
+      "query_hits": [],
+      "excerpt": "project_memory: project_id: pazarat migrated_from: Mind_Ai_v7_10/02_MY_PROJECT/pazarat migration_intent: > Preserve the old Pazarat project truth while placing it under the v8.1 executable tunnel-agent architecture. active_rules: - The agent kernel controls execution. - The Pazarat cognitive tunnel controls Pazarat-specific understanding. - Project artifacts"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "requirements_prd",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# Pazarat Project Entrypoint",
+        "## Required Pazarat entry sequence",
+        "## Operating principle"
+      ],
+      "query_hits": [],
+      "excerpt": "# Pazarat Project Entrypoint This file is the compulsory entrypoint for any Pazarat-specific work inside the Mind_Ai executable tunnel agent. The agent must not jump directly into Pazarat dashboards, web, mobile, implementation, UI, PRD, or module artifacts. ## Required Pazarat entry sequence 1. Read `01_PROJECT_CONTRACT.yaml`. 2. Read `02_PROJECT_TRUTH_INDE"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Core Design Principle / المبدأ الأساسي للتصميم",
+        "# 2. Visual Reference Role / دور الصور المرجعية",
+        "# 3. Reference Image Interpretation / تفسير الصور المرجعية",
+        "# 4. Design Entry Sequence / تسلسل الدخول قبل التصميم"
+      ],
+      "query_hits": [],
+      "excerpt": "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD # Purpose / الهدف This file defines the central UI/UX design system and visual generation standard for Pazarat. هذا الملف يعرّف معيار التصميم المركزي ومعيار توليد صور UI/UX داخل مشروع بازارات. Its purpose is to ensure that every generated screen, visual reference, Figma direction, and UI/UX concept follows"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/agents/00_PRD_agents.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الوكلاء (Agents Sub-Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الوظائف الرئيسية والترابط",
+        "### 3.1. عرض قائمة الوكلاء (Agents List Display)",
+        "### 3.2. البحث والتصفية (Search & Filtering)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الوكلاء (Agents Sub-Section) ## 1. المقدمة يُعد قسم \"الوكلاء\" (Agents Sub-Section) ضمن قسم المستخدمين (Users Section) في موديول الأعمال (Business Module) بلوحة تحكم المسؤول، هو النقطة المخصصة لإدارة الوكلاء أو المسوقين بالعمولة الذين يروجون لمنتجات المنصة أو منتجات البائعين. تهدف هذه الوثيقة إلى توضيح الأهداف العامة لهذا الق"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/staff/00_PRD_staff.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الموظفين (Staff Sub-Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الوظائف الرئيسية والترابط",
+        "### 3.1. عرض قائمة الموظفين (Staff List Display)",
+        "### 3.2. البحث والتصفية (Search & Filtering)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الموظفين (Staff Sub-Section) ## 1. المقدمة يُعد قسم \"الموظفين\" (Staff Sub-Section) ضمن قسم المستخدمين (Users Section) في موديول الأعمال (Business Module) بلوحة تحكم المسؤول، هو النقطة المخصصة لإدارة جميع الموظفين الذين يعملون على إدارة وتشغيل منصة \"pazarat\". يغطي هذا القسم إضافة، تعديل، وحذف حسابات الموظفين، بالإضافة إلى تعي"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/products/products_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المنتجات (Products Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المنتجات (All Products)",
+        "### 3.2. إضافة منتج جديد (Add New Product)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المنتجات (Products Section) ## 1. المقدمة يُعد قسم المنتجات (Products Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المنتجات المعروضة في منصة \"pazarat\". يغطي هذا القسم إضافة، تعديل، وحذف المنتجات، إدارة المخزون، مراجعة المنتجات، وتصنيفها. تهدف هذه الوثيقة إلى توضيح الأهداف العامة"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/returns_refunds/returns_refunds_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المرتجعات والمبالغ المستردة (Returns & Refunds Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع طلبات الإرجاع (All Return Requests)",
+        "### 3.2. طلبات الإرجاع المعلقة (Pending Returns)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المرتجعات والمبالغ المستردة (Returns & Refunds Section) ## 1. المقدمة يُعد قسم المرتجعات والمبالغ المستردة (Returns & Refunds Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة عملية إرجاع المنتجات واسترداد المبالغ المدفوعة في منصة \"pazarat\". يغطي هذا القسم مراجعة طلبات الإرجاع، الموافقة ع"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/commission/commission_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم العمولات (Commission Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع العمولات (All Commissions)",
+        "### 3.2. العمولات المستحقة (Pending Commissions)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم العمولات (Commission Section) ## 1. المقدمة يُعد قسم العمولات (Commission Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة نظام العمولات المعقد في منصة \"pazarat\". يغطي هذا القسم تحديد نسب العمولات، حسابها، تتبع المدفوعات المستحقة للوكلاء والبائعين، وإدارة سياسات العمولات. تهدف هذه الوثي"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/financial_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): موديول المالية (Financial Module)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الرئيسية والترابط",
+        "### 3.1. المحافظ (Wallets)",
+        "### 3.2. التحويلات (Payouts)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): موديول المالية (Financial Module) ## 1. المقدمة يُعد موديول المالية (Financial Module) في لوحة تحكم المسؤول جزءاً حيوياً لإدارة جميع الجوانب المالية لمنصة \"pazarat\". يغطي هذا الموديول المحافظ الإلكترونية، المدفوعات، العمولات، الاشتراكات، الفواتير، إدارة الضرائب، والتخليص الجمركي. تهدف هذه الوثيقة إلى توضيح الأهداف العامة لهذا ال"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/payouts/payouts_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم التحويلات (Payouts Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع طلبات التحويل (All Payout Requests)",
+        "### 3.2. طلبات التحويل المعلقة (Pending Payouts)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم التحويلات (Payouts Section) ## 1. المقدمة يُعد قسم التحويلات (Payouts Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع طلبات سحب الأموال من المحافظ الإلكترونية في منصة \"pazarat\". يغطي هذا القسم مراجعة طلبات السحب، الموافقة عليها/رفضها، ومعالجة التحويلات المالية إلى الحسابات البنكية"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/transactions/transactions_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المعاملات (Transactions Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المعاملات (All Transactions)",
+        "### 3.2. معاملات الإيداع (Deposit Transactions)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المعاملات (Transactions Section) ## 1. المقدمة يُعد قسم المعاملات (Transactions Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن تسجيل وتتبع جميع الحركات المالية التي تتم داخل منصة \"pazarat\". يغطي هذا القسم عرض تفاصيل المعاملات، تصفيتها، وتوفير سجل كامل للتدفقات النقدية. تهدف هذه الوثيقة إلى "
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/address_code/address_code_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "requirements_prd",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم رمز العنوان (Address Code Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع رموز العناوين (All Address Codes)",
+        "### 3.2. إضافة رمز عنوان جديد (Add New Address Code)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم رمز العنوان (Address Code Section) ## 1. المقدمة يُعد قسم رمز العنوان (Address Code Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة نظام ترميز العناوين الجغرافية في منصة \"pazarat\". يغطي هذا القسم إنشاء، تعديل، وحذف رموز العناوين، ربطها بالمناطق الجغرافية، وتسهيل عمليات التوصيل والتتب"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/stock_inventory/stock_inventory_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المخزون والجرد (Stock & Inventory Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المخزون (All Inventory)",
+        "### 3.2. تفاصيل المخزون (Inventory Details)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المخزون والجرد (Stock & Inventory Section) ## 1. المقدمة يُعد قسم المخزون والجرد (Stock & Inventory Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع جوانب المخزون في المستودعات. يغطي هذا القسم تتبع كميات المنتجات، إدارة عمليات الجرد، وتنبيهات مستويات المخزون. تهدف هذه الوثيقة إلى"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/supply_chain/supply_chain_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم سلاسل التوريد (Supply Chain Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الموردين (All Suppliers)",
+        "### 3.2. إدارة المشتريات (Procurement Management)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم سلاسل التوريد (Supply Chain Section) ## 1. المقدمة يُعد قسم سلاسل التوريد (Supply Chain Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة وتنسيق جميع الأنشطة المتعلقة بتدفق المنتجات من الموردين إلى المستودعات ومن ثم إلى العملاء في منصة \"pazarat\". يغطي هذا القسم إدارة الموردين، تتبع الم"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/warehouses/warehouses_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المستودعات (Warehouses Section)",
+        "## 1\\. المقدمة",
+        "## 2\\. الرؤية والأهداف",
+        "## 3\\. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المستودعات (All Warehouses)",
+        "### 3.2. إضافة مستودع جديد (Add New Warehouse)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المستودعات (Warehouses Section) ## 1\\. المقدمة يُعد قسم المستودعات (Warehouses Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المستودعات التي تستخدمها منصة \"pazarat\" لتخزين المنتجات. يغطي هذا القسم إضافة، تعديل، وحذف المستودعات، إدارة مواقع التخزين داخل كل مستودع، وتتبع حركة ال"
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/event_system/event_system_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الأحداث (All Events)",
+        "### 3.2. قواعد الأحداث (Event Rules)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section) ## 1. المقدمة يُعد قسم نظام الأحداث (Event System Section) ضمن موديول البيانات الذكية (Smart Data Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة وتتبع جميع الأحداث التي تحدث داخل منصة \"pazarat\". يغطي هذا القسم تسجيل الأحداث، تكوين الإجراءات بناءً على الأحداث، وتوفير رؤى حول سلوك المستخدم"
+    }
+  ],
+  "incomplete_truth_candidates": [
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+      "role": "truth_entry",
+      "state": "content_bearing",
+      "signals": [
+        "requirements_prd",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# Pazarat Project Entrypoint",
+        "## Required Pazarat entry sequence",
+        "## Operating principle"
+      ],
+      "query_hits": [],
+      "excerpt": "# Pazarat Project Entrypoint This file is the compulsory entrypoint for any Pazarat-specific work inside the Mind_Ai executable tunnel agent. The agent must not jump directly into Pazarat dashboards, web, mobile, implementation, UI, PRD, or module artifacts. ## Required Pazarat entry sequence 1. Read `01_PROJECT_CONTRACT.yaml`. 2. Read `02_PROJECT_TRUTH_INDE",
+      "missing_expected_dimensions": [
+        "methodology_360"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+      "role": "truth_entry",
+      "state": "thin",
+      "signals": [
+        "data_interface_contract",
+        "permission_audit_security",
+        "risk_decision",
+        "truth_identity"
+      ],
+      "headings": [
+        "# Pazarat Project Decisions"
+      ],
+      "query_hits": [],
+      "excerpt": "# Pazarat Project Decisions Use this folder for project-local architectural decisions, accepted constraints, changes, and future migration decisions. Decision files here have higher authority than artifacts but must not override the project contract or cognitive tunnel without explicit migration rationale.",
+      "missing_expected_dimensions": [
+        "methodology_360"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md",
+      "role": "truth_entry",
+      "state": "thin",
+      "signals": [
+        "data_interface_contract",
+        "requirements_prd",
+        "truth_identity"
+      ],
+      "headings": [
+        "# Pazarat Implementation Target"
+      ],
+      "query_hits": [],
+      "excerpt": "# Pazarat Implementation Target This folder is reserved for future codebase integration or implementation scaffolding. The implementation target must be generated only after passing: 1. Agent kernel runtime. 2. Pazarat project entrypoint. 3. Pazarat cognitive tunnel. 4. PRD-to-implementation translation gates. 5. Data/API/stack alignment gates.",
+      "missing_expected_dimensions": [
+        "methodology_360"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/agents/00_PRD_agents.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الوكلاء (Agents Sub-Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الوظائف الرئيسية والترابط",
+        "### 3.1. عرض قائمة الوكلاء (Agents List Display)",
+        "### 3.2. البحث والتصفية (Search & Filtering)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الوكلاء (Agents Sub-Section) ## 1. المقدمة يُعد قسم \"الوكلاء\" (Agents Sub-Section) ضمن قسم المستخدمين (Users Section) في موديول الأعمال (Business Module) بلوحة تحكم المسؤول، هو النقطة المخصصة لإدارة الوكلاء أو المسوقين بالعمولة الذين يروجون لمنتجات المنصة أو منتجات البائعين. تهدف هذه الوثيقة إلى توضيح الأهداف العامة لهذا الق",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/staff/00_PRD_staff.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الموظفين (Staff Sub-Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الوظائف الرئيسية والترابط",
+        "### 3.1. عرض قائمة الموظفين (Staff List Display)",
+        "### 3.2. البحث والتصفية (Search & Filtering)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الموظفين (Staff Sub-Section) ## 1. المقدمة يُعد قسم \"الموظفين\" (Staff Sub-Section) ضمن قسم المستخدمين (Users Section) في موديول الأعمال (Business Module) بلوحة تحكم المسؤول، هو النقطة المخصصة لإدارة جميع الموظفين الذين يعملون على إدارة وتشغيل منصة \"pazarat\". يغطي هذا القسم إضافة، تعديل، وحذف حسابات الموظفين، بالإضافة إلى تعي",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/products/products_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المنتجات (Products Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المنتجات (All Products)",
+        "### 3.2. إضافة منتج جديد (Add New Product)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المنتجات (Products Section) ## 1. المقدمة يُعد قسم المنتجات (Products Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المنتجات المعروضة في منصة \"pazarat\". يغطي هذا القسم إضافة، تعديل، وحذف المنتجات، إدارة المخزون، مراجعة المنتجات، وتصنيفها. تهدف هذه الوثيقة إلى توضيح الأهداف العامة",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/returns_refunds/returns_refunds_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المرتجعات والمبالغ المستردة (Returns & Refunds Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع طلبات الإرجاع (All Return Requests)",
+        "### 3.2. طلبات الإرجاع المعلقة (Pending Returns)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المرتجعات والمبالغ المستردة (Returns & Refunds Section) ## 1. المقدمة يُعد قسم المرتجعات والمبالغ المستردة (Returns & Refunds Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة عملية إرجاع المنتجات واسترداد المبالغ المدفوعة في منصة \"pazarat\". يغطي هذا القسم مراجعة طلبات الإرجاع، الموافقة ع",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/commission/commission_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم العمولات (Commission Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع العمولات (All Commissions)",
+        "### 3.2. العمولات المستحقة (Pending Commissions)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم العمولات (Commission Section) ## 1. المقدمة يُعد قسم العمولات (Commission Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة نظام العمولات المعقد في منصة \"pazarat\". يغطي هذا القسم تحديد نسب العمولات، حسابها، تتبع المدفوعات المستحقة للوكلاء والبائعين، وإدارة سياسات العمولات. تهدف هذه الوثي",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/financial_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): موديول المالية (Financial Module)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الرئيسية والترابط",
+        "### 3.1. المحافظ (Wallets)",
+        "### 3.2. التحويلات (Payouts)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): موديول المالية (Financial Module) ## 1. المقدمة يُعد موديول المالية (Financial Module) في لوحة تحكم المسؤول جزءاً حيوياً لإدارة جميع الجوانب المالية لمنصة \"pazarat\". يغطي هذا الموديول المحافظ الإلكترونية، المدفوعات، العمولات، الاشتراكات، الفواتير، إدارة الضرائب، والتخليص الجمركي. تهدف هذه الوثيقة إلى توضيح الأهداف العامة لهذا ال",
+      "missing_expected_dimensions": [
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/payouts/payouts_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم التحويلات (Payouts Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع طلبات التحويل (All Payout Requests)",
+        "### 3.2. طلبات التحويل المعلقة (Pending Payouts)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم التحويلات (Payouts Section) ## 1. المقدمة يُعد قسم التحويلات (Payouts Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع طلبات سحب الأموال من المحافظ الإلكترونية في منصة \"pazarat\". يغطي هذا القسم مراجعة طلبات السحب، الموافقة عليها/رفضها، ومعالجة التحويلات المالية إلى الحسابات البنكية",
+      "missing_expected_dimensions": [
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/transactions/transactions_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المعاملات (Transactions Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المعاملات (All Transactions)",
+        "### 3.2. معاملات الإيداع (Deposit Transactions)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المعاملات (Transactions Section) ## 1. المقدمة يُعد قسم المعاملات (Transactions Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن تسجيل وتتبع جميع الحركات المالية التي تتم داخل منصة \"pazarat\". يغطي هذا القسم عرض تفاصيل المعاملات، تصفيتها، وتوفير سجل كامل للتدفقات النقدية. تهدف هذه الوثيقة إلى ",
+      "missing_expected_dimensions": [
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/address_code/address_code_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "requirements_prd",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم رمز العنوان (Address Code Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع رموز العناوين (All Address Codes)",
+        "### 3.2. إضافة رمز عنوان جديد (Add New Address Code)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم رمز العنوان (Address Code Section) ## 1. المقدمة يُعد قسم رمز العنوان (Address Code Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة نظام ترميز العناوين الجغرافية في منصة \"pazarat\". يغطي هذا القسم إنشاء، تعديل، وحذف رموز العناوين، ربطها بالمناطق الجغرافية، وتسهيل عمليات التوصيل والتتب",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/stock_inventory/stock_inventory_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المخزون والجرد (Stock & Inventory Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المخزون (All Inventory)",
+        "### 3.2. تفاصيل المخزون (Inventory Details)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المخزون والجرد (Stock & Inventory Section) ## 1. المقدمة يُعد قسم المخزون والجرد (Stock & Inventory Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع جوانب المخزون في المستودعات. يغطي هذا القسم تتبع كميات المنتجات، إدارة عمليات الجرد، وتنبيهات مستويات المخزون. تهدف هذه الوثيقة إلى",
+      "missing_expected_dimensions": [
+        "workflow_scenario"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/supply_chain/supply_chain_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم سلاسل التوريد (Supply Chain Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الموردين (All Suppliers)",
+        "### 3.2. إدارة المشتريات (Procurement Management)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم سلاسل التوريد (Supply Chain Section) ## 1. المقدمة يُعد قسم سلاسل التوريد (Supply Chain Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة وتنسيق جميع الأنشطة المتعلقة بتدفق المنتجات من الموردين إلى المستودعات ومن ثم إلى العملاء في منصة \"pazarat\". يغطي هذا القسم إدارة الموردين، تتبع الم",
+      "missing_expected_dimensions": [
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/warehouses/warehouses_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المستودعات (Warehouses Section)",
+        "## 1\\. المقدمة",
+        "## 2\\. الرؤية والأهداف",
+        "## 3\\. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المستودعات (All Warehouses)",
+        "### 3.2. إضافة مستودع جديد (Add New Warehouse)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المستودعات (Warehouses Section) ## 1\\. المقدمة يُعد قسم المستودعات (Warehouses Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المستودعات التي تستخدمها منصة \"pazarat\" لتخزين المنتجات. يغطي هذا القسم إضافة، تعديل، وحذف المستودعات، إدارة مواقع التخزين داخل كل مستودع، وتتبع حركة ال",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/event_system/event_system_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الأحداث (All Events)",
+        "### 3.2. قواعد الأحداث (Event Rules)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section) ## 1. المقدمة يُعد قسم نظام الأحداث (Event System Section) ضمن موديول البيانات الذكية (Smart Data Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة وتتبع جميع الأحداث التي تحدث داخل منصة \"pazarat\". يغطي هذا القسم تسجيل الأحداث، تكوين الإجراءات بناءً على الأحداث، وتوفير رؤى حول سلوك المستخدم",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/smart_data_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): موديول البيانات الذكية (Smart Data Module)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الرئيسية والترابط",
+        "### 3.1. التحليلات (Analysis)",
+        "### 3.2. التقارير (Reports)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): موديول البيانات الذكية (Smart Data Module) ## 1. المقدمة يُعد موديول البيانات الذكية (Smart Data Module) في لوحة تحكم المسؤول محوراً أساسياً لتحليل الأداء وتوفير رؤى قائمة على البيانات لمنصة \"pazarat\". يغطي هذا الموديول التحليلات، التقارير، المراجعات، مدير الملفات، مدير الذكاء الاصطناعي، ونظام الأحداث. تهدف هذه الوثيقة إلى توضيح",
+      "missing_expected_dimensions": [
+        "workflow_scenario"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/api_integration/api_integration_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم تكامل API (API Integration Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. مفاتيح API (API Keys)",
+        "### 3.2. وثائق API (API Documentation)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم تكامل API (API Integration Section) ## 1. المقدمة يُعد قسم تكامل API (API Integration Section) ضمن موديول النظام (System Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع الإعدادات والوثائق المتعلقة بواجهات برمجة التطبيقات (APIs) الخاصة بمنصة \"pazarat\"، سواء كانت واجهات داخلية للاستخدام من قبل المطورين الخارجيين أو تكامل",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/cms/cms_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم إدارة المحتوى (CMS Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الصفحات (All Pages)",
+        "### 3.2. إنشاء صفحة جديدة (Create New Page)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم إدارة المحتوى (CMS Section) ## 1. المقدمة يُعد قسم إدارة المحتوى (CMS Section) ضمن موديول النظام (System Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المحتوى الثابت والديناميكي لمنصة \"pazarat\". يغطي هذا القسم إنشاء الصفحات، المقالات، الأخبار، والتحكم في محتوى الأقسام المختلفة للمنصة. تهدف هذه الوثيقة إلى توضيح الأهد",
+      "missing_expected_dimensions": [
+        "workflow_scenario"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/system_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): موديول النظام (System Module)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الرئيسية والترابط",
+        "### 3.1. الإعدادات (Settings)",
+        "### 3.2. الأدوار والصلاحيات (Roles & Permissions)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): موديول النظام (System Module) ## 1. المقدمة يُعد موديول النظام (System Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة البنية التحتية الأساسية، الأمان، والإعدادات العامة لمنصة \"pazarat\". يغطي هذا الموديول الإعدادات العامة، الأدوار والصلاحيات، نظام إدارة المحتوى (CMS)، الأمان، سياسة الخصوصية، سجلات التحكم في الوصول، تكاملات API،",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/affiliate/affiliate_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم التسويق بالعمولة (Affiliate Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الوكلاء (All Affiliates)",
+        "### 3.2. الوكلاء المعلقون (Pending Affiliates)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم التسويق بالعمولة (Affiliate Section) ## 1. المقدمة يُعد قسم التسويق بالعمولة (Affiliate Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة نظام التسويق بالعمولة المتكامل لمنصة \"pazarat\". يغطي هذا القسم تسجيل الوكلاء، إدارة خطط العمولات، تتبع أدائهم، وحساب العمولات المستحقة. تهدف هذه الوثيق",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/categories/categories_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "requirements_prd",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم التصنيفات (Categories Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع التصنيفات (All Categories)",
+        "### 3.2. إضافة تصنيف جديد (Add New Category)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم التصنيفات (Categories Section) ## 1. المقدمة يُعد قسم التصنيفات (Categories Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة الهيكل التنظيمي للمنتجات في منصة \"pazarat\". يغطي هذا القسم إضافة، تعديل، وحذف التصنيفات الرئيسية والفرعية، بالإضافة إلى تنظيمها بشكل هرمي. تهدف هذه الوثيقة إلى توض",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/vendors_store/vendors_store_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم متاجر البائعين (Vendors Store Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المتاجر (All Stores)",
+        "### 3.2. المتاجر المعلقة (Pending Stores)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم متاجر البائعين (Vendors Store Section) ## 1. المقدمة يُعد قسم متاجر البائعين (Vendors Store Section) ضمن موديول الأعمال (Business Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المتاجر الخاصة بالبائعين المسجلين في منصة \"pazarat\". يغطي هذا القسم مراجعة المتاجر، تفعيلها/تعطيلها، وإدارة معلومات المتجر، بالإضافة إلى مراقب",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/invoices_billing/invoices_billing_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الفواتير والفوترة (Invoices & Billing Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الفواتير (All Invoices)",
+        "### 3.2. إنشاء فاتورة جديدة (Create New Invoice)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الفواتير والفوترة (Invoices & Billing Section) ## 1. المقدمة يُعد قسم الفواتير والفوترة (Invoices & Billing Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع الفواتير والعمليات المتعلقة بالفوترة في منصة \"pazarat\". يغطي هذا القسم توليد الفواتير، تتبع حالة الدفع، إدارة المدفوعات المتأ",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/marketing/automation/automation_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الأتمتة (Automation Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع قواعد الأتمتة (All Automation Rules)",
+        "### 3.2. إنشاء قاعدة أتمتة جديدة (Create New Automation Rule)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الأتمتة (Automation Section) ## 1. المقدمة يُعد قسم الأتمتة (Automation Section) ضمن موديول التسويق (Marketing Module) في لوحة تحكم المسؤول هو المسؤول عن إنشاء وإدارة قواعد الأتمتة التسويقية في منصة \"pazarat\". يغطي هذا القسم تحديد الشروط والإجراءات التلقائية التي يتم تنفيذها بناءً على سلوك المستخدم أو أحداث معينة. تهدف هذه ا",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/marketing/coupons/coupons_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الكوبونات (Coupons Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الكوبونات (All Coupons)",
+        "### 3.2. إنشاء كوبون جديد (Create New Coupon)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الكوبونات (Coupons Section) ## 1. المقدمة يُعد قسم الكوبونات (Coupons Section) ضمن موديول التسويق (Marketing Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع الكوبونات والعروض الترويجية في منصة \"pazarat\". يغطي هذا القسم إنشاء الكوبونات، تحديد شروط استخدامها، تتبع فعاليتها، وتوزيعها على العملاء. تهدف هذه الوثيقة إلى توضي",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/marketing/marketing_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): موديول التسويق (Marketing Module)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الرئيسية والترابط",
+        "### 3.1. إدارة علاقات العملاء (CRM)",
+        "### 3.2. الدعم (Support)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): موديول التسويق (Marketing Module) ## 1. المقدمة يُعد موديول التسويق (Marketing Module) في لوحة تحكم المسؤول أداة حيوية لإدارة جميع الأنشطة التسويقية والترويجية لمنصة \"pazarat\". يغطي هذا الموديول إدارة علاقات العملاء (CRM)، الدعم الفني، المكافآت، الكوبونات، الحملات التسويقية، الأتمتة، ومدير اللافتات الإعلانية. تهدف هذه الوثيقة إل",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/marketing/support/support_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الدعم (Support Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع تذاكر الدعم (All Support Tickets)",
+        "### 3.2. تذاكر الدعم الجديدة (New Tickets)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الدعم (Support Section) ## 1. المقدمة يُعد قسم الدعم (Support Section) ضمن موديول التسويق (Marketing Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع طلبات الدعم والاستفسارات الواردة من المستخدمين، البائعين، والوكلاء في منصة \"pazarat\". يغطي هذا القسم تتبع تذاكر الدعم، إدارة قنوات التواصل، وتوفير حلول فعالة للمشاكل. تهدف",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/fulfillment/fulfillment_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم تلبية الطلبات (Fulfillment Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع طلبات التلبية (All Fulfillment Orders)",
+        "### 3.2. طلبات التلبية المعلقة (Pending Fulfillment)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم تلبية الطلبات (Fulfillment Section) ## 1. المقدمة يُعد قسم تلبية الطلبات (Fulfillment Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع مراحل تجهيز الطلبات من المستودع وحتى الشحن. يغطي هذا القسم تتبع حالة تجهيز الطلبات، التنسيق مع المستودعات، وإدارة عمليات التعبئة والتغليف. تهدف ه",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/shipping/shipping_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الشحن (Shipping Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. مناطق الشحن (Shipping Zones)",
+        "### 3.2. تكاليف الشحن (Shipping Costs)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الشحن (Shipping Section) ## 1. المقدمة يُعد قسم الشحن (Shipping Section) ضمن موديول العمليات (Operations Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع جوانب عمليات الشحن في منصة \"pazarat\". يغطي هذا القسم تحديد مناطق الشحن، تكاليف الشحن، شركات الشحن، وتتبع الشحنات. تهدف هذه الوثيقة إلى توضيح الأهداف العامة لهذا القسم،",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/file_manager/file_manager_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم مدير الملفات (File Manager Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الملفات (All Files)",
+        "### 3.2. تحميل ملف (Upload File)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم مدير الملفات (File Manager Section) ## 1. المقدمة يُعد قسم مدير الملفات (File Manager Section) ضمن موديول البيانات الذكية (Smart Data Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع الملفات والأصول الرقمية المستخدمة في منصة \"pazarat\". يغطي هذا القسم تحميل الملفات، تنظيمها في مجلدات، البحث عنها، وتوفيرها للمستخدمين أو ا",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/reports/reports_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "truth_identity",
+        "workflow_scenario"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم التقارير (Reports Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع التقارير (All Reports)",
+        "### 3.2. تقارير المبيعات (Sales Reports)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم التقارير (Reports Section) ## 1. المقدمة يُعد قسم التقارير (Reports Section) ضمن موديول البيانات الذكية (Smart Data Module) في لوحة تحكم المسؤول هو المسؤول عن توليد وعرض تقارير مفصلة وشاملة حول جميع جوانب أداء منصة \"pazarat\". يغطي هذا القسم تقارير المبيعات، الأرباح، أداء المستخدمين، فعالية الحملات التسويقية، والعديد من التقا",
+      "missing_expected_dimensions": [
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/reviews/reviews_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم المراجعات (Reviews Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المراجعات (All Reviews)",
+        "### 3.2. المراجعات المعلقة (Pending Reviews)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم المراجعات (Reviews Section) ## 1. المقدمة يُعد قسم المراجعات (Reviews Section) ضمن موديول البيانات الذكية (Smart Data Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع المراجعات والتقييمات التي يقدمها المستخدمون للمنتجات والبائعين في منصة \"pazarat\". يغطي هذا القسم عرض المراجعات، الموافقة عليها أو رفضها، الرد عليها، وتتبع",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/roles_permissions/roles_permissions_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "permission_audit_security",
+        "requirements_prd",
+        "truth_identity",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الأدوار والصلاحيات (Roles & Permissions Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الأدوار (All Roles)",
+        "### 3.2. إنشاء دور جديد (Create New Role)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الأدوار والصلاحيات (Roles & Permissions Section) ## 1. المقدمة يُعد قسم الأدوار والصلاحيات (Roles & Permissions Section) ضمن موديول النظام (System Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة مستويات الوصول والصلاحيات للمستخدمين المختلفين في منصة \"pazarat\". يغطي هذا القسم إنشاء الأدوار، تحديد الصلاحيات لكل دور، وتعيين ال",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الاشتراكات (Subscriptions Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع خطط الاشتراك (All Subscription Plans)",
+        "### 3.2. إنشاء خطة اشتراك جديدة (Create New Subscription Plan)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم الاشتراكات (Subscriptions Section) ## 1. المقدمة يُعد قسم الاشتراكات (Subscriptions Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع خطط الاشتراكات الخاصة بالبائعين (B2C Sellers) والوكلاء (Affiliate Agents) في منصة \"pazarat\". يغطي هذا القسم إنشاء خطط الاشتراك، تحديد أسعارها وميزاته",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "permission_audit_security",
+        "testing_quality"
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/tax_management/tax_management_PRD.md",
+      "role": "requirements",
+      "state": "content_bearing",
+      "signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision"
+      ],
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم إدارة الضرائب (Tax Management Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. إعدادات الضرائب (Tax Settings)",
+        "### 3.2. معدلات الضرائب (Tax Rates)"
+      ],
+      "query_hits": [],
+      "excerpt": "# وثيقة متطلبات المنتج (PRD): قسم إدارة الضرائب (Tax Management Section) ## 1. المقدمة يُعد قسم إدارة الضرائب (Tax Management Section) ضمن موديول المالية (Financial Module) في لوحة تحكم المسؤول هو المسؤول عن إدارة جميع الإعدادات والقواعد المتعلقة بالضرائب في منصة \"pazarat\". يغطي هذا القسم تكوين معدلات الضرائب، تطبيقها على المنتجات والخدمات، إدارة الإعفاءات ا",
+      "missing_expected_dimensions": [
+        "workflow_scenario",
+        "testing_quality"
+      ]
+    }
+  ],
+  "contradiction_or_drift_candidates": [],
+  "content_states": {
+    "content_bearing": 83,
+    "thin": 3,
+    "empty": 20
+  },
+  "value_signal_counts": {
+    "requirements_prd": 104,
+    "data_interface_contract": 84,
+    "state_event": 70,
+    "operations_domain": 65,
+    "ux_content": 63,
+    "permission_audit_security": 55,
+    "risk_decision": 50,
+    "truth_identity": 44,
+    "workflow_scenario": 39,
+    "methodology_360": 29,
+    "testing_quality": 29,
+    "implementation_code": 25
+  },
+  "governance_rules": [
+    "File existence is surface truth only.",
+    "File size is never a value criterion.",
+    "Content becomes stronger truth only when it aligns with parent identity, cross-file evidence, and the request intent.",
+    "Contradiction candidates require review; the model must not blindly obey any single file.",
+    "The model may choose deeper reads when the answer depends on unverified content."
+  ],
+  "recommended_reasoning_posture": "Use this as evidence substrate, not a final answer. The model must compose the answer naturally from observed truth, inferred gaps, and declared uncertainty.",
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "truth_sweep_360",
+    "generated_at": "2026-05-27T21:46:00.665175Z",
+    "volatile": true
+  }
+}

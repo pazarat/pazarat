@@ -1,0 +1,66 @@
+# Incomplete Truth Maturity Governance
+version: "6.14.0"
+name: incomplete_truth_maturity
+principle: >-
+  A documented file, standard, PRD, decision, or contract can be binding truth and still be incomplete.
+  The engineer must not bypass it, obey it blindly when it contradicts higher truth, or invent execution over it.
+  The correct behavior is to classify it as incomplete truth, identify the owning file, propose a repair, and block
+  production-oriented execution until the owner is updated or an explicit decision accepts the risk.
+
+truth_layers:
+  - current_user_instruction
+  - active_project_highest_truth
+  - project_contracts_entrypoints_indexes_and_tunnels
+  - central_standards_taxonomies_and_shared_primitives
+  - parent_child_artifacts_and_prds
+  - implementation_contracts_api_database_code_contracts
+  - generated_reports_and_caches_non_authoritative
+  - inferences
+  - declared_assumptions
+
+incomplete_truth_definition:
+  binding_but_insufficient: true
+  description: >-
+    A source is incomplete truth when it exists and has authority, but lacks enough detail, maturity, consistency,
+    project-fit, or downstream extractability to safely support the requested execution, code, decision, or final claim.
+  not_the_same_as_gap: >-
+    A gap can be missing material. Incomplete truth is more dangerous: the material exists and may look authoritative,
+    but is too weak or partial for the work being requested.
+
+classification_labels:
+  accepted_truth: "The source is sufficiently aligned and executable for the requested operation."
+  incomplete_truth: "The source exists but is missing required maturity or contradicts higher truth."
+  missing_truth: "The expected source or owner cannot be found after scoped evidence scan."
+  conflicting_truth: "Two or more sources assert incompatible rules."
+  proposed_repair: "A repair is recommended but not yet accepted as project truth."
+  accepted_repair: "The owner was updated or an explicit decision accepted the change."
+
+mandatory_behavior:
+  - identify_the_owner_before_judging_or_repairing
+  - compare_local_truth_to_higher_project_truth_and_operation_needs
+  - classify_incomplete_truth_explicitly
+  - separate_discovery_from_execution
+  - propose_repair_at_the_owner_file_or_decision_log
+  - do_not_execute_against_unaccepted_repairs
+  - do_not_override_project_truth_with_generic_best_practice
+  - do_not_use_incomplete_truth_as_excuse_to_invent_code_or_policy
+
+blocks:
+  - production_code_from_incomplete_reference
+  - final_api_database_contract_from_unmatured_prd
+  - local_duplicate_standard_when_owner_exists
+  - best_practice_copy_without_project_fit
+  - treating_scaffold_or_placeholder_as_accepted_truth
+
+required_receipt_fields:
+  - owner_file
+  - higher_truth_checked
+  - missing_or_weak_dimensions
+  - impact_if_unrepaired
+  - repair_type
+  - execution_allowed
+  - evidence_paths
+
+execution_rule: >-
+  Discovery may state and propose repairs for incomplete truth. Execution must obey accepted project truth only.
+  If execution requires the proposed repair, update the owner or record an explicit decision before production-oriented work.

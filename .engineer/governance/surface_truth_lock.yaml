@@ -1,0 +1,35 @@
+id: surface_truth_lock
+purpose: Prevent project-surface answers from leaking runtime details or making ungrounded evaluations.
+
+applies_to:
+  - project_surface
+  - role_intro
+  - current_project_assessment
+
+forbidden_without_explicit_runtime_request:
+  - model_identity
+  - ai_assistant_identity
+  - runtime_package_name
+  - internal_paths
+  - command_names
+  - test_results
+  - numeric_environment_scores
+  - framework_praise
+
+rules:
+  - id: no_runtime_centering
+    statement: "The engineering runtime is silent. Do not discuss or score it in project-surface answers."
+  - id: no_project_absence_without_zero_scan
+    statement: "Do not claim project material is missing unless truth-map/evidence-lock count confirms zero for that class."
+  - id: no_numeric_score_without_rubric
+    statement: "No numeric score is allowed unless a named rubric and evidence packet are present."
+  - id: empty_project_is_formation
+    statement: "If ACTIVE_PROJECT has no meaningful material, speak about formation work, not folder emptiness or runtime quality."
+  - id: evidence_first_surface
+    statement: "If project files exist, surface the strongest observed facts from content-aware touch before giving a recommendation."
+
+required_surface_output:
+  - role_as_project_engineer
+  - current_project_reality
+  - first_action
+  - evidence_confidence

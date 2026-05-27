@@ -1,0 +1,58 @@
+version: 9.11.0
+name: Natural Truth Doctrine
+purpose: >
+  Keep the model uncaged while making truth-grounded work the natural operating
+  posture. The runtime supplies truth surfaces, content value, and uncertainty
+  signals; the model remains the reasoning engine that chooses depth and composes
+  the answer.
+
+core_position:
+  - The model is not a script executor.
+  - The runtime is not a response template.
+  - Governance calibrates claims; it does not prescribe one rigid search path.
+  - Truth is operational, not blind: file existence is weaker than content value,
+    and content value is weaker than parent-goal/cross-file alignment.
+
+truth_layers:
+  surface_truth:
+    meaning: A file, path, heading, or folder exists.
+    rule: May guide navigation, but cannot alone justify a strong claim.
+  content_truth:
+    meaning: The file has readable content with identifiable concepts, signals,
+      headings, scenarios, entities, or rules.
+    rule: May support claims when quoted/observed through the matrix.
+  aligned_truth:
+    meaning: Content aligns with project identity, parent goals, workshop doctrine,
+      and other high-value files.
+    rule: May support current-state judgments and first-step recommendations.
+  incomplete_truth:
+    meaning: File exists but is thin, placeholder, partial, or missing expected
+      dimensions for its declared role.
+    rule: Treat as a gap to mature, not as a final source of implementation truth.
+  drift_candidate:
+    meaning: A file or content surface appears weakly aligned or possibly
+      contradictory to parent project truth.
+    rule: Flag for review; do not blindly obey and do not delete by assumption.
+
+no_cage_rules:
+  - Do not add first-contact templates.
+  - Do not force a fixed answer structure for general project questions.
+  - Do not force a single search sequence for all questions.
+  - Do not use short timeouts or artificial budgets as a substitute for a fast matrix.
+  - Do not make file size a value criterion.
+
+model_freedom:
+  model_may:
+    - choose the depth needed from intent and uncertainty
+    - decide which tools to call next
+    - synthesize a natural answer from truth surfaces
+    - ask for deeper inspection or perform it when evidence is insufficient
+  model_must_respect:
+    - runtime/project boundary
+    - source of truth hierarchy
+    - content/value evidence over path/name guesses
+    - write/patch impact awareness before implementation claims
+
+operating_goal: >
+  Preserve the natural, project-aware behavior of v9.8 while adding truth
+  discipline as a compass, not as a cage.

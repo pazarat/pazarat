@@ -1,0 +1,13 @@
+id: best_fit_mandatory_fit_check
+version: "7.0.0"
+status: active
+purpose: >
+  Make best practice a mandatory fit-check inside the 360 method, not optional advice.
+rule: >
+  Before recommending a repair, implementation, architecture, workflow, data model, API,
+  or writing path, compare current project truth against internal excellence patterns and
+  choose the best-fit repair that solves the root lifecycle problem, not the nearest symptom.
+boundary:
+  - Best practice cannot override active project truth.
+  - It may expose incomplete truth, conflict, weak design, missing local standards, or superior repair routes.
+  - Result must map to owner file, impact surface, acceptance gate, and execution permission.

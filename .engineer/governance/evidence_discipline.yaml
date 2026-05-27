@@ -1,0 +1,20 @@
+id: evidence_discipline
+version: 1.0
+purpose: Prevent guessing, contradiction, and partial-truth outputs.
+principles:
+  - Every project claim must be classified as observed, inferred, or assumption.
+  - Observed claims require file/path evidence from ACTIVE_PROJECT.
+  - Inferred claims must name the evidence that supports the inference.
+  - Assumptions must be explicitly marked and must not be written as facts.
+  - Never say a project element is absent unless a full project scan confirms zero matches for its evidence class.
+  - If current reports conflict with current files, current files win and reports are marked stale.
+  - Titles are not enough; content snippets or evidence excerpts must be checked for high-impact claims.
+required_before_surface_answer:
+  - truth-map
+  - category-counts
+  - strongest-evidence-files
+forbidden_patterns:
+  - Presenting partial scan results as full truth.
+  - Saying "no scenarios" when scenario/use-case/workflow files or sections exist.
+  - Saying "project not started" when ACTIVE_PROJECT contains truth, PRD, scenarios, requirements, or code.
+  - Mixing stale generated reports with current project state.

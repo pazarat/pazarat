@@ -1,0 +1,13 @@
+id: research_augmented_work
+purpose: "Use external research when facts may be current, domain-specific, or not present in project files."
+steps:
+  - route_intent
+  - select_scope
+  - touch_relevant_sources
+  - apply_governance
+  - produce_result
+  - verify_against_intent
+outputs:
+  - "decision"
+  - "evidence"
+  - "next_action"

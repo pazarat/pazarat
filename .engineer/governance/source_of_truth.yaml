@@ -1,0 +1,13 @@
+source_of_truth:
+  rule: "Project files override memory, reports, assumptions, and generic knowledge."
+  priority_order:
+    - "explicit user instruction in current task"
+    - "active project truth files"
+    - "active project contracts and indexes"
+    - "active project artifacts"
+    - "project ledgers"
+    - "generated reports"
+    - "external research"
+    - "model prior knowledge"
+  stale_report_rule: "If generated reports conflict with current file inventory/content, mark them stale."
+  assumption_rule: "Any unsupported claim must be marked as assumption."

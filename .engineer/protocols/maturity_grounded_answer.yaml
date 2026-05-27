@@ -1,0 +1,18 @@
+id: maturity_grounded_answer
+purpose: Ensure project-facing answers are rich, concise, and evidence-grounded.
+sequence:
+  - route
+  - tool-plan
+  - truth-map
+  - scenario-map
+  - maturity-map
+  - placeholder-scan_when_absence_or_weakness_is_claimed
+  - evidence-lock
+  - answer-receipt
+  - final-answer
+completion_gates:
+  - no_high_impact_claim_without_evidence
+  - no_absence_claim_without_zero_scan
+  - no_priority_recommendation_without_maturity_map
+  - no_placeholder_or_empty_claim_without_placeholder_scan
+  - no_project_specific_memory_inside_engineer_runtime

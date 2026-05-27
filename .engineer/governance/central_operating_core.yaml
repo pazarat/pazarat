@@ -1,0 +1,63 @@
+name: Central Operating Core Governance
+version: 6.14.0
+purpose: >
+  Turn the engineer runtime from a set of helpful tools into a mandatory operating core.
+  The model must not treat the one-touch output as a passive report; it is the active
+  steering context and neural reflex graph for the user request.
+core_metaphor:
+  plug: "Entering the repository plugs the model into the engineer operating system."
+  keyboard: "Tool plan exposes the available keys and route-specific mandatory tools."
+  lens: "Matrix scan is the lens through which the model sees evidence, owners, gaps, and risks."
+  nervous_system: "Neural reflex graph links related protocols so no operation runs as an isolated island."
+  receipt: "The operation receipt proves the route, evidence gates, reflexes, and fallbacks used."
+mandatory_entry:
+  command: plug
+  aliases: [cycle]
+  output: .engineer/indexes/last_central_plug.json
+  must_happen_before:
+    - project_surface_assessment
+    - project_work
+    - write_or_modify_work
+    - implementation_translation_work
+    - high_impact_claim
+    - runtime_assessment
+    - best_fit_recommendation
+operating_context_fields:
+  - route
+  - inspection_depth
+  - tool_keyboard
+  - protocol_stack
+  - context_pack_summary
+  - evidence_gates
+  - concept_matrix
+  - neural_reflex_graph
+  - best_fit_review_summary
+  - mandatory_next_actions
+  - hard_blocks
+  - fallback_policy
+  - receipt
+hard_rules:
+  - Current files override generated cache and previous reports.
+  - Route before scan; never scan all files randomly by default.
+  - Matrix bucket hits are navigation signals, not final truth by themselves.
+  - Neural reflexes activate linked safeguards before action.
+  - Do not claim absence without a zero-result scan in the relevant bucket/scope.
+  - Do not write before duplicate-scan, impact-scan, write-plan, and safe-write dry-run.
+  - Do not expose runtime internals in project-facing answers unless requested.
+  - External research supports decisions; it never becomes project truth by itself.
+  - Best-fit recommendations are expert inferences over current evidence and require impact/write gates before mutation.
+acceptance_tests:
+  - plug_exists_and_is_registered
+  - cycle_delegates_to_plug
+  - plug_output_contains_protocol_stack_concept_matrix_and_neural_reflex_graph
+  - write_route_contains_write_gates
+  - runtime_route_does_not_evaluate_project
+  - best_fit_review_maps_patterns_to_evidence_and_gaps
+
+v6_14_truth_maturity_extension:
+  default_truth_rule: "Current project truth is binding, but binding truth may be incomplete."
+  central_gate: truth-maturity
+  code_gate: canon-check
+  discovery_execution_separation: true
+  rule: >-
+    The plug packet must not only find relevant files. It must classify whether the owner reference is sufficiently mature for the requested operation. If not, the model may recommend repair but must not proceed to production-oriented execution as if the repair were already accepted truth.

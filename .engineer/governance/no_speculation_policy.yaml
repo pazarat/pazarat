@@ -1,0 +1,16 @@
+policy: no_speculation_policy
+version: 6.3.0
+purpose: Prevent project answers from mixing partial evidence with confident claims.
+rules:
+  - id: no_claim_without_evidence
+    rule: Every high-impact project claim must be classified as observed, inferred, or assumption.
+  - id: no_absence_without_zero_scan
+    rule: Never say a project element is absent unless truth-map shows zero relevant evidence and the scan scope is explicit.
+  - id: reports_are_secondary
+    rule: Generated reports and cached summaries never override current project files.
+  - id: scenarios_are_first_class_truth
+    rule: Scenario, workflow, lifecycle, journey, and acceptance material must be detected from file content, not just filenames.
+  - id: implementation_claim_requires_extension_scan
+    rule: Claims about code/implementation state require extension scan and implementation target inspection.
+  - id: uncertainty_must_surface
+    rule: If evidence is partial, say what is observed and what remains unverified.

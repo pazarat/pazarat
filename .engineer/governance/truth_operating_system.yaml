@@ -1,0 +1,28 @@
+truth_operating_system:
+  version: v9.8
+  principle: "Govern truth authority, not answer shape."
+  no_cage:
+    - no_first_contact_template
+    - no_fixed_surface_answer
+    - no_scripted_identity_response
+    - no_forced_scan_depth
+  claim_authority:
+    rule: "The model may answer only within current evidence authority."
+    permissions:
+      - may_claim_project_identity
+      - may_claim_current_state
+      - may_recommend_first_step
+      - may_execute_or_write
+    evidence_basis:
+      - governing_truth_spine
+      - high_value_content_surfaces
+      - cross_file_alignment
+      - contradiction_or_drift_review
+      - incomplete_truth_review
+    forbidden_basis:
+      - file_size
+      - file_name_only
+      - single_file_truth_without_parent_alignment
+      - generated_cache_as_truth
+  runtime_role: "silent operating system"
+  model_role: "free reasoning engine constrained by truth authority and write gates"

@@ -1,0 +1,14 @@
+id: operation_mode_gate
+version: "7.0.0"
+rule: >
+  Every request must be classified into an operation mode before tool selection:
+  surface identity, assessment, repair, write, implementation, runtime maintenance,
+  or external research.
+why: >
+  Long user text is not automatically a request for long explanation. The mode controls
+  evidence budget, output rhythm, and whether fast or deep plug is required.
+execution_bias:
+  clear_repair_request: execute_with_concise_status
+  learning_or_discussion: explain_with_depth
+  high_impact_action: deep_plug_then_gate
+  surface_question: fast_plug_then_natural_answer

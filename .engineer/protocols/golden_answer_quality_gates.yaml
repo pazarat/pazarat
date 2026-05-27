@@ -1,0 +1,10 @@
+id: golden_answer_quality_gates
+version: "7.0.0"
+purpose: Prevent regressions where fixes make answers slower, weaker, project-coupled, or verbose.
+checks:
+  - surface answers must not dump raw JSON
+  - surface answers must fit within fast-plug budget unless deep proof is requested
+  - runtime must not hardcode active project terms
+  - repair tasks must use root-cause best-fit planning
+  - high-impact claims must identify whether evidence came from index only or owner reads
+  - generated indexes are navigation cache, never project truth

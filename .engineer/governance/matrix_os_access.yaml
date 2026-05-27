@@ -1,0 +1,18 @@
+name: Matrix OS Access Governance
+version: 6.6
+purpose: Ensure the engineer can reach project truth through one-touch content-aware packs instead of sequential manual wandering.
+principles:
+  - Route before scan.
+  - Current project files override generated reports.
+  - Context pack before assessment when project material exists.
+  - Absence claims require zero-result scans.
+  - Project-facing answers must not center the runtime.
+required_tools:
+  - context-pack
+  - one-page
+  - truth-map
+  - scenario-map
+  - evidence-lock
+  - duplicate-scan
+  - impact-scan
+  - claim-check

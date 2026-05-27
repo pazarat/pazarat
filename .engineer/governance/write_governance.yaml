@@ -1,0 +1,22 @@
+policy: write_governance
+version: 6.3.0
+purpose: Prevent bloat, duplicate fixes, contradictory updates, and unsafe writes.
+required_before_write:
+  - route_intent
+  - truth_map
+  - duplicate_scan
+  - impact_scan
+  - decide_update_vs_create
+  - write_plan
+  - claim_check_output
+rules:
+  - id: no_parallel_solution_before_duplicate_scan
+    rule: Do not create a new solution file until related existing material has been scanned.
+  - id: prefer_update_over_duplicate
+    rule: If the target concept exists, update or patch it rather than adding a parallel concept.
+  - id: backup_before_overwrite
+    rule: Any applied overwrite must create a backup.
+  - id: write_ledger_required
+    rule: Any applied write must be recorded in write_ledger.jsonl.
+  - id: dry_run_first
+    rule: Default write mode is dry-run; --apply is required for actual writes.

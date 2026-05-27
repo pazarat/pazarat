@@ -1,0 +1,71 @@
+runtime:
+  version: "7.0.0"
+  distribution_mode: "working_snapshot"
+  distribution_modes:
+    template: "ACTIVE_PROJECT contains only .keep and no project-specific generated cache."
+    working_snapshot: "ACTIVE_PROJECT may contain a real project; static runtime must remain project-neutral."
+  root_markers:
+    - "00_ENTRYPOINT.yaml"
+    - "AGENTS.md"
+    - ".engineer/runtime/manifest.yaml"
+  paths:
+    active_project: "02_WORKSHOP/ACTIVE_PROJECT"
+    workshop_system: "02_WORKSHOP/_WORKSHOP_SYSTEM"
+    runtime: ".engineer"
+    state: ".engineer/state"
+    indexes: ".engineer/indexes"
+    ledgers: ".engineer/ledgers"
+    volatile_runtime_cache: ".engineer/indexes"
+    volatile_runtime_ledgers: ".engineer/ledgers"
+    protocols: ".engineer/protocols"
+    governance: ".engineer/governance"
+    capabilities: ".engineer/capabilities"
+  generated:
+    - ".engineer/state"
+    - ".engineer/indexes"
+    - ".engineer/ledgers"
+  ignore:
+    - ".git"
+    - "__pycache__"
+    - ".venv"
+    - "node_modules"
+    - ".pytest_cache"
+    - "*.zip"
+
+  fingerprint_exclude:
+    repository_static:
+      - ".engineer/indexes"
+      - ".engineer/ledgers"
+      - ".engineer/state"
+      - ".engineer/backups"
+  cache_policy:
+    generated_json_requires_cache_meta: true
+    generated_outputs_never_override_current_files: true
+    stale_generated_outputs_are_warnings_unless_used_as_truth: true
+
+  workshop_universal_method_gate:
+    path: "02_WORKSHOP/_WORKSHOP_SYSTEM"
+    silent_gate: true
+    applies_to_all_project_types: true
+    can_evaluate_and_recommend_local_standards: true
+    cannot_override_active_project_truth: true
+  central_operating_core:
+    default_entry_command: "plug"
+    cycle_command: "cycle"
+    principle: "Every operation begins by producing a mandatory operating context: route, tool plan, matrix, evidence gates, protocol stack, hard blocks, and receipt."
+    output: ".engineer/indexes/last_central_plug.json"
+    not_a_report: true
+    steering_contract: true
+
+features:
+  neural_operating_system: true
+  mandatory_plug_preflight: true
+  internal_best_fit_review: true
+  incomplete_truth_maturity: true
+  code_practice_canon_gate: true
+  workshop_universal_method_gate: true
+  no_project_specific_runtime_coupling: true
+
+  jet_file_matrix_kernel: true
+  file_matrix_local_sqlite_index: true
+  file_matrix_context_pack: true

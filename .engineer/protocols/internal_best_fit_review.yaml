@@ -1,0 +1,19 @@
+id: internal_best_fit_review
+version: "6.14.0"
+purpose: >
+  Allow the engineer to infer missing architecture, tools, policies, and maturity gaps by comparing
+  current evidence to internal excellence patterns without waiting for the user to list all solutions.
+rules:
+  - best-fit is not external web research.
+  - best-fit recommendations are expert inferences over current evidence.
+  - recommendations must be mapped to files, gaps, risk, and next gates.
+  - project files can override a generic excellence pattern if a decision explicitly says so.
+  - mutating a file to apply a recommendation still requires duplicate-scan, impact-scan, write-plan, and safe-write.
+output:
+  - pattern
+  - fit_status
+  - risk_if_ignored
+  - top_evidence
+  - minimum_expected
+  - recommendation
+  - priority_recommendations

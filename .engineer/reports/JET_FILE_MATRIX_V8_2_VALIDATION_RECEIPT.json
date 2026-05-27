@@ -1,0 +1,19 @@
+{
+  "version": "8.2.0",
+  "scope": "project",
+  "summary": "Reviewed v8.1 against the conversation requirements and upgraded File Matrix to v8.2 with chunk retrieval, semantic-lite lens, ripgrep active lens, broader code-language coverage, symbol/reference relations, and stronger doctor readiness reporting.",
+  "validation": {
+    "file_matrix_build_project_force": "pass",
+    "file_matrix_doctor_project": "pass",
+    "doctor": "pass",
+    "runtime_audit": "pass with non-fatal stale generated index warnings",
+    "targeted_tests": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -q tests/test_v810_file_matrix.py tests/test_v820_file_matrix_upgrade.py => 5 passed"
+  },
+  "honest_gaps_remaining": [
+    "Tree-sitter AST is not bundled yet; current AST level is broad built-in parser patterns.",
+    "LSP bridge is not bundled yet; go-to-definition/find-references/types require later adapter.",
+    "Dense embedding/vector semantic retrieval is not bundled yet; current semantic level is semantic-lite chunk/term/signal retrieval.",
+    "Framework-specific extractors can be added later without changing the center."
+  ],
+  "source_truth_rule": "Generated File Matrix state accelerates navigation only; current files remain source of truth for final claims and writes."
+}

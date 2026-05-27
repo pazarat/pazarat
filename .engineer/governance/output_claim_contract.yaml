@@ -1,0 +1,22 @@
+name: Output Claim Contract
+version: 6.6
+rules:
+  observed: Directly found in active project files.
+  inferred: Reasoned from observed facts; must be marked as inference when material.
+  assumption: Not confirmed; must never be stated as fact.
+  not_detected: Allowed after relevant scan.
+  absent: Allowed only when relevant evidence class count is zero.
+forbidden_without_evidence:
+  - project has no requirements
+  - project has no scenarios
+  - project has no implementation
+  - strongest module is X
+  - first slice must be X
+  - runtime quality score
+surface_forbidden:
+  - model identity
+  - technical assistant identity
+  - runtime package names
+  - internal paths
+  - test results
+  - numeric ratings without rubric

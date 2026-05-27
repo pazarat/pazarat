@@ -1,0 +1,17 @@
+name: One Touch Context Pack Protocol
+version: 6.6
+trigger:
+  - project assessment
+  - project-surface answer with existing material
+  - planning or recommendation
+steps:
+  - classify intent and scope
+  - build truth-map from current files
+  - build scenario-map from content
+  - build context-pack with prioritized evidence excerpts
+  - lock claims as observed/inferred/assumption
+  - answer from the pack without surfacing runtime internals
+completion:
+  - answer does not contain model identity
+  - answer does not contain runtime paths or test results
+  - high-impact claims are evidence-calibrated

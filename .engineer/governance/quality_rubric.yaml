@@ -1,0 +1,11 @@
+quality_rubric:
+  dimensions:
+    intent_alignment: 0-5
+    source_truth_alignment: 0-5
+    domain_fit: 0-5
+    completeness: 0-5
+    risk_awareness: 0-5
+    actionability: 0-5
+    natural_project_voice: 0-5
+    no_runtime_leakage: 0-5
+  pass_threshold: 32

@@ -1,0 +1,81 @@
+id: neural_operating_system
+name: Neural Operating System Governance
+version: "6.14.0"
+principle: >
+  The engineer runtime is not a set of isolated scan commands. It is a nervous-system graph:
+  every operation activates the safeguards, prerequisites, and anti-failure rules connected to it.
+  A write activates duplicate/impact/write gates; an implementation contract activates parent/child,
+  state/event, permission, data/API, and test gates; an external benchmark activates project-truth
+  anchoring and decision separation.
+mandatory_preflight:
+  command: plug
+  aliases: [cycle]
+  rule: "No high-impact answer, write, implementation translation, runtime fix, or assessment is valid without a plug/cycle packet or equivalent operation receipt."
+  output_contract:
+    - route
+    - tool_keyboard
+    - protocol_stack
+    - concept_matrix
+    - neural_reflex_graph
+    - evidence_gates
+    - mandatory_next_actions
+    - hard_blocks
+    - receipt
+reflexes:
+  central_preflight:
+    prevents: [direct_answer_from_memory, random_repository_scan]
+    requires: [plug, route, tool-plan, concept_matrix, evidence-lock]
+  claim_reflex:
+    prevents: [absence_claim_without_zero_scan, maturity_by_size_only, old_report_over_current_files]
+    requires: [truth-map, evidence-lock, claim-check]
+  write_reflex:
+    prevents: [create_before_owner_search, overwrite_without_backup, scope_leak_write]
+    requires: [duplicate-scan, impact-scan, write-plan, safe-write, post_write_claim_check]
+  implementation_reflex:
+    prevents: [api_from_page_name, invented_state_event, code_before_prd_translation]
+    requires: [read_parent, read_children, state_event_alignment, permission_audit_alignment, data_api_contract, tests_contract]
+  external_reflex:
+    prevents: [web_overrides_project_truth, unmarked_external_assumption]
+    requires: [project_truth_anchor, external_research, comparison_matrix, open_decision_if_change_needed]
+  runtime_reflex:
+    prevents: [project_assessment_during_runtime_audit, unregistered_tool, silent_runtime_mutation]
+    requires: [scan-runtime, doctor, runtime-audit, tool_registry_sync, tests_or_static_checks]
+  best_fit_reflex:
+    prevents: [user_must_supply_all_solutions, generic_advice_without_project_mapping, patching_without_architectural_fit]
+    requires: [context-pack, best-fit, gap_matrix, impact_scan_for_recommendations]
+cross_link_policy:
+  write_to_claim: "Any written artifact can create claims; it must be claim-checked."
+  write_to_best_fit: "Any new concept must fit the architecture, not only the immediate wording."
+  implementation_to_write: "Implementation contracts may update artifacts and must avoid duplication."
+  implementation_to_claim: "Entities/states/events/APIs are high-impact claims."
+  external_to_project_truth: "External knowledge supports comparison; project files remain truth."
+  runtime_to_best_fit: "Runtime improvements should be inferred from architecture gaps, not only requested patches."
+
+v6_14_extensions:
+  incomplete_truth_reflex:
+    principle: "A source can be authoritative but incomplete for the requested operation."
+    activates_when:
+      - incomplete truth or truth maturity is mentioned
+      - implementation depends on a thin owner reference
+      - best-fit review finds a missing central standard
+      - code generation would proceed from stack names alone
+    requires:
+      - truth-maturity
+      - owner_file_identification
+      - higher_truth_comparison
+      - repair_owner_before_execution
+    blocks:
+      - production_execution_over_incomplete_truth
+      - invented_repair_as_accepted_truth
+      - blind_obedience_to_thin_reference
+  code_practice_reflex:
+    principle: "Stack selection is not code practice. Code generation needs an implementation canon."
+    requires:
+      - canon-check
+      - code_practice_canon
+      - testing_quality_gates
+      - architecture_constraints
+    blocks:
+      - code_from_stack_name_only
+      - migration_without_standard
+      - realtime_without_resync_outbox_strategy

@@ -1,0 +1,87 @@
+{
+  "command": "file-matrix-doctor",
+  "version": "9.11.0",
+  "scope": "project",
+  "health": "pass",
+  "status": {
+    "scope": "project",
+    "fresh": true,
+    "current_fingerprint": "56a64df2cd3734800ff8",
+    "stored_fingerprint": "56a64df2cd3734800ff8",
+    "indexed_at": "2026-05-27T21:44:28.462627Z",
+    "file_count": 106,
+    "symbol_count": 1607,
+    "relation_count": 1202,
+    "chunk_count": 406,
+    "db": ".engineer/state/file_matrix/file_matrix.sqlite",
+    "version": "9.11.0"
+  },
+  "profile": {
+    "scope": "project",
+    "base": "02_WORKSHOP/ACTIVE_PROJECT",
+    "detected_at": "2026-05-27T21:46:12.710683Z",
+    "file_count": 106,
+    "languages": {
+      "markdown": 100,
+      "yaml": 6
+    },
+    "frameworks": [],
+    "markers": [],
+    "entrypoints": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md"
+    ],
+    "config_files": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/settings/settings_PRD.md"
+    ],
+    "database_surfaces": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    ],
+    "test_surfaces": [],
+    "project_identity": {
+      "project_name": "ACTIVE_PROJECT",
+      "project_type": null,
+      "mission": null,
+      "contract_path": null,
+      "entrypoint_path": null,
+      "truth_index_path": null
+    },
+    "boundary_contract": "workshop/runtime files govern method; active_project is the project truth surface; generated file-matrix state accelerates but never overrides current files"
+  },
+  "tool_availability": {
+    "git": true,
+    "rg": true,
+    "python": true
+  },
+  "adapter_readiness": {
+    "sqlite_fts5": true,
+    "ripgrep_lens": true,
+    "builtin_symbol_parser": true,
+    "chunk_index": true,
+    "semantic_lite": true,
+    "truth_pulse": true,
+    "one_page_neural_map": true,
+    "truth_drift_review": true,
+    "tree_sitter_ast": false,
+    "lsp_bridge": false,
+    "dense_vector_semantic": false
+  },
+  "not_bundled_extension_adapters": [
+    "tree_sitter_ast",
+    "lsp_bridge",
+    "dense_vector_semantic",
+    "framework_specific_extractors"
+  ],
+  "problems": [],
+  "warnings": [],
+  "elapsed_ms": 53,
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "file_matrix_doctor",
+    "generated_at": "2026-05-27T21:46:12.739144Z",
+    "volatile": true
+  }
+}

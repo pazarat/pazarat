@@ -1,0 +1,3113 @@
+{
+  "command": "file-matrix-query",
+  "version": "9.11.0",
+  "scope": "project",
+  "mode": "focused",
+  "request": "ضع خطة إصلاح جذري لمشكلة في المشروع",
+  "generated_at": "2026-05-27T21:45:43.490465Z",
+  "status": {
+    "scope": "project",
+    "fresh": true,
+    "current_fingerprint": "56a64df2cd3734800ff8",
+    "stored_fingerprint": "56a64df2cd3734800ff8",
+    "indexed_at": "2026-05-27T21:44:28.462627Z",
+    "file_count": 106,
+    "symbol_count": 1607,
+    "relation_count": 1202,
+    "chunk_count": 406,
+    "db": ".engineer/state/file_matrix/file_matrix.sqlite",
+    "version": "9.11.0"
+  },
+  "profile": {
+    "scope": "project",
+    "base": "02_WORKSHOP/ACTIVE_PROJECT",
+    "detected_at": "2026-05-27T21:45:43.461346Z",
+    "file_count": 106,
+    "languages": {
+      "markdown": 100,
+      "yaml": 6
+    },
+    "frameworks": [],
+    "markers": [],
+    "entrypoints": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md"
+    ],
+    "config_files": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/settings/settings_PRD.md"
+    ],
+    "database_surfaces": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    ],
+    "test_surfaces": [],
+    "project_identity": {
+      "project_name": "ACTIVE_PROJECT",
+      "project_type": null,
+      "mission": null,
+      "contract_path": null,
+      "entrypoint_path": null,
+      "truth_index_path": null
+    },
+    "boundary_contract": "workshop/runtime files govern method; active_project is the project truth surface; generated file-matrix state accelerates but never overrides current files"
+  },
+  "query_terms": [
+    "خطة",
+    "إصلاح",
+    "جذري",
+    "لمشكلة",
+    "المشروع"
+  ],
+  "operation_mode": {
+    "mode": "repair",
+    "risk": "high",
+    "route": {
+      "route": "write_or_modify_work",
+      "scope": "project",
+      "request": "ضع خطة إصلاح جذري لمشكلة في المشروع",
+      "tools": [
+        "route",
+        "factory-cycle",
+        "goal-closure",
+        "workshop-lens",
+        "file-matrix-context",
+        "duplicate-scan",
+        "impact-scan",
+        "write-plan",
+        "safe-write",
+        "file-matrix-doctor",
+        "completion-audit",
+        "claim-check"
+      ]
+    },
+    "deep_required": true,
+    "index_required": true,
+    "execution_bias": "execute_with_concise_status",
+    "evidence_budget": {
+      "index_entries": 16,
+      "full_reads": 8,
+      "generated_context_kb_max": 24
+    }
+  },
+  "one_page_project_neural_map": {
+    "base": "02_WORKSHOP/ACTIVE_PROJECT",
+    "file_count": 106,
+    "languages": {
+      "markdown": 100,
+      "yaml": 6
+    },
+    "frameworks": [],
+    "entrypoints": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/00_PROJECT_ENTRYPOINT.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/05_PROJECT_DECISIONS/README.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/06_PROJECT_IMPLEMENTATION_TARGET/README.md"
+    ],
+    "config_files": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/system/settings/settings_PRD.md"
+    ],
+    "database_surfaces": [
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    ],
+    "test_surfaces": []
+  },
+  "selected_files": [
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "score": 183,
+      "role": "requirements",
+      "language": "markdown",
+      "size": 5466,
+      "line_count": 51,
+      "word_count": 449,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الاشتراكات (Subscriptions Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع خطط الاشتراك (All Subscription Plans)",
+        "### 3.2. إنشاء خطة اشتراك جديدة (Create New Subscription Plan)"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "state_event",
+        "ux_content"
+      ],
+      "reasons": [
+        "term:خطة",
+        "rg:خطة@L26",
+        "rg:خطة@L27",
+        "rg:خطة@L29",
+        "rg:خطة@L31",
+        "rg:خطة@L36",
+        "fts",
+        "chunk-fts:1",
+        "symbol:heading:3.2. إنشاء خطة اشتراك جديدة (Create New Subscription Plan)@L29"
+      ],
+      "excerpt": "*   **الهدف:** عرض قائمة شاملة بجميع خطط الاشتراك المتاحة في المنصة، مع إمكانيات البحث، التصفية، وعرض التفاصيل الأساسية لكل خطة (الاسم، السعر، المدة، الميزات، حالة التفعيل).",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "وثيقة متطلبات المنتج (PRD): قسم الاشتراكات (Subscriptions Section)",
+          "line": 1,
+          "signature": "# وثيقة متطلبات المنتج (PRD): قسم الاشتراكات (Subscriptions Section)"
+        },
+        {
+          "kind": "heading",
+          "name": "1. المقدمة",
+          "line": 3,
+          "signature": "## 1. المقدمة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. الرؤية والأهداف",
+          "line": 7,
+          "signature": "## 2. الرؤية والأهداف"
+        },
+        {
+          "kind": "heading",
+          "name": "3. الأقسام الفرعية والترابط",
+          "line": 20,
+          "signature": "## 3. الأقسام الفرعية والترابط"
+        },
+        {
+          "kind": "heading",
+          "name": "3.1. جميع خطط الاشتراك (All Subscription Plans)",
+          "line": 24,
+          "signature": "### 3.1. جميع خطط الاشتراك (All Subscription Plans)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.2. إنشاء خطة اشتراك جديدة (Create New Subscription Plan)",
+          "line": 29,
+          "signature": "### 3.2. إنشاء خطة اشتراك جديدة (Create New Subscription Plan)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.3. الاشتراكات النشطة (Active Subscriptions)",
+          "line": 34,
+          "signature": "### 3.3. الاشتراكات النشطة (Active Subscriptions)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.4. الاشتراكات المنتهية (Expired Subscriptions)",
+          "line": 39,
+          "signature": "### 3.4. الاشتراكات المنتهية (Expired Subscriptions)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.5. تقارير الاشتراكات (Subscription Reports)",
+          "line": 44,
+          "signature": "### 3.5. تقارير الاشتراكات (Subscription Reports)"
+        },
+        {
+          "kind": "heading",
+          "name": "4. الخلاصة",
+          "line": 49,
+          "signature": "## 4. الخلاصة"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "Active",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Active defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Pazarat",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "business",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol business defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "score": 160,
+      "role": "truth_entry",
+      "language": "markdown",
+      "size": 114254,
+      "line_count": 2158,
+      "word_count": 12608,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+        "# Artifact Identity",
+        "# Documentation Role",
+        "# Project Alignment Contract",
+        "# Parent Scope And Boundaries",
+        "## In Scope"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "reasons": [
+        "rg:خطة@L793",
+        "rg:خطة@L800",
+        "rg:خطة@L812",
+        "rg:خطة@L910",
+        "fts",
+        "semantic-lite:خطة:chunk17@L905-962",
+        "chunk-fts:15",
+        "chunk-fts:17"
+      ],
+      "excerpt": "إذا كان المستخدم العادي مهتمًا بخطة التسويق بالعمولة وضغط على طلب الاشتراك، فإن النظام يفهم أولًا أنه يحتاج متجرًا `B2C`.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "User Management Parent PRD — السيناريو الأب وخريطة المخرجات",
+          "line": 1,
+          "signature": "# User Management Parent PRD — السيناريو الأب وخريطة المخرجات"
+        },
+        {
+          "kind": "heading",
+          "name": "Artifact Identity",
+          "line": 3,
+          "signature": "# Artifact Identity"
+        },
+        {
+          "kind": "heading",
+          "name": "Documentation Role",
+          "line": 21,
+          "signature": "# Documentation Role"
+        },
+        {
+          "kind": "heading",
+          "name": "Project Alignment Contract",
+          "line": 37,
+          "signature": "# Project Alignment Contract"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent Scope And Boundaries",
+          "line": 46,
+          "signature": "# Parent Scope And Boundaries"
+        },
+        {
+          "kind": "heading",
+          "name": "In Scope",
+          "line": 48,
+          "signature": "## In Scope"
+        },
+        {
+          "kind": "heading",
+          "name": "Out Of Scope",
+          "line": 70,
+          "signature": "## Out Of Scope"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent Owns",
+          "line": 92,
+          "signature": "## Parent Owns"
+        },
+        {
+          "kind": "heading",
+          "name": "Children Own",
+          "line": 109,
+          "signature": "## Children Own"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent Routing Control — خريطة التحكم الأبوي",
+          "line": 129,
+          "signature": "# Parent Routing Control — خريطة التحكم الأبوي"
+        },
+        {
+          "kind": "heading",
+          "name": "Recommended Child Build Order",
+          "line": 141,
+          "signature": "## Recommended Child Build Order"
+        },
+        {
+          "kind": "heading",
+          "name": "Child And Sub-Child Dependency Notes",
+          "line": 162,
+          "signature": "## Child And Sub-Child Dependency Notes"
+        },
+        {
+          "kind": "heading",
+          "name": "External Artifact Routes Mentioned By This Parent",
+          "line": 171,
+          "signature": "## External Artifact Routes Mentioned By This Parent"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent-To-Parent Relationship Map",
+          "line": 184,
+          "signature": "## Parent-To-Parent Relationship Map"
+        },
+        {
+          "kind": "heading",
+          "name": "Reusable Pattern Candidates",
+          "line": 199,
+          "signature": "## Reusable Pattern Candidates"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent Scenario Narrative Contract",
+          "line": 216,
+          "signature": "# Parent Scenario Narrative Contract"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent Scenario Narrative",
+          "line": 293,
+          "signature": "# Parent Scenario Narrative"
+        },
+        {
+          "kind": "heading",
+          "name": "1. Entry Page And Registration Choice — صفحة الدخول واختيار مسار التسجيل",
+          "line": 295,
+          "signature": "## 1. Entry Page And Registration Choice — صفحة الدخول واختيار مسار التسجيل"
+        },
+        {
+          "kind": "heading",
+          "name": "2. Normal User Registration Path — تسجيل حساب مستخدم عادي",
+          "line": 328,
+          "signature": "## 2. Normal User Registration Path — تسجيل حساب مستخدم عادي"
+        },
+        {
+          "kind": "heading",
+          "name": "3. Country Context And Platform Operation — انعكاس الدولة على التشغيل",
+          "line": 415,
+          "signature": "## 3. Country Context And Platform Operation — انعكاس الدولة على التشغيل"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "structure",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+          "line": 0,
+          "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "list",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "governance",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol governance defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Accepted",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Accepted defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "outputs",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol outputs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operational",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol operational defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Examples",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol Examples defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Purpose",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+          "line": 0,
+          "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "CapabilityStatus",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol CapabilityStatus defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "the",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Local",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Local defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "AuthenticationStatus",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol AuthenticationStatus defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "logic",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+          "line": 0,
+          "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "ApprovalStatus",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol ApprovalStatus defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "for",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol for defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "RequestStatus",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol RequestStatus defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Conflicting",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Conflicting defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "score": 111,
+      "role": "truth_entry",
+      "language": "markdown",
+      "size": 21806,
+      "line_count": 743,
+      "word_count": 2771,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Binding Stack Decision / قرار التقنية الملزم",
+        "# 2. Forbidden Stack Drift / منع الانحراف التقني",
+        "# 3. Developer Workstation Standard / معيار جهاز المطور",
+        "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "reasons": [
+        "term:المشروع",
+        "rg:المشروع@L131",
+        "fts",
+        "semantic-lite:المشروع:chunk2@L59-151",
+        "chunk-fts:2",
+        "symbol:heading:5.1 Codebase Integration Mode / وضع دمج المشروع البرمجي@L131"
+      ],
+      "excerpt": "## 5.1 Codebase Integration Mode / وضع دمج المشروع البرمجي",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD",
+          "line": 1,
+          "signature": "# PAZARAT ENGINEERING ENVIRONMENT AND STACK STANDARD"
+        },
+        {
+          "kind": "heading",
+          "name": "Purpose / الهدف",
+          "line": 3,
+          "signature": "# Purpose / الهدف"
+        },
+        {
+          "kind": "heading",
+          "name": "1. Binding Stack Decision / قرار التقنية الملزم",
+          "line": 15,
+          "signature": "# 1. Binding Stack Decision / قرار التقنية الملزم"
+        },
+        {
+          "kind": "heading",
+          "name": "2. Forbidden Stack Drift / منع الانحراف التقني",
+          "line": 40,
+          "signature": "# 2. Forbidden Stack Drift / منع الانحراف التقني"
+        },
+        {
+          "kind": "heading",
+          "name": "3. Developer Workstation Standard / معيار جهاز المطور",
+          "line": 52,
+          "signature": "# 3. Developer Workstation Standard / معيار جهاز المطور"
+        },
+        {
+          "kind": "heading",
+          "name": "4. IDE / Code Editor Standard / معيار محرر الكود",
+          "line": 81,
+          "signature": "# 4. IDE / Code Editor Standard / معيار محرر الكود"
+        },
+        {
+          "kind": "heading",
+          "name": "5. Repository Strategy / استراتيجية المستودع",
+          "line": 108,
+          "signature": "# 5. Repository Strategy / استراتيجية المستودع"
+        },
+        {
+          "kind": "heading",
+          "name": "5.1 Codebase Integration Mode / وضع دمج المشروع البرمجي",
+          "line": 131,
+          "signature": "## 5.1 Codebase Integration Mode / وضع دمج المشروع البرمجي"
+        },
+        {
+          "kind": "heading",
+          "name": "6. Backend Solution Structure / هيكل الباك اند",
+          "line": 163,
+          "signature": "# 6. Backend Solution Structure / هيكل الباك اند"
+        },
+        {
+          "kind": "module",
+          "name": "may",
+          "line": 193,
+          "signature": "Each module may use:"
+        },
+        {
+          "kind": "module",
+          "name": "list",
+          "line": 204,
+          "signature": "The exact module list must be derived from accepted PRDs and the project structure tree, not invented from generic marketplace assumptions."
+        },
+        {
+          "kind": "heading",
+          "name": "7. Backend Architecture Standard / معيار معمارية الباك اند",
+          "line": 208,
+          "signature": "# 7. Backend Architecture Standard / معيار معمارية الباك اند"
+        },
+        {
+          "kind": "module",
+          "name": "references",
+          "line": 218,
+          "signature": "- keep cross-module references explicit"
+        },
+        {
+          "kind": "heading",
+          "name": "8. Database Standard / معيار قاعدة البيانات",
+          "line": 243,
+          "signature": "# 8. Database Standard / معيار قاعدة البيانات"
+        },
+        {
+          "kind": "heading",
+          "name": "9. API Contract Standard / معيار واجهات API",
+          "line": 265,
+          "signature": "# 9. API Contract Standard / معيار واجهات API"
+        },
+        {
+          "kind": "heading",
+          "name": "10. Frontend Standard / معيار الفرونت اند",
+          "line": 285,
+          "signature": "# 10. Frontend Standard / معيار الفرونت اند"
+        },
+        {
+          "kind": "heading",
+          "name": "11. Local Development Runtime / بيئة التشغيل المحلية",
+          "line": 306,
+          "signature": "# 11. Local Development Runtime / بيئة التشغيل المحلية"
+        },
+        {
+          "kind": "heading",
+          "name": "12. Testing Standard / معيار الاختبار",
+          "line": 329,
+          "signature": "# 12. Testing Standard / معيار الاختبار"
+        },
+        {
+          "kind": "module",
+          "name": "boundaries",
+          "line": 358,
+          "signature": "- architecture tests should protect module boundaries"
+        },
+        {
+          "kind": "heading",
+          "name": "13. Code Quality Standard / معيار جودة الكود",
+          "line": 362,
+          "signature": "# 13. Code Quality Standard / معيار جودة الكود"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "structure",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+          "line": 0,
+          "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "B_web_frontend",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol B_web_frontend defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Accepted",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Accepted defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operational",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol operational defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Examples",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol Examples defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Purpose",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+          "line": 0,
+          "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "the",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Local",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Local defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "logic",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+          "line": 0,
+          "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "truth",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+          "line": 0,
+          "evidence": "references symbol truth defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "C_mobile_app",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol C_mobile_app defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "A_dashboards",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol A_dashboards defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "for",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol for defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "when",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol when defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "constraints",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+          "line": 0,
+          "evidence": "references symbol constraints defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Rule",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol Rule defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "may",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol may defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+      "score": 82,
+      "role": "requirements",
+      "language": "markdown",
+      "size": 22533,
+      "line_count": 867,
+      "word_count": 2699,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD",
+        "# Purpose / الهدف",
+        "# 1. Core Design Principle / المبدأ الأساسي للتصميم",
+        "# 2. Visual Reference Role / دور الصور المرجعية",
+        "# 3. Reference Image Interpretation / تفسير الصور المرجعية",
+        "# 4. Design Entry Sequence / تسلسل الدخول قبل التصميم"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "reasons": [
+        "rg:المشروع@L23",
+        "rg:المشروع@L714",
+        "fts",
+        "chunk-fts:1"
+      ],
+      "excerpt": "هذا الملف هو معيار ذكاء التصميم الذي يجعل ملفات PRD وصور الواجهات الناتجة من الذكاء الاصطناعي متسقة بصريًا ومنطقيًا على مستوى المشروع كله.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD",
+          "line": 1,
+          "signature": "# UI/UX DESIGN SYSTEM AND VISUAL GENERATION STANDARD"
+        },
+        {
+          "kind": "heading",
+          "name": "Purpose / الهدف",
+          "line": 3,
+          "signature": "# Purpose / الهدف"
+        },
+        {
+          "kind": "heading",
+          "name": "1. Core Design Principle / المبدأ الأساسي للتصميم",
+          "line": 27,
+          "signature": "# 1. Core Design Principle / المبدأ الأساسي للتصميم"
+        },
+        {
+          "kind": "heading",
+          "name": "2. Visual Reference Role / دور الصور المرجعية",
+          "line": 55,
+          "signature": "# 2. Visual Reference Role / دور الصور المرجعية"
+        },
+        {
+          "kind": "heading",
+          "name": "3. Reference Image Interpretation / تفسير الصور المرجعية",
+          "line": 76,
+          "signature": "# 3. Reference Image Interpretation / تفسير الصور المرجعية"
+        },
+        {
+          "kind": "heading",
+          "name": "4. Design Entry Sequence / تسلسل الدخول قبل التصميم",
+          "line": 124,
+          "signature": "# 4. Design Entry Sequence / تسلسل الدخول قبل التصميم"
+        },
+        {
+          "kind": "heading",
+          "name": "5. Product Visual Identity / الهوية البصرية العامة",
+          "line": 150,
+          "signature": "# 5. Product Visual Identity / الهوية البصرية العامة"
+        },
+        {
+          "kind": "heading",
+          "name": "6. Visual Tone / النبرة البصرية",
+          "line": 187,
+          "signature": "# 6. Visual Tone / النبرة البصرية"
+        },
+        {
+          "kind": "heading",
+          "name": "7. Design Tokens / رموز التصميم",
+          "line": 208,
+          "signature": "# 7. Design Tokens / رموز التصميم"
+        },
+        {
+          "kind": "heading",
+          "name": "Color Intent",
+          "line": 214,
+          "signature": "## Color Intent"
+        },
+        {
+          "kind": "heading",
+          "name": "Shape And Spacing",
+          "line": 231,
+          "signature": "## Shape And Spacing"
+        },
+        {
+          "kind": "heading",
+          "name": "8. Layout System / نظام التخطيط",
+          "line": 246,
+          "signature": "# 8. Layout System / نظام التخطيط"
+        },
+        {
+          "kind": "heading",
+          "name": "Main Dashboard Layout",
+          "line": 252,
+          "signature": "## Main Dashboard Layout"
+        },
+        {
+          "kind": "heading",
+          "name": "Admin Layout",
+          "line": 265,
+          "signature": "## Admin Layout"
+        },
+        {
+          "kind": "heading",
+          "name": "Customer / Seller Layout",
+          "line": 279,
+          "signature": "## Customer / Seller Layout"
+        },
+        {
+          "kind": "heading",
+          "name": "Form Layout",
+          "line": 291,
+          "signature": "## Form Layout"
+        },
+        {
+          "kind": "heading",
+          "name": "Profile Layout",
+          "line": 303,
+          "signature": "## Profile Layout"
+        },
+        {
+          "kind": "heading",
+          "name": "9. Component Registry / سجل المكونات المشتركة",
+          "line": 318,
+          "signature": "# 9. Component Registry / سجل المكونات المشتركة"
+        },
+        {
+          "kind": "heading",
+          "name": "10. Screen Pattern Library / مكتبة أنماط الشاشات",
+          "line": 366,
+          "signature": "# 10. Screen Pattern Library / مكتبة أنماط الشاشات"
+        },
+        {
+          "kind": "heading",
+          "name": "Profile Screen Pattern",
+          "line": 368,
+          "signature": "## Profile Screen Pattern"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "structure",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+          "line": 0,
+          "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "list",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "requirements",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+          "line": 0,
+          "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "outputs",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol outputs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operational",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol operational defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Examples",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol Examples defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Purpose",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+          "line": 0,
+          "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "the",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "logic",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+          "line": 0,
+          "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "for",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol for defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "when",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol when defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Rule",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol Rule defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "may",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol may defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "needs",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol needs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "consistency",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+          "line": 0,
+          "evidence": "references symbol consistency defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Example",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol Example defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Verification",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Verification defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+      "score": 76,
+      "role": "truth_entry",
+      "language": "markdown",
+      "size": 30201,
+      "line_count": 1118,
+      "word_count": 3582,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+        "# Purpose / الهدف",
+        "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+        "# 1. Target Technology Stack / التقنية المستهدفة",
+        "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+        "# 3. What This File Controls / ماذا يضبط هذا الملف"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "reasons": [
+        "rg:المشروع@L11",
+        "fts",
+        "semantic-lite:المشروع:chunk1@L1-65",
+        "chunk-fts:1"
+      ],
+      "excerpt": "هدفه ضمان أن ملفات التوثيق يمكن ترجمتها لاحقًا إلى كود backend وfrontend وقواعد بيانات وواجهات API واختبارات وتكاملات بدون تخمين أو فقدان لمنطق المشروع.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD",
+          "line": 1,
+          "signature": "# IMPLEMENTATION ARCHITECTURE AND CODE GENERATION STANDARD"
+        },
+        {
+          "kind": "heading",
+          "name": "Purpose / الهدف",
+          "line": 3,
+          "signature": "# Purpose / الهدف"
+        },
+        {
+          "kind": "heading",
+          "name": "0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير",
+          "line": 24,
+          "signature": "# 0A. 360-Degree Method And Environment Binding / ربط 360 وبيئة التطوير"
+        },
+        {
+          "kind": "heading",
+          "name": "1. Target Technology Stack / التقنية المستهدفة",
+          "line": 47,
+          "signature": "# 1. Target Technology Stack / التقنية المستهدفة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. Core Implementation Principle / المبدأ الأساسي للتنفيذ",
+          "line": 71,
+          "signature": "# 2. Core Implementation Principle / المبدأ الأساسي للتنفيذ"
+        },
+        {
+          "kind": "heading",
+          "name": "3. What This File Controls / ماذا يضبط هذا الملف",
+          "line": 116,
+          "signature": "# 3. What This File Controls / ماذا يضبط هذا الملف"
+        },
+        {
+          "kind": "heading",
+          "name": "3A. PRD Contract Integration / ربط عقد التوثيق بالتنفيذ",
+          "line": 137,
+          "signature": "# 3A. PRD Contract Integration / ربط عقد التوثيق بالتنفيذ"
+        },
+        {
+          "kind": "heading",
+          "name": "4. Code Readiness Gate / بوابة جاهزية التوثيق للكود",
+          "line": 155,
+          "signature": "# 4. Code Readiness Gate / بوابة جاهزية التوثيق للكود"
+        },
+        {
+          "kind": "heading",
+          "name": "Minimum Required Inputs",
+          "line": 161,
+          "signature": "## Minimum Required Inputs"
+        },
+        {
+          "kind": "heading",
+          "name": "Do Not Generate Production Code From",
+          "line": 183,
+          "signature": "## Do Not Generate Production Code From"
+        },
+        {
+          "kind": "type",
+          "name": "or",
+          "line": 194,
+          "signature": "Parent PRD may be enough for a prototype or architectural sketch, but not for final implementation."
+        },
+        {
+          "kind": "heading",
+          "name": "4A. Implementation-Ready Documentation Test / اختبار جاهزية التوثيق للتنفيذ",
+          "line": 198,
+          "signature": "# 4A. Implementation-Ready Documentation Test / اختبار جاهزية التوثيق للتنفيذ"
+        },
+        {
+          "kind": "heading",
+          "name": "5. Documentation To Code Translation Matrix / مصفوفة ترجمة التوثيق إلى كود",
+          "line": 212,
+          "signature": "# 5. Documentation To Code Translation Matrix / مصفوفة ترجمة التوثيق إلى كود"
+        },
+        {
+          "kind": "module",
+          "name": "boundary",
+          "line": 217,
+          "signature": "| `Entity Ownership` | module boundary / service owner | schema ownership / FK boundary | data source ownership | integration boundary tests |"
+        },
+        {
+          "kind": "heading",
+          "name": "6. Backend Architecture Standard / معيار الباك اند",
+          "line": 233,
+          "signature": "# 6. Backend Architecture Standard / معيار الباك اند"
+        },
+        {
+          "kind": "heading",
+          "name": "Recommended Backend Thinking",
+          "line": 239,
+          "signature": "## Recommended Backend Thinking"
+        },
+        {
+          "kind": "heading",
+          "name": "7. ASP.NET / .NET Backend Rules / قواعد ASP.NET",
+          "line": 281,
+          "signature": "# 7. ASP.NET / .NET Backend Rules / قواعد ASP.NET"
+        },
+        {
+          "kind": "heading",
+          "name": "Entity Translation",
+          "line": 285,
+          "signature": "## Entity Translation"
+        },
+        {
+          "kind": "heading",
+          "name": "Command / Query Separation",
+          "line": 313,
+          "signature": "## Command / Query Separation"
+        },
+        {
+          "kind": "heading",
+          "name": "Service / Handler Rule",
+          "line": 345,
+          "signature": "## Service / Handler Rule"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "structure",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+          "line": 0,
+          "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Empty State",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol Empty State defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "requirements",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+          "line": 0,
+          "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Accepted",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Accepted defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "architectural",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol architectural defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "outputs",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol outputs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Examples",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+          "line": 0,
+          "evidence": "references symbol Examples defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Purpose",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+          "line": 0,
+          "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "the",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Local",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Local defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "calls",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+          "line": 0,
+          "evidence": "references symbol calls defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "logic",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+          "line": 0,
+          "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "truth",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+          "line": 0,
+          "evidence": "references symbol truth defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "for",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol for defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "when",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol when defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "constraints",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+          "line": 0,
+          "evidence": "references symbol constraints defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "owns",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+          "line": 0,
+          "evidence": "references symbol owns defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+      "score": 50,
+      "role": "truth_entry",
+      "language": "markdown",
+      "size": 24051,
+      "line_count": 603,
+      "word_count": 3044,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# PAZARAT 360-DEGREE ENGINEERING METHOD",
+        "# Purpose / الهدف",
+        "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+        "# 1. Highest 360 Rule / القاعدة العليا",
+        "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+        "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "methodology_360",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "reasons": [
+        "rg:إصلاح@L412",
+        "symbol:heading:11. 360 Stop And Repair Rule / قاعدة الإيقاف والإصلاح@L412"
+      ],
+      "excerpt": "# 11. 360 Stop And Repair Rule / قاعدة الإيقاف والإصلاح",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "PAZARAT 360-DEGREE ENGINEERING METHOD",
+          "line": 1,
+          "signature": "# PAZARAT 360-DEGREE ENGINEERING METHOD"
+        },
+        {
+          "kind": "heading",
+          "name": "Purpose / الهدف",
+          "line": 3,
+          "signature": "# Purpose / الهدف"
+        },
+        {
+          "kind": "heading",
+          "name": "0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360",
+          "line": 6,
+          "signature": "# 0A. 360 Logical Measurement Secret / سر القياس المنطقي داخل 360"
+        },
+        {
+          "kind": "module",
+          "name": "truth",
+          "line": 29,
+          "signature": "This is why Pazarat documentation templates must have stable identity and variable content: the stable identity comes from downstream measurement, while the variable content comes from the specific module truth."
+        },
+        {
+          "kind": "heading",
+          "name": "1. Highest 360 Rule / القاعدة العليا",
+          "line": 54,
+          "signature": "# 1. Highest 360 Rule / القاعدة العليا"
+        },
+        {
+          "kind": "module",
+          "name": "consistency",
+          "line": 77,
+          "signature": "Does the result preserve large-scale platform coherence, cross-module consistency, shared primitives, lifecycle dependencies, and future maintainability?"
+        },
+        {
+          "kind": "heading",
+          "name": "2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية",
+          "line": 84,
+          "signature": "# 2. 360 Is A Rotating System, Not A Linear Checklist / 360 حلقة دوران وليس قائمة خطية"
+        },
+        {
+          "kind": "heading",
+          "name": "2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية",
+          "line": 118,
+          "signature": "# 2.1 360 Is Expandable By Engineering Lens / 360 قابل للتعزيز بعدسات هندسية"
+        },
+        {
+          "kind": "heading",
+          "name": "3. Project-Wide Central Reference Rule / قاعدة المرجع المركزي المشترك",
+          "line": 150,
+          "signature": "# 3. Project-Wide Central Reference Rule / قاعدة المرجع المركزي المشترك"
+        },
+        {
+          "kind": "heading",
+          "name": "4. Central Taxonomy Binding / ربط الحالات والأحداث مركزياً",
+          "line": 188,
+          "signature": "# 4. Central Taxonomy Binding / ربط الحالات والأحداث مركزياً"
+        },
+        {
+          "kind": "heading",
+          "name": "State Binding",
+          "line": 194,
+          "signature": "## State Binding"
+        },
+        {
+          "kind": "heading",
+          "name": "Event Binding",
+          "line": 200,
+          "signature": "## Event Binding"
+        },
+        {
+          "kind": "heading",
+          "name": "Shared Primitive Binding",
+          "line": 206,
+          "signature": "## Shared Primitive Binding"
+        },
+        {
+          "kind": "heading",
+          "name": "5. Parent And Child Documentation Difference / فرق توثيق الأب والابن",
+          "line": 212,
+          "signature": "# 5. Parent And Child Documentation Difference / فرق توثيق الأب والابن"
+        },
+        {
+          "kind": "heading",
+          "name": "Parent PRD Responsibility",
+          "line": 218,
+          "signature": "## Parent PRD Responsibility"
+        },
+        {
+          "kind": "heading",
+          "name": "Child PRD Responsibility",
+          "line": 236,
+          "signature": "## Child PRD Responsibility"
+        },
+        {
+          "kind": "heading",
+          "name": "Sub-Child / Workflow / Screen Responsibility",
+          "line": 255,
+          "signature": "## Sub-Child / Workflow / Screen Responsibility"
+        },
+        {
+          "kind": "heading",
+          "name": "6. Direction One: Documentation Standard Obligations / الاتجاه الأول",
+          "line": 261,
+          "signature": "# 6. Direction One: Documentation Standard Obligations / الاتجاه الأول"
+        },
+        {
+          "kind": "heading",
+          "name": "7. Direction Two: Implementation Translation Obligations / الاتجاه الثاني",
+          "line": 288,
+          "signature": "# 7. Direction Two: Implementation Translation Obligations / الاتجاه الثاني"
+        },
+        {
+          "kind": "heading",
+          "name": "8. Direction Three: Data / Database / API Contract Obligations / اتجاه قواعد البيانات والعقود",
+          "line": 327,
+          "signature": "# 8. Direction Three: Data / Database / API Contract Obligations / اتجاه قواعد البيانات والعقود"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "structure",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+          "line": 0,
+          "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Accepted",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Accepted defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "governance",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol governance defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "outputs",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol outputs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Purpose",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+          "line": 0,
+          "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "the",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Local",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Local defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "logic",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+          "line": 0,
+          "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "for",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol for defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Conflicting",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Conflicting defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "constraints",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+          "line": 0,
+          "evidence": "references symbol constraints defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "owns",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md",
+          "line": 0,
+          "evidence": "references symbol owns defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/18_PAZARAT_CODE_PRACTICE_AND_IMPLEMENTATION_CANON.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "when",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol when defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Candidate",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Candidate defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Rule",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol Rule defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "needs",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+          "line": 0,
+          "evidence": "references symbol needs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/affiliate/affiliate_PRD.md",
+      "score": 22,
+      "role": "requirements",
+      "language": "markdown",
+      "size": 6626,
+      "line_count": 61,
+      "word_count": 544,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم التسويق بالعمولة (Affiliate Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الوكلاء (All Affiliates)",
+        "### 3.2. الوكلاء المعلقون (Pending Affiliates)"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "truth_identity"
+      ],
+      "reasons": [
+        "rg:لمشكلة@L41"
+      ],
+      "excerpt": "*   **الهدف:** عرض قائمة بالوكلاء الذين تم تعطيل حساباتهم لأسباب مختلفة (مثل عدم الامتثال للسياسات، الأداء الضعيف، أو طلب الوكيل). يسمح للمسؤول بمراجعة سبب التعطيل، وإعادة تفعيل الوكيل إذا تم حل المشكلة.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "وثيقة متطلبات المنتج (PRD): قسم التسويق بالعمولة (Affiliate Section)",
+          "line": 1,
+          "signature": "# وثيقة متطلبات المنتج (PRD): قسم التسويق بالعمولة (Affiliate Section)"
+        },
+        {
+          "kind": "heading",
+          "name": "1. المقدمة",
+          "line": 3,
+          "signature": "## 1. المقدمة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. الرؤية والأهداف",
+          "line": 7,
+          "signature": "## 2. الرؤية والأهداف"
+        },
+        {
+          "kind": "heading",
+          "name": "3. الأقسام الفرعية والترابط",
+          "line": 20,
+          "signature": "## 3. الأقسام الفرعية والترابط"
+        },
+        {
+          "kind": "heading",
+          "name": "3.1. جميع الوكلاء (All Affiliates)",
+          "line": 24,
+          "signature": "### 3.1. جميع الوكلاء (All Affiliates)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.2. الوكلاء المعلقون (Pending Affiliates)",
+          "line": 29,
+          "signature": "### 3.2. الوكلاء المعلقون (Pending Affiliates)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.3. الوكلاء النشطون (Active Affiliates)",
+          "line": 34,
+          "signature": "### 3.3. الوكلاء النشطون (Active Affiliates)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.4. الوكلاء المعطلون (Disabled Affiliates)",
+          "line": 39,
+          "signature": "### 3.4. الوكلاء المعطلون (Disabled Affiliates)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.5. خطط العمولات (Commission Plans)",
+          "line": 44,
+          "signature": "### 3.5. خطط العمولات (Commission Plans)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.6. تقارير الأداء (Performance Reports)",
+          "line": 49,
+          "signature": "### 3.6. تقارير الأداء (Performance Reports)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.7. المواد التسويقية (Marketing Materials)",
+          "line": 54,
+          "signature": "### 3.7. المواد التسويقية (Marketing Materials)"
+        },
+        {
+          "kind": "heading",
+          "name": "4. الخلاصة",
+          "line": 59,
+          "signature": "## 4. الخلاصة"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "Verification",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Verification defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Active",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Active defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Pazarat",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "business",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol business defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/vendors_store/vendors_store_PRD.md",
+      "score": 22,
+      "role": "requirements",
+      "language": "markdown",
+      "size": 5930,
+      "line_count": 55,
+      "word_count": 503,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم متاجر البائعين (Vendors Store Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع المتاجر (All Stores)",
+        "### 3.2. المتاجر المعلقة (Pending Stores)"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "testing_quality"
+      ],
+      "reasons": [
+        "rg:لمشكلة@L40"
+      ],
+      "excerpt": "*   **الهدف:** عرض قائمة بالمتاجر التي تم تعطيلها لأسباب مختلفة (مثل عدم الامتثال للسياسات، الأداء الضعيف، أو طلب البائع). يسمح للمسؤول بمراجعة سبب التعطيل، وإعادة تفعيل المتجر إذا تم حل المشكلة.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "وثيقة متطلبات المنتج (PRD): قسم متاجر البائعين (Vendors Store Section)",
+          "line": 1,
+          "signature": "# وثيقة متطلبات المنتج (PRD): قسم متاجر البائعين (Vendors Store Section)"
+        },
+        {
+          "kind": "heading",
+          "name": "1. المقدمة",
+          "line": 3,
+          "signature": "## 1. المقدمة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. الرؤية والأهداف",
+          "line": 7,
+          "signature": "## 2. الرؤية والأهداف"
+        },
+        {
+          "kind": "heading",
+          "name": "3. الأقسام الفرعية والترابط",
+          "line": 19,
+          "signature": "## 3. الأقسام الفرعية والترابط"
+        },
+        {
+          "kind": "heading",
+          "name": "3.1. جميع المتاجر (All Stores)",
+          "line": 23,
+          "signature": "### 3.1. جميع المتاجر (All Stores)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.2. المتاجر المعلقة (Pending Stores)",
+          "line": 28,
+          "signature": "### 3.2. المتاجر المعلقة (Pending Stores)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.3. المتاجر النشطة (Active Stores)",
+          "line": 33,
+          "signature": "### 3.3. المتاجر النشطة (Active Stores)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.4. المتاجر المعطلة (Disabled Stores)",
+          "line": 38,
+          "signature": "### 3.4. المتاجر المعطلة (Disabled Stores)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.5. تقييمات المتاجر (Store Ratings)",
+          "line": 43,
+          "signature": "### 3.5. تقييمات المتاجر (Store Ratings)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.6. إعدادات المتجر (Store Settings)",
+          "line": 48,
+          "signature": "### 3.6. إعدادات المتجر (Store Settings)"
+        },
+        {
+          "kind": "heading",
+          "name": "4. الخلاصة",
+          "line": 53,
+          "signature": "## 4. الخلاصة"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "Verification",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Verification defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Active",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Active defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Pazarat",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "business",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol business defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/drivers/drivers_PRD.md",
+      "score": 22,
+      "role": "requirements",
+      "language": "markdown",
+      "size": 5707,
+      "line_count": 56,
+      "word_count": 471,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم السائقين (Drivers Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع السائقين (All Drivers)",
+        "### 3.2. السائقون المعلقون (Pending Drivers)"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event"
+      ],
+      "reasons": [
+        "rg:لمشكلة@L41"
+      ],
+      "excerpt": "*   **الهدف:** عرض قائمة بالسائقين الذين تم تعطيل حساباتهم لأسباب مختلفة (مثل عدم الامتثال للسياسات، الأداء الضعيف، أو طلب السائق). يسمح للمسؤول بمراجعة سبب التعطيل، وإعادة تفعيل السائق إذا تم حل المشكلة.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "وثيقة متطلبات المنتج (PRD): قسم السائقين (Drivers Section)",
+          "line": 1,
+          "signature": "# وثيقة متطلبات المنتج (PRD): قسم السائقين (Drivers Section)"
+        },
+        {
+          "kind": "heading",
+          "name": "1. المقدمة",
+          "line": 3,
+          "signature": "## 1. المقدمة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. الرؤية والأهداف",
+          "line": 7,
+          "signature": "## 2. الرؤية والأهداف"
+        },
+        {
+          "kind": "heading",
+          "name": "3. الأقسام الفرعية والترابط",
+          "line": 20,
+          "signature": "## 3. الأقسام الفرعية والترابط"
+        },
+        {
+          "kind": "heading",
+          "name": "3.1. جميع السائقين (All Drivers)",
+          "line": 24,
+          "signature": "### 3.1. جميع السائقين (All Drivers)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.2. السائقون المعلقون (Pending Drivers)",
+          "line": 29,
+          "signature": "### 3.2. السائقون المعلقون (Pending Drivers)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.3. السائقون النشطون (Active Drivers)",
+          "line": 34,
+          "signature": "### 3.3. السائقون النشطون (Active Drivers)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.4. السائقون المعطلون (Disabled Drivers)",
+          "line": 39,
+          "signature": "### 3.4. السائقون المعطلون (Disabled Drivers)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.5. تقارير أداء السائقين (Driver Performance Reports)",
+          "line": 44,
+          "signature": "### 3.5. تقارير أداء السائقين (Driver Performance Reports)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.6. إعدادات السائقين (Driver Settings)",
+          "line": 49,
+          "signature": "### 3.6. إعدادات السائقين (Driver Settings)"
+        },
+        {
+          "kind": "heading",
+          "name": "4. الخلاصة",
+          "line": 54,
+          "signature": "## 4. الخلاصة"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "Verification",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Verification defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Active",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Active defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "financial",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Pazarat",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "business",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol business defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/operations/shipments/shipments_PRD.md",
+      "score": 22,
+      "role": "scenario",
+      "language": "markdown",
+      "size": 5992,
+      "line_count": 61,
+      "word_count": 522,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم الشحنات (Shipments Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الشحنات (All Shipments)",
+        "### 3.2. الشحنات المعلقة (Pending Shipments)"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "operations_domain",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "ux_content"
+      ],
+      "reasons": [
+        "rg:لمشكلة@L46"
+      ],
+      "excerpt": "*   **الهدف:** عرض قائمة بالشحنات التي تواجه مشاكل (مثل التأخير، الفقدان، التلف، أو عدم القدرة على التسليم). يسمح للمسؤول بالتدخل لحل المشكلة.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "وثيقة متطلبات المنتج (PRD): قسم الشحنات (Shipments Section)",
+          "line": 1,
+          "signature": "# وثيقة متطلبات المنتج (PRD): قسم الشحنات (Shipments Section)"
+        },
+        {
+          "kind": "heading",
+          "name": "1. المقدمة",
+          "line": 3,
+          "signature": "## 1. المقدمة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. الرؤية والأهداف",
+          "line": 7,
+          "signature": "## 2. الرؤية والأهداف"
+        },
+        {
+          "kind": "heading",
+          "name": "3. الأقسام الفرعية والترابط",
+          "line": 20,
+          "signature": "## 3. الأقسام الفرعية والترابط"
+        },
+        {
+          "kind": "heading",
+          "name": "3.1. جميع الشحنات (All Shipments)",
+          "line": 24,
+          "signature": "### 3.1. جميع الشحنات (All Shipments)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.2. الشحنات المعلقة (Pending Shipments)",
+          "line": 29,
+          "signature": "### 3.2. الشحنات المعلقة (Pending Shipments)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.3. الشحنات قيد النقل (In Transit Shipments)",
+          "line": 34,
+          "signature": "### 3.3. الشحنات قيد النقل (In Transit Shipments)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.4. الشحنات المسلمة (Delivered Shipments)",
+          "line": 39,
+          "signature": "### 3.4. الشحنات المسلمة (Delivered Shipments)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.5. الشحنات التي بها مشاكل (Problematic Shipments)",
+          "line": 44,
+          "signature": "### 3.5. الشحنات التي بها مشاكل (Problematic Shipments)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.6. إنشاء بوليصة شحن (Create Shipping Label)",
+          "line": 49,
+          "signature": "### 3.6. إنشاء بوليصة شحن (Create Shipping Label)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.7. تقارير الشحنات (Shipment Reports)",
+          "line": 54,
+          "signature": "### 3.7. تقارير الشحنات (Shipment Reports)"
+        },
+        {
+          "kind": "heading",
+          "name": "4. الخلاصة",
+          "line": 59,
+          "signature": "## 4. الخلاصة"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "operations",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Pazarat",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "business",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol business defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        }
+      ]
+    },
+    {
+      "path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/smart_data/event_system/event_system_PRD.md",
+      "score": 22,
+      "role": "requirements",
+      "language": "markdown",
+      "size": 5374,
+      "line_count": 50,
+      "word_count": 464,
+      "flags": {
+        "test": false,
+        "config": false,
+        "database": false,
+        "entrypoint": false
+      },
+      "headings": [
+        "# وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section)",
+        "## 1. المقدمة",
+        "## 2. الرؤية والأهداف",
+        "## 3. الأقسام الفرعية والترابط",
+        "### 3.1. جميع الأحداث (All Events)",
+        "### 3.2. قواعد الأحداث (Event Rules)"
+      ],
+      "value_signals": [
+        "data_interface_contract",
+        "implementation_code",
+        "operations_domain",
+        "permission_audit_security",
+        "requirements_prd",
+        "risk_decision",
+        "state_event",
+        "ux_content"
+      ],
+      "reasons": [
+        "rg:إصلاح@L35"
+      ],
+      "excerpt": "*   **الهدف:** عرض سجل مفصل لجميع الأحداث التي تم تسجيلها في المنصة. يسمح للمسؤول بتتبع تسلسل الأحداث، والتحقق من صحة البيانات، واستكشاف الأخطاء وإصلاحها.",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section)",
+          "line": 1,
+          "signature": "# وثيقة متطلبات المنتج (PRD): قسم نظام الأحداث (Event System Section)"
+        },
+        {
+          "kind": "heading",
+          "name": "1. المقدمة",
+          "line": 3,
+          "signature": "## 1. المقدمة"
+        },
+        {
+          "kind": "heading",
+          "name": "2. الرؤية والأهداف",
+          "line": 7,
+          "signature": "## 2. الرؤية والأهداف"
+        },
+        {
+          "kind": "heading",
+          "name": "3. الأقسام الفرعية والترابط",
+          "line": 19,
+          "signature": "## 3. الأقسام الفرعية والترابط"
+        },
+        {
+          "kind": "heading",
+          "name": "3.1. جميع الأحداث (All Events)",
+          "line": 23,
+          "signature": "### 3.1. جميع الأحداث (All Events)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.2. قواعد الأحداث (Event Rules)",
+          "line": 28,
+          "signature": "### 3.2. قواعد الأحداث (Event Rules)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.3. سجل الأحداث (Event Logs)",
+          "line": 33,
+          "signature": "### 3.3. سجل الأحداث (Event Logs)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.4. تحليل الأحداث (Event Analytics)",
+          "line": 38,
+          "signature": "### 3.4. تحليل الأحداث (Event Analytics)"
+        },
+        {
+          "kind": "heading",
+          "name": "3.5. تقارير الأحداث (Event Reports)",
+          "line": 43,
+          "signature": "### 3.5. تقارير الأحداث (Event Reports)"
+        },
+        {
+          "kind": "heading",
+          "name": "4. الخلاصة",
+          "line": 48,
+          "signature": "## 4. الخلاصة"
+        }
+      ],
+      "relations": [
+        {
+          "rel_type": "symbol_reference",
+          "target": "data",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+          "line": 0,
+          "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "Pazarat",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+          "line": 0,
+          "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "marketing",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol marketing defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "rules",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+          "line": 0,
+          "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+        },
+        {
+          "rel_type": "symbol_reference",
+          "target": "system",
+          "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+          "line": 0,
+          "evidence": "references symbol system defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+        }
+      ]
+    }
+  ],
+  "relationship_neighbors": [
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "Active",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol Active defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "financial",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "data",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "Pazarat",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol Pazarat defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/financial/subscriptions/subscriptions_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "business",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol business defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "structure",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+      "line": 0,
+      "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "list",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "financial",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "governance",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol governance defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "operations",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "Accepted",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol Accepted defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "outputs",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol outputs defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/99_PAZARAT_PROJECT_REINFORCEMENT_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "data",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "operational",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol operational defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "Examples",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+      "line": 0,
+      "evidence": "references symbol Examples defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "Purpose",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+      "line": 0,
+      "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "CapabilityStatus",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+      "line": 0,
+      "evidence": "references symbol CapabilityStatus defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "the",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+      "line": 0,
+      "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "Local",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol Local defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "AuthenticationStatus",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+      "line": 0,
+      "evidence": "references symbol AuthenticationStatus defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "rel_type": "symbol_reference",
+      "target": "logic",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+      "line": 0,
+      "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "requirements",
+      "line": 0,
+      "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "rel_type": "symbol_reference",
+      "target": "requirements",
+      "line": 0,
+      "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "requirements",
+      "line": 0,
+      "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/05_UI_UX_DESIGN_SYSTEM_AND_VISUAL_GENERATION_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "requirements",
+      "line": 0,
+      "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/06_IMPLEMENTATION_ARCHITECTURE_AND_CODE_GENERATION_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+      "rel_type": "symbol_reference",
+      "target": "requirements",
+      "line": 0,
+      "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "requirements",
+      "line": 0,
+      "evidence": "references symbol requirements defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/09_PAZARAT_NARRATIVE_SEQUENCE_AND_SCENARIO_MATURITY_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "rules",
+      "line": 0,
+      "evidence": "references symbol rules defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/business/User_Management/User_Management_PRD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "structure",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml",
+      "line": 0,
+      "evidence": "references symbol structure defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/12_PAZARAT_PRD_AND_CODE_RUNTIME_GATES.yaml"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "B_web_frontend",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol B_web_frontend defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "financial",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol financial defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "Accepted",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol Accepted defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "data",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol data defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/16_PAZARAT_DATA_MODEL_DATABASE_API_AND_ENDPOINT_STANDARD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "operations",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol operations defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "operational",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol operational defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "Examples",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+      "line": 0,
+      "evidence": "references symbol Examples defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "Purpose",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md",
+      "line": 0,
+      "evidence": "references symbol Purpose defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/04_PROJECT_ARTIFACTS/A_dashboards/A-A_admin_dashboard/modules/governance/governance_PRD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "the",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md",
+      "line": 0,
+      "evidence": "references symbol the defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "Local",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md",
+      "line": 0,
+      "evidence": "references symbol Local defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/08_PAZARAT_SHARED_PRIMITIVES_AND_CONTINUITY_MEMORY.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "logic",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md",
+      "line": 0,
+      "evidence": "references symbol logic defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/11_PAZARAT_PRD_DOCUMENTATION_AND_IMPLEMENTATION_TRANSLATION_CONTRACT.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "truth",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md",
+      "line": 0,
+      "evidence": "references symbol truth defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/13_PAZARAT_360_DEGREE_ENGINEERING_METHOD.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "C_mobile_app",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol C_mobile_app defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "A_dashboards",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "line": 0,
+      "evidence": "references symbol A_dashboards defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md"
+    },
+    {
+      "direction": "outgoing",
+      "from": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "for",
+      "target_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md",
+      "line": 0,
+      "evidence": "references symbol for defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/15_PAZARAT_RAW_TO_PROGRAMMATIC_NARRATIVE_WEAVING_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "list",
+      "line": 0,
+      "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/00_PRD_COGNITION_AND_TRACEABILITY_STANDARD.md",
+      "rel_type": "symbol_reference",
+      "target": "references",
+      "line": 0,
+      "evidence": "references symbol references defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "rel_type": "symbol_reference",
+      "target": "list",
+      "line": 0,
+      "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/01_PAZARAT_PRD_PLATFORM_IDENTITY_AND_OBJECTIVES.md",
+      "rel_type": "symbol_reference",
+      "target": "references",
+      "line": 0,
+      "evidence": "references symbol references defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/02_PLATFORM_STATE_TAXONOMY.md",
+      "rel_type": "symbol_reference",
+      "target": "list",
+      "line": 0,
+      "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/03_PLATFORM_EVENT_TAXONOMY.md",
+      "rel_type": "symbol_reference",
+      "target": "list",
+      "line": 0,
+      "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    },
+    {
+      "direction": "incoming",
+      "to": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md",
+      "src_path": "02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/04_PROJECT_STRUCTURE_TREE_INDEX.md",
+      "rel_type": "symbol_reference",
+      "target": "list",
+      "line": 0,
+      "evidence": "references symbol list defined in 02_WORKSHOP/ACTIVE_PROJECT/pazarat/03_PROJECT_COGNITIVE_TUNNEL/14_PAZARAT_ENGINEERING_ENVIRONMENT_AND_STACK_STANDARD.md"
+    }
+  ],
+  "search_lenses_used": [
+    "path",
+    "term-index",
+    "ripgrep",
+    "fts-text",
+    "chunk-fts",
+    "semantic-lite-chunks",
+    "symbols",
+    "relations",
+    "role-domain-boosters"
+  ],
+  "mandatory_rules": [
+    "This packet is a navigation/context pack, not final truth by itself.",
+    "For high-impact answers or writes, read owner files from selected_files before claiming.",
+    "Generated file-matrix indexes accelerate access; current files remain source of truth.",
+    "No write without duplicate scan, impact scan, write plan, safe write, and validation doctor."
+  ],
+  "required_next_gates": [
+    "duplicate-scan",
+    "impact-scan",
+    "write-plan",
+    "safe-write --apply only after review",
+    "file-matrix-doctor",
+    "doctor"
+  ],
+  "elapsed_ms": 267,
+  "cache_meta": {
+    "scope": "project",
+    "fingerprint": "7ae58fe6f6935f33",
+    "generated_by": "file_matrix_query",
+    "generated_at": "2026-05-27T21:45:43.517856Z",
+    "volatile": true
+  }
+}
