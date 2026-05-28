@@ -1,0 +1,102 @@
+# PROJECT INSTANCE EXECUTION GATES
+# Purpose: continue the general tunnel into the active project without losing project-local truth.
+
+version: 4
+principle: "General tunnel selects method. Project tunnel owns local truth. Artifact gates protect execution readiness."
+
+command_board_scope:
+  mandatory_when_triggered: true
+  not_exhaustive: true
+  rule: "Project-instance gates continue the tunnel into the active project. They are required triggers, not a closed list of all local standards."
+  local_truth_rule: "If a project-local numbered file, PRD, taxonomy, contract, or accepted decision applies, use it even when no YAML rule names the exact case."
+  command_gap_policy: "If the same local behavior repeatedly needs manual correction, improve the project-local YAML or numbered standard instead of relying on memory."
+
+
+entry_sequence:
+  - discover_active_project
+  - derive_project_instance_role
+  - locate_project_local_tunnel
+  - read_project_root_numbered_files
+  - activate_project_local_gates
+  - inspect_relevant_branch_or_artifact
+  - classify_truth_and_change_surface
+  - act_or_report
+
+rules:
+  derive_project_instance_role:
+    trigger: "After active project discovery, especially when the user asks who the model is, what its job is, or what it does for the project."
+    do:
+      - derive the project-specific operating role from the active project folder and identity files
+      - answer role questions from repository identity plus project-local mission, not generic assistant capability
+      - avoid claiming project-specific functions unless project-local files support them
+      - preserve upper-layer expert project engineer role while letting local project truth define the mission
+
+  discover_active_project:
+    trigger: "Any project-specific task after entering 02_MY_PROJECT."
+    do:
+      - discover active project folder from request, structure, or single candidate
+      - do not treat 02_MY_PROJECT root as the project when a project instance exists
+      - enter the discovered project folder before local artifact work
+      - if a dedicated local tunnel folder such as `00_PROJECT_TUNNEL/` exists inside that project folder, enter it before editing docs/code/data artifacts
+      - do not treat `02_MY_PROJECT/` itself as the actual project boundary when a named project folder exists
+    if_multiple_candidates:
+      - use latest conversation and explicit path/name signals
+      - ask only if ambiguity blocks action
+
+  locate_project_local_tunnel:
+    trigger: "After discovering the active project folder and before editing project-local documentation, code, data, infra, or tests."
+    do:
+      - identify whether the project folder contains a dedicated project-control/tunnel folder such as `00_PROJECT_TUNNEL/`, `00_PROJECT_ENTRY/`, or equivalent
+      - if present, treat that folder as the project-local tunnel/control plane
+      - read the dedicated project tunnel numbered files before routing to docs/backend/frontend/database/infra/scripts/tests
+      - keep project-control files separate from ordinary `docs/` product documentation
+      - interpret "inside the project" as inside the discovered project folder, not as inside `02_MY_PROJECT/` itself
+
+  preserve_project_truth:
+    trigger: "Any project artifact, PRD, design, code, module, local standard, or accepted decision is referenced."
+    do:
+      - project-local files outrank upper-layer inference
+      - current conversation can refine project truth when accepted by user
+      - classify proposed improvements until accepted
+      - do not invent local names, states, events, or paths
+
+  local_artifact_scope:
+    trigger: "A local file, scenario, module, feature, section, or code area is requested."
+    do:
+      - identify parent, child, sub-child, shared primitive, external artifact, or implementation artifact
+      - inspect owner file before changing dependent file
+      - preserve local narrative and structure unless improvement is requested or necessary
+
+  localize_repair:
+    trigger: "A problem appears in a project artifact, local standard, naming, route, PRD, or code path."
+    do:
+      - repair artifact first if isolated
+      - repair project-local tunnel if issue repeats across project artifacts
+      - escalate to orchestration/runtime only if reusable beyond this project
+    avoid:
+      - patching general tunnel for local business logic
+      - hiding local repair as broad architecture change
+
+  maintain_translation_path:
+    trigger: "A local artifact may become design, code, data model, API, test, report, or operational procedure."
+    do:
+      - preserve traceability from narrative to execution artifact
+      - record dependencies, external routes, shared components, and ownership
+      - mark gaps when implementation would require invention
+
+  cumulative_update_safety:
+    trigger: "Adding, removing, renaming, or changing any local concept, section, child map, relation, state, event, UI behavior, or implementation implication."
+    do:
+      - check affected parent, children, sub-children, sibling artifacts, relationship maps, and shared components
+      - update the smallest correct set of files
+      - report structural changes and unchanged surface
+
+  project_output_contract:
+    trigger: "Before final answer or local artifact delivery."
+    hard_output_constraints: "Apply root HARD_CONSTRAINT_VALIDATION for numeric, format, scope, file, language, citation, or report constraints."
+    do:
+      - confirm project-local gates were applied
+      - confirm relevant local numbered standards were not skipped because no YAML gate named them
+      - distinguish what changed from what remains unchanged
+      - list open decisions, proposed improvements, and missing evidence
+      - avoid excessive explanation when the user asked for a direct artifact

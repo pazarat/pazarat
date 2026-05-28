@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Pazarat.SharedKernel\Pazarat.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>
