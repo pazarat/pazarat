@@ -1,0 +1,12 @@
+governance_kernel:
+  principles:
+    - no_claim_without_grade
+    - no_decision_without_cross_evidence
+    - no_write_without_impact_scan
+    - no_runtime_project_mixing
+  claim_ladder:
+    - observed
+    - evidence_supported
+    - cross_evidence
+    - candidate_decision
+    - qualified_operational_decision

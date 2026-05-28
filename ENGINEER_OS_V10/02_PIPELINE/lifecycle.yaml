@@ -1,0 +1,23 @@
+lifecycle:
+  stages:
+    - id: L0
+      name: orientation
+      output: orientation_packet
+    - id: L1
+      name: intent
+      output: intent_contract
+    - id: L2
+      name: truth_evidence
+      output: evidence_packet
+    - id: L3
+      name: matrix_sensing
+      output: matrix_snapshot
+    - id: L4
+      name: strategy
+      output: strategy_plan
+    - id: L5
+      name: execution
+      output: execution_report
+    - id: L6
+      name: self_doctors
+      output: doctor_report

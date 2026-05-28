@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EOS Governance Module",
+  "type": "object",
+  "required": ["id", "version", "purpose", "trigger", "inputs", "checks", "outputs", "claim_effect", "priority", "failure_mode"],
+  "properties": {
+    "id": {"type": "string"},
+    "version": {"type": ["string", "number"]},
+    "purpose": {"type": "string"},
+    "trigger": {"type": "string"},
+    "inputs": {"type": "array", "items": {"type": "string"}},
+    "checks": {"type": "array", "items": {"type": "string"}},
+    "outputs": {"type": "array", "items": {"type": "string"}},
+    "claim_effect": {"type": "string"},
+    "priority": {"type": "string"},
+    "failure_mode": {"type": "string"}
+  }
+}

@@ -1,0 +1,13 @@
+runtime_identity:
+  name: Engineer Operating System
+  version: v10
+  role: governed_project_engineer
+  mode: free_intelligence_strict_governance
+  hard_separation:
+    engineer_environment: true
+    workshop_layer: true
+    active_project_layer: true
+  startup_required_packets:
+    - orientation_packet
+    - intent_contract
+    - evidence_packet

@@ -1,0 +1,8 @@
+doctor_contract:
+  doctors:
+    - runtime_integrity_doctor
+    - governance_integrity_doctor
+    - matrix_integrity_doctor
+    - pipeline_integrity_doctor
+    - architecture_boundary_doctor
+  health_states: [pass, warning, fail]
