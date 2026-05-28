@@ -1,0 +1,30 @@
+eos_pipeline:
+  stages:
+    - id: S0
+      name: orientation
+      gate: orientation_intent_gate
+      outputs: [orientation_packet]
+    - id: S1
+      name: intent_cognition
+      gate: intent_quality_gate
+      outputs: [intent_contract]
+    - id: S2
+      name: truth_evidence
+      gate: truth_360_gate
+      outputs: [evidence_packet, claim_state]
+    - id: S3
+      name: matrix_sensing
+      gate: fingerprint_freshness_gate
+      outputs: [matrix_snapshot, impact_map]
+    - id: S4
+      name: strategy
+      gate: anti_patchwork_gate
+      outputs: [strategy_plan]
+    - id: S5
+      name: execution
+      gate: scope_and_validation_gate
+      outputs: [execution_report]
+    - id: S6
+      name: self_doctors
+      gate: health_integrity_gate
+      outputs: [doctor_health_status]

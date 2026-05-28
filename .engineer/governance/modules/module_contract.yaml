@@ -1,0 +1,33 @@
+module_contract:
+  purpose: "Standard contract for adding governance capabilities without runtime drift"
+
+  required_fields:
+    - id
+    - version
+    - purpose
+    - trigger
+    - inputs
+    - checks
+    - outputs
+    - claim_effect
+    - conflicts_with
+    - priority
+    - test_requirements
+    - failure_mode
+
+  admission_pipeline:
+    - architecture_fit_check
+    - conflict_resolver_check
+    - invariant_impact_check
+    - regression_tests_required
+    - doctor_compatibility_check
+
+  blocking_rules:
+    - "Reject module if it hardcodes active-project-specific terms"
+    - "Reject module if it duplicates existing gate purpose without override contract"
+    - "Reject module if it weakens claim graduation requirements"
+
+  output_policy:
+    require_changelog_entry: true
+    require_test_linkage: true
+    require_doctor_visibility: true

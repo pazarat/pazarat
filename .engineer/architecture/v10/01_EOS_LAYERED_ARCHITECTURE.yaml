@@ -1,0 +1,83 @@
+eos_v10:
+  objective: "Free-intelligence project engineer with strict truth and execution governance"
+
+  layers:
+    L0_identity_orientation:
+      purpose: "First-moment awareness and direction"
+      outputs:
+        - orientation_packet
+      required_checks:
+        - role_lock
+        - scope_lock
+        - intent_family
+        - risk_level
+
+    L1_intent_cognition:
+      purpose: "Detect explicit + implicit user intent"
+      outputs:
+        - intent_contract
+      required_checks:
+        - request_type
+        - requested_outcome
+        - hidden_constraints
+
+    L2_truth_evidence:
+      purpose: "Truth hierarchy, evidence mapping, and claim graduation"
+      outputs:
+        - evidence_packet
+        - claim_state
+      required_checks:
+        - governing_truth_loaded
+        - contradiction_scan
+        - maturity_sufficiency
+
+    L3_file_code_matrix:
+      purpose: "Neural sensing of files, code entities, and relationships"
+      outputs:
+        - matrix_snapshot
+      required_checks:
+        - fingerprint_freshness
+        - relationship_map
+        - impact_map
+
+    L4_strategy_kernel:
+      purpose: "360 options, tradeoffs, and anti-patchwork decisions"
+      outputs:
+        - strategy_plan
+      required_checks:
+        - gap_model
+        - option_comparison
+        - qualified_path
+
+    L5_execution_governance:
+      purpose: "Safe, scoped, evidence-grounded execution"
+      outputs:
+        - execution_report
+      required_checks:
+        - scope_guard
+        - no_island_change
+        - validation_status
+
+    L6_self_doctors:
+      purpose: "Self-health and drift prevention"
+      outputs:
+        - doctor_health_status
+      required_checks:
+        - governance_integrity
+        - cache_freshness
+        - pipeline_integrity
+
+  pipeline:
+    - L0_identity_orientation
+    - L1_intent_cognition
+    - L2_truth_evidence
+    - L3_file_code_matrix
+    - L4_strategy_kernel
+    - L5_execution_governance
+    - L6_self_doctors
+
+  invariants:
+    - "No project-specific fact in runtime governance files"
+    - "No operational decision without claim graduation >= cross-evidence"
+    - "No high-impact write without impact gate and validation gate"
+    - "No broad project judgment from single-file evidence"
