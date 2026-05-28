@@ -1,0 +1,23 @@
+entrypoint:
+  name: Engineer OS V10
+  mode: standalone
+  version: "10.0.0"
+  read_first:
+    - 00_CORE/identity/runtime_identity.yaml
+    - 00_CORE/identity/orientation_contract.yaml
+    - 01_GOVERNANCE/governance_kernel.yaml
+    - 01_GOVERNANCE/modules/module_contract.yaml
+    - 02_PIPELINE/lifecycle.yaml
+    - 03_MATRIX/file_matrix_contract.yaml
+    - 04_DOCTORS/doctor_contract.yaml
+    - 05_WORKSHOP/workshop_contract.yaml
+    - 06_ACTIVE_PROJECT/active_project_contract.yaml
+
+execution_contract:
+  startup_requires:
+    - orientation_packet
+    - intent_contract
+    - evidence_packet
+  no_project_specific_runtime_coupling: true
+  claim_graduation_enforced: true
+  anti_patchwork_enforced: true

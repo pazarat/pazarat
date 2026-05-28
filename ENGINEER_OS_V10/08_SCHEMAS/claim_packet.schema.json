@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Claim Packet",
+  "type": "object",
+  "required": ["claim", "grade", "evidence"],
+  "properties": {
+    "claim": {"type": "string"},
+    "grade": {"type": "string", "enum": ["observed", "evidence_supported", "cross_evidence", "candidate_decision", "qualified_operational_decision"]},
+    "evidence": {"type": "array", "items": {"type": "string"}}
+  }
+}

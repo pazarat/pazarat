@@ -1,0 +1,8 @@
+orientation_contract:
+  required:
+    - intent_classification
+    - scope_classification
+    - risk_level
+    - evidence_depth
+  blocks:
+    - no_high_impact_action_without_orientation

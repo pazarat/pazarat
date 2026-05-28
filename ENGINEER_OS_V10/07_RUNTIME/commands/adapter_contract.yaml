@@ -1,0 +1,7 @@
+adapter_contract:
+  rule: no_island_commands
+  required_for_new_command:
+    - lifecycle_slot
+    - truth_relation
+    - doctor_coverage
+    - receipt_in_ledger

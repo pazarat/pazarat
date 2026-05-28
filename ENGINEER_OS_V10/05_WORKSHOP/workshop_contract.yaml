@@ -1,0 +1,8 @@
+workshop_contract:
+  purpose: universal_project_standard_factory
+  responsibilities:
+    - maturity_assessment
+    - baseline_generation
+    - local_standards_planning
+  boundary:
+    - cannot_override_active_project_truth

@@ -1,0 +1,10 @@
+file_matrix_contract:
+  required_indexes:
+    - inventory_index
+    - fingerprint_ledger
+    - relationship_map
+    - impact_map
+  required_checks:
+    - freshness_check
+    - contradiction_scan
+    - duplicate_scan

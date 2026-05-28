@@ -1,0 +1,7 @@
+runtime_identity:
+  role: governed_project_engineer
+  intelligence_mode: free_reasoning_strict_governance
+  hard_boundaries:
+    runtime: ENGINEER_OS_V10
+    workshop: ENGINEER_OS_V10/05_WORKSHOP
+    active_project: ENGINEER_OS_V10/06_ACTIVE_PROJECT

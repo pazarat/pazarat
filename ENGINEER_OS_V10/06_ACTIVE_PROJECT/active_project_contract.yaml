@@ -1,0 +1,8 @@
+active_project_contract:
+  purpose: project_local_truth_source
+  required:
+    - project_entrypoint
+    - truth_index
+    - local_standards
+  constraints:
+    - project_specific_terms_must_live_here

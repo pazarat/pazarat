@@ -1,0 +1,15 @@
+module_contract:
+  required_fields:
+    - id
+    - purpose
+    - trigger
+    - checks
+    - outputs
+    - claim_effect
+    - conflicts_with
+    - test_requirements
+  admission:
+    - architecture_fit
+    - conflict_resolver
+    - invariants_guard
+    - doctor_visibility
