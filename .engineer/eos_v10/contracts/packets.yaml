@@ -1,0 +1,31 @@
+packets:
+  orientation_packet:
+    required:
+      - role_lock
+      - scope_lock
+      - risk_level
+      - requested_depth
+  intent_contract:
+    required:
+      - request_type
+      - explicit_goals
+      - implicit_goals
+      - constraints
+  evidence_packet:
+    required:
+      - truth_sources
+      - contradictions
+      - claim_grade
+      - confidence
+  strategy_plan:
+    required:
+      - gap_map
+      - options
+      - tradeoffs
+      - selected_path
+  execution_report:
+    required:
+      - scope
+      - changed_artifacts
+      - impact_summary
+      - validation_status

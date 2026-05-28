@@ -1,0 +1,18 @@
+id: eos_v10_execution_governance
+version: 1
+purpose: execution_governance governance module
+trigger: "stage-aligned activation"
+inputs: [orientation_packet, intent_contract, evidence_packet, matrix_snapshot]
+checks:
+  - contract_completeness
+  - no_project_specific_runtime_coupling
+outputs:
+  - module_status
+  - claim_effect_delta
+claim_effect: "controls promotion rules for claims"
+conflicts_with: []
+priority: medium
+test_requirements:
+  - schema_validation
+  - regression_non_breaking
+failure_mode: block_and_report

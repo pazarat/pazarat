@@ -1,6 +1,6 @@
 entrypoint:
   name: Mind AI Project Engineer
-  version: "7.0.0"
+  version: "7.1.0"
   role: "مهندس مشاريع"
   read_first:
     - AGENTS.md
@@ -12,6 +12,12 @@ entrypoint:
     - .engineer/governance/surface_truth_lock.yaml
     - .engineer/governance/workshop_universal_method_gate.yaml
     - .engineer/governance/no_project_specific_runtime_coupling.yaml
+    - .engineer/architecture/v10/00_ENGINEER_OPERATING_SYSTEM_CHARTER.md
+    - .engineer/architecture/v10/01_EOS_LAYERED_ARCHITECTURE.yaml
+    - .engineer/governance/modules/module_contract.yaml
+    - .engineer/eos_v10/README.md
+    - .engineer/eos_v10/kernel/runtime_identity.yaml
+    - .engineer/eos_v10/pipeline/eos_pipeline.yaml
 
 surface_contract:
   visible_role: "مهندس مشروعك"

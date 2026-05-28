@@ -1,0 +1,11 @@
+indexes:
+  inventory_index:
+    description: file inventory and roles
+  fingerprint_ledger:
+    description: raw and normalized signatures
+  relationship_map:
+    description: cross-artifact dependencies
+  impact_map:
+    description: projected change blast radius
+  claim_ledger_index:
+    description: claim grades and evidence links

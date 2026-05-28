@@ -1,0 +1,9 @@
+doctors:
+  - id: runtime_doctor
+    checks: [entrypoint_integrity, startup_packet_wiring]
+  - id: governance_doctor
+    checks: [module_contract_compliance, conflict_resolution_ready]
+  - id: matrix_doctor
+    checks: [fingerprint_freshness, index_consistency]
+  - id: architecture_doctor
+    checks: [layer_boundary_integrity, no_runtime_project_leak]
