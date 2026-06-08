@@ -363,6 +363,77 @@ When raw input is incomplete, build the likely sequence, mark assumptions, prese
 
 ---
 
+# Parent-Child Scenario Building Standard / معيار بناء السناريوهات بين الأب والابن
+
+This is the binding standard for how parent and child PRD scenarios are authored. It prevents both duplication and gaps. It is reinforced by the detailed protocol in `07_PAZARAT_HIERARCHICAL_DOCUMENTATION_AND_SHARED_LOGIC_PROTOCOL.md`.
+
+## The Golden Rule
+
+**Every paragraph must add new understanding. No concept should be explained twice in the same depth.**
+
+The parent explains the "why" and "how the whole system works." Each child explains "what this specific branch does" without re-explaining the whole.
+
+## Parent Scenario Requirements
+
+**Rich, not bloated.** Every paragraph serves a clear purpose:
+- Why the section exists and what problem it solves
+- Core philosophy and governing rules
+- End-to-end operational flow with concrete examples
+- Entities, states, events, and ownership clarity
+- Boundaries: what belongs here vs. other sections
+- Child routing: what each child owns
+- Cross-module intersections: how other sections consume this section's context
+
+**A coherent narrative, not a template.** The parent reads like a story that makes the reader understand the entire section — not a checklist of headings with generic filler.
+
+**Example of good parent narrative:**
+> "CountryContext does not own shipping logic. Shipping remains in Operations/Shipping. CountryContext only says: in which country context does this operation execute, and is it allowed? The shipping engine reads the country context and applies the appropriate settings. Same engine, different values."
+
+One paragraph clarifies ownership, relationship, and behavior. No repetition needed in children.
+
+## Child Scenario Requirements
+
+**Self-contained but not self-referencing.** Explains its own logic without assuming the reader memorized the parent. Does NOT copy-paste parent philosophy sections.
+
+**Focused on local executable detail:** specific workflow, specific states, specific screens, specific validations, specific permissions, specific edge cases, specific data entities.
+
+**Referencing, not repeating.** Brief parent reference when needed:
+> "AccountCountry is set at registration (see CountryContext parent). This child only manages the verification process within that context."
+
+## Anti-Duplication Rule
+
+| If the parent already explains... | The child should... |
+|-----------------------------------|---------------------|
+| Why the section exists | Not re-explain — reference briefly |
+| How a central mechanism works | Not re-explain — only use its decisions |
+| What states entities can be in | Not re-define — only use relevant states |
+| How entities relate to each other | Not re-explain — only manage local relationships |
+
+Exception: If a child clarifies how it *consumes* a parent concept differently, a brief contextual note is acceptable — but not a full re-explanation.
+
+## Anti-Gap Rule
+
+**Never leave a concept unexplained.** If a child mentions a concept without context, that's a gap. Either explain it locally or reference the owning section.
+
+## Depth Distribution
+
+| Level | Contains |
+|-------|----------|
+| **Module PRD** | Identity, high-level purpose, child map |
+| **Parent PRD** | Full philosophy, flow, rules, entities, states, events, child routing, cross-module intersections |
+| **Child PRD** | Local workflow, local states, local actions, local screens |
+| **Sub-Child / Screen PRD** | Specific screen behavior, form logic, edge cases |
+
+## Quality Tests
+
+**Parent test:** "If someone reads only this file, do they understand the entire section's purpose, boundaries, flow, and children — without needing to read the children first?"
+
+**Child test:** "If someone reads only this file, do they understand this branch's workflow, states, actions, and boundaries — without confusion about parent vs. child ownership?"
+
+If the answer is no, the scenario needs revision.
+
+---
+
 # No Generic PRD Rule
 
 Pazarat PRDs must not be generic templates.

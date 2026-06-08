@@ -204,6 +204,108 @@ It must inherit from parent and specialize locally.
 
 ---
 
+# Parent-Child Scenario Building Philosophy / فلسفة بناء السناريوهات بين الأب والابن
+
+This section defines the binding philosophy for how parent and child scenarios are built, how narrative depth is distributed, and how to avoid both duplication and gaps.
+
+## Core Principle: Rich Narrative Without Repetition
+
+Every paragraph in a PRD must add new understanding. No idea should be explained twice in the same way. The parent explains the "why" and the "how the system works as a whole." Each child explains "what this specific branch does" without re-explaining the whole.
+
+## Parent Scenario Standard
+
+A parent PRD scenario must be:
+
+**Rich, not bloated.** Every paragraph must serve a purpose:
+- Explain why the section exists and what problem it solves
+- Define the core philosophy and governing rules
+- Describe the operational flow end-to-end
+- Identify entities, states, events, and their ownership
+- Clarify boundaries: what belongs to this section vs. other sections
+- Map children as a routing ledger (what each child owns)
+- Provide concrete examples when they clarify complex logic
+
+**Not a template to fill.** The parent is a living understanding document. It should read like a coherent narrative that makes the reader understand the entire section — not a checklist of headings.
+
+**Example of good parent narrative:**
+> "CountryContext does not own shipping logic. Shipping remains in Operations/Shipping. CountryContext only says: in which country context does this operation execute, and is it allowed? The shipping engine reads the country context and applies the appropriate settings. Same engine, different values."
+
+This one paragraph clarifies ownership, relationship, and behavior without repeating details.
+
+## Child Scenario Standard
+
+A child PRD must be:
+
+**Self-contained but not self-referencing.** A child should explain its own logic clearly without assuming the reader has memorized the parent. But it should NOT copy-paste the parent's philosophy sections.
+
+**Focused on local executable detail.** The child owns:
+- Its specific workflow and states
+- Its specific screens and actions
+- Its specific validations and edge cases
+- Its specific permissions and audit needs
+- Its specific data entities and relationships
+
+**Referencing, not repeating.** When the child needs to mention a parent concept, it references it briefly:
+> "AccountCountry is set at registration (see CountryContext parent). This child only manages the verification process within that context."
+
+## The Anti-Duplication Rule
+
+**Never explain the same concept twice in the same depth.**
+
+| If the parent already explains... | The child should... |
+|-----------------------------------|---------------------|
+| Why CountryContext exists | Not re-explain — reference briefly |
+| How the interaction matrix works | Not re-explain — only use its decisions |
+| What states a country can be in | Not re-define — only use relevant states |
+| How agents relate to accounts | Not re-explain — only manage the agent contract |
+
+**Exception:** If a child needs to clarify how it *consumes* a parent concept differently, it may add a brief contextual note — but not a full re-explanation.
+
+## The Anti-Gap Rule
+
+**Never leave a concept unexplained somewhere.**
+
+If a child mentions "verification template" but never explains what it means, that's a gap. Either:
+1. The child explains it locally (if it's a local concept), or
+2. The child references the parent/other section that owns the explanation
+
+## Scenario Depth Distribution
+
+| Depth Level | What It Contains | Example |
+|-------------|------------------|---------|
+| **Module PRD** (e.g., governance_PRD.md) | Module identity, high-level purpose, child map | "Governance owns cross-domain operating context" |
+| **Parent PRD** (e.g., CountryContext_PARENT_PRD.md) | Full philosophy, flow, rules, entities, states, events, child routing | Why CountryContext exists, how it works, what it owns vs. others |
+| **Child PRD** (e.g., 01_Country_Registry_PRD.md) | Local workflow, local states, local actions, local screens | Registry displays countries, allows activation/deactivation |
+| **Sub-Child / Screen PRD** | Specific screen behavior, specific form logic, specific edge cases | Country detail page layout, form fields, validation rules |
+
+## Narrative Quality Standard
+
+**Good scenario writing:**
+- Uses concrete examples to clarify abstract concepts
+- Explains the "why" before the "what"
+- Distinguishes between what this section owns vs. what it consumes
+- Reads like a coherent story, not a bullet-point list
+- Every paragraph adds new information
+
+**Bad scenario writing:**
+- Repeats the same point in different words
+- Uses vague statements like "the system manages users properly"
+- Copies template headings without meaningful content
+- Explains concepts that belong in other sections
+- Reads like a form to fill, not a document to understand
+
+## The "Read and Understand" Test
+
+After writing a parent PRD, test it:
+> "If someone reads only this file, do they understand the entire section's purpose, boundaries, flow, and children — without needing to read the children first?"
+
+After writing a child PRD, test it:
+> "If someone reads only this file, do they understand this branch's specific workflow, states, actions, and boundaries — without being confused about what belongs to the parent vs. this child?"
+
+If the answer is no, the scenario needs revision.
+
+---
+
 # Parent Before Child Rule
 
 Before generating a child PRD, the model must account for:
